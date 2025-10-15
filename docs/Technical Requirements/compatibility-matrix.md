@@ -18,41 +18,99 @@ For cloud customers, Vbrick deploys Rev several times a year which includes new 
 
 Additionally, there may be new releases of the **Vbrick Multicast (VBM)** agents/software. The VBM agent ships with a security certificate from Vbrick (unless a customer provides their own security certificate). All certificates, either provided by Vbrick or customer provided, are expiry limited (by use in browsers) to **397** days.  Please review your certificate expiry date and plan accordingly.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Rev Versions",
-    "h-1": "DME Versions",
-    "h-2": "Encoder Versions",
-    "h-3": "LDAP Connector Versions",
-    "h-4": "VBM Agent Versions",
-    "0-0": "Current Rev Cloud Release - <<revCloud>>",
-    "0-1": "DME - <<dmeCloud1>>",
-    "0-2": "Encoder - 4.10",
-    "0-3": "<<ldap1>>  \n<<ldap2>>",
-    "0-4": "<<vbmCloud>>",
-    "1-0": "Rev On-Premises Release - 7.64",
-    "1-1": "DME - 3.35.x",
-    "1-2": "Encoder - 4.10",
-    "1-3": "N/A",
-    "1-4": "2.11",
-    "2-0": "Rev On-Premises Release - 7.60",
-    "2-1": "DME - 3.33.x",
-    "2-2": "Encoder - 4.10",
-    "2-3": "N/A",
-    "2-4": "2.7"
-  },
-  "cols": 5,
-  "rows": 3,
-  "align": [
-    "left",
-    "left",
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        Rev Versions
+      </th>
 
+      <th style={{ textAlign: "left" }}>
+        DME Versions
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Encoder Versions
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        LDAP Connector Versions
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        VBM Agent Versions
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Current Rev Cloud Release - {user.revCloud}
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        DME - {user.dmeCloud1}
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Encoder - 4.10
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        {user.ldap1}\
+        {user.ldap2}
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        {user.vbmCloud}
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Rev On-Premises Release - 7.64
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        DME - 3.35.x
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Encoder - 4.10
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        N/A
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        2.11
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Rev On-Premises Release - 7.60
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        DME - 3.33.x
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Encoder - 4.10
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        N/A
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        2.7
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <sup>Please review the Vbrick support agreement for necessary dates associated with On-Premises support and expected update schedules.</sup>
