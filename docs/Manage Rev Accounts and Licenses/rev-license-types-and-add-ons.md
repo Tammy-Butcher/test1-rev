@@ -13,50 +13,98 @@ next:
 When your Rev portal is initially configured, a **License Module** and **License Type** is purchased and configured depending on your organizational needs. Additional licensing and **Add-On Components** may also be purchased and applied to the license, depending upon the types purchased.
 
 > 👍 Tip
-> 
+>
 > Rev Cloud licenses are managed and applied by Vbrick. However, you may add and manage your own [Child Accounts](doc:view-and-edit-account-details#portal-child-accounts) within the scope of that license.
 
 ## Modules
 
 There are four different types of modules you can activate in Rev.  Depending on the module purchased, various license types are available to apply. 
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Rev Module Name",
-    "h-1": "Description",
-    "h-2": "Available License Types",
-    "0-0": "Vbrick Rev (Full)",
-    "0-1": "Provides customers the ability to use the full breadth of Live, Video On-Demand, IPTV and access to eCDN capabilities, including peer delivery, edge caching and multicast.",
-    "0-2": " **Named User** and **Active User**.  \n  \nSome customers may also have **Hours-based** licenses.",
-    "1-0": "Vbrick Video On-Demand",
-    "1-1": "Provides customers the ability to use video on-demand capabilities, including screen recording, upload, meeting recording, video portal and embedding capabilities.",
-    "1-2": "**Named User** and **Active User**.",
-    "2-0": "Vbrick Universal eCDN",
-    "2-1": "Provides customers the ability to use eCDN capabilities for live video and video on-demand caching. This includes access to peer delivery, edge caching and multicast, depending upon licensing. Includes the ability to use native eCDN integrations in 3rd party streaming platforms.",
-    "2-2": "**Concurrent** and **ELA**.",
-    "3-0": "Vbrick Distribution",
-    "3-1": "Provides customers the ability to use eCDN capabilities for live video and video on-demand caching. This includes access to peer delivery, edge caching and multicast, depending upon licensing. Also includes the ability to use available video conference integrations and RTMP as a source.",
-    "3-2": "**Named User**, **Active User**, and **Hours-Based**"
-  },
-  "cols": 3,
-  "rows": 4,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Rev Module Name
+      </th>
 
+      <th>
+        Description
+      </th>
+
+      <th>
+        Available License Types
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Vbrick Rev (Full)
+      </td>
+
+      <td>
+        Provides customers the ability to use the full breadth of Live, Video On-Demand, IPTV and access to eCDN capabilities, including peer delivery, edge caching and multicast.
+      </td>
+
+      <td>
+        * \*Named User**and**Active User\*\*.  
+
+        Some customers may also have **Hours-based** licenses.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Vbrick Video On-Demand
+      </td>
+
+      <td>
+        Provides customers the ability to use video on-demand capabilities, including screen recording, upload, meeting recording, video portal and embedding capabilities.
+      </td>
+
+      <td>
+        * \*Named User**and**Active User\*\*.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Vbrick Universal eCDN
+      </td>
+
+      <td>
+        Provides customers the ability to use eCDN capabilities for live video and video on-demand caching. This includes access to peer delivery, edge caching and multicast, depending upon licensing. Includes the ability to use native eCDN integrations in 3rd party streaming platforms.
+      </td>
+
+      <td>
+        * \*Concurrent**and**ELA\*\*.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Vbrick Distribution
+      </td>
+
+      <td>
+        Provides customers the ability to use eCDN capabilities for live video and video on-demand caching. This includes access to peer delivery, edge caching and multicast, depending upon licensing. Also includes the ability to use available video conference integrations and RTMP as a source.
+      </td>
+
+      <td>
+        **Named User**, **Active User**, and **Hours-Based**
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## License Types
 
 The table below describes the various license types available to apply to the Rev modules.
 
 > 🚧 Important!
-> 
-> This documentation always attempts to remain up-to-date.  However, you should _always_ check with your Account Manager _before_ making any major licensing decisions or purchases.
+>
+> This documentation always attempts to remain up-to-date.  However, you should *always* check with your Account Manager *before* making any major licensing decisions or purchases.
 
 | License Type            | Description                                                                                                                                                                                                                                                                                      |
 | :---------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,27 +117,63 @@ The table below describes the various license types available to apply to the Re
 
 Additional **Add-On Components** may be purchased and applied to either license type at any time. These are required for certain functions in Rev as noted below.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Add-On",
-    "h-1": "Description",
-    "0-0": "Hours",
-    "0-1": "For customers with **Hours-based** accounts, one hour is consumed per user hour of video viewing.  \n  \nFor customers with **User-based **accounts, hours are only consumed for public/unauthenticated viewing at a rate of one hour per hour of video viewing.  \n  \nHours are also consumed for live event streaming or recordings sourced via RTMP, video conferencing, producer, and screen recordings.  In this case, hours are consumed at a rate of three (3) hours per hour of usage.   \n  \nFor example, if a Webcast is 2 hours long, then 6 hours will be consumed.  The entirety of the event, including any pre-production or overflow is included.   Auto-ingesting of Webex Meetings videos also counts toward hours consumed at a rate of 1 per hour of meeting recording.  \n  \nHours can be purchased for additional [Guest](doc:manage-security-parameters#enable-guest-portal-access) viewing on User-based licenses. One hour is consumed per user hour of video viewing.  \n  \nNote:  If [RTMP redundancy](doc:rtmprtmps-event-set-up) is enabled, hours consumption is doubled because two streams are utilized.",
-    "1-0": "Vbrick Peer-to-Peer Peer Meshes",
-    "1-1": "Used to specify the **Peer Mesh Allotment** and add [Vbrick Peer-to-Peer](doc:rev-connect-zones) enabled zones to Rev. Each peer mesh supports 25 concurrent users viewing a live event. Included with Rev EVP, Vbrick Universal, and Vbrick Distribution licenses.",
-    "2-0": "Rev AI",
-    "2-1": "Used to allocate **Rev IQ Credits** which can then be used to enable and use **AI & Machine Learning** components in Rev.  \n  \nThis includes such features as [Facial Recognition](doc:facial-recognition) and [Vbrick Transcription and Translation](doc:rev-iq-transcription-and-translation) services."
-  },
-  "cols": 2,
-  "rows": 3,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Add-On
+      </th>
 
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Hours
+      </td>
+
+      <td>
+        For customers with **Hours-based** accounts, one hour is consumed per user hour of video viewing.  
+
+        For customers with **User-based**accounts, hours are only consumed for public/unauthenticated viewing at a rate of one hour per hour of video viewing.  
+
+        Hours are also consumed for live event streaming or recordings sourced via RTMP, video conferencing, producer, and screen recordings.  In this case, hours are consumed at a rate of three (3) hours per hour of usage.   
+
+        For example, if a Webcast is 2 hours long, then 6 hours will be consumed.  The entirety of the event, including any pre-production or overflow is included.   Auto-ingesting of Webex Meetings videos also counts toward hours consumed at a rate of 1 per hour of meeting recording.  
+
+        Hours can be purchased for additional [Guest](doc:manage-security-parameters#enable-guest-portal-access) viewing on User-based licenses. One hour is consumed per user hour of video viewing.  
+
+        Note:  If [RTMP redundancy](doc:rtmprtmps-event-set-up) is enabled, hours consumption is doubled because two streams are utilized.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Vbrick Peer-to-Peer Peer Meshes
+      </td>
+
+      <td>
+        Used to specify the **Peer Mesh Allotment** and add [Vbrick Peer-to-Peer](doc:rev-connect-zones) enabled zones to Rev. Each peer mesh supports 25 concurrent users viewing a live event. Included with Rev EVP, Vbrick Universal, and Vbrick Distribution licenses.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Rev AI
+      </td>
+
+      <td>
+        Used to allocate **Rev IQ Credits** which can then be used to enable and use **AI & Machine Learning** components in Rev.  
+
+        This includes such features as [Facial Recognition](doc:facial-recognition) and [Vbrick Transcription and Translation](doc:rev-iq-transcription-and-translation) services.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ### Rev IQ Credits
 
@@ -107,7 +191,7 @@ The table below details how many **Rev IQ Credits** are required for hour-based 
 | Rev IQ Workflow Content Analysis (per 50 AI steps)         | 1                       |
 
 > 📘 Note
-> 
+>
 > If you have [RTMP Redundancy](doc:rtmprtmps-event-set-up) enabled, Rev IQ Live Transcription is counted as two streams and twice the subtitles.
 
 The table below details how many **Rev IQ Credits** are required for token-based processing per token type for the generative AI [Video Assistant](doc:vbrick-assistant) feature.
@@ -125,7 +209,7 @@ The table below details how many **Rev IQ Credits** are required for token-based
 | 1,000 Input Tokens (Process Transcript)                            | 0.0057         |
 | 1,000 Output Tokens (Produce Titles, Descriptions, Tags, Chapters) | 0.0187         |
 
-The table below details _approximations_ of **Rev IQ consumption** based on average usage and will vary based on actual usage. Actual usage can be tracked via the [Get Rev IQ Credits Usage](ref:getaccountiqcreditsusage) API.
+The table below details *approximations* of **Rev IQ consumption** based on average usage and will vary based on actual usage. Actual usage can be tracked via the [Get Rev IQ Credits Usage](ref:getaccountiqcreditsusage) API.
 
 | Rev AI Tokens Feature                                              | Rev IQ Credits |
 | :----------------------------------------------------------------- | :------------- |
@@ -141,7 +225,7 @@ The table below details _approximations_ of **Rev IQ consumption** based on aver
 
 ### Vbrick Distribution: Rev IQ
 
-Vbrick's Rev IQ add-on offering uses artificial intelligence (AI) to help users navigate and understand the video content they need across all your video assets. Access to the Live [Transcription and Translation](doc:rev-iq-transcription-and-translation) features that make up Rev IQ require the _full_ Vbrick Rev product.
+Vbrick's Rev IQ add-on offering uses artificial intelligence (AI) to help users navigate and understand the video content they need across all your video assets. Access to the Live [Transcription and Translation](doc:rev-iq-transcription-and-translation) features that make up Rev IQ require the *full* Vbrick Rev product.
 
 | Feature                  | Vbrick Distribution |
 | :----------------------- | :------------------ |
@@ -150,7 +234,7 @@ Vbrick's Rev IQ add-on offering uses artificial intelligence (AI) to help users 
 
 ## Usage Tracking
 
-- The [Account Admin Dashboard](doc:view-system-analytics#videos) keeps track of all **System Analytics** including hours, users, and active user log-ins allotted and used under the **Usage **tab.
-- Portals that have a **Monthly Active Users** license activated will display an additional graph depicting **Monthly Active Users** (versus the current user licenses allotted to the portal). Active users is indicative for the month being referenced and can be greater than 100% in this case if the active count for the month exceeds the license count purchased.
-- Email notifications are sent to Account Admins when an account has reached **75%** and **100%** usage of its allotted viewing hours for both **Users** and **Hours** based accounts.  For **Monthly Active Users**, if the active count exceeds the licensed user count, an email notification is also sent.
-- When an account is switched from Hours based to Users/Active Users based, Rev switches all users in **Active **status to **Unlicensed **status.
+* The [Account Admin Dashboard](doc:view-system-analytics#videos) keeps track of all **System Analytics** including hours, users, and active user log-ins allotted and used under the **Usage** tab.
+* Portals that have a **Monthly Active Users** license activated will display an additional graph depicting **Monthly Active Users** (versus the current user licenses allotted to the portal). Active users is indicative for the month being referenced and can be greater than 100% in this case if the active count for the month exceeds the license count purchased.
+* Email notifications are sent to Account Admins when an account has reached **75%** and **100%** usage of its allotted viewing hours for both **Users** and **Hours** based accounts.  For **Monthly Active Users**, if the active count exceeds the licensed user count, an email notification is also sent.
+* When an account is switched from Hours based to Users/Active Users based, Rev switches all users in **Active** status to **Unlicensed** status.
