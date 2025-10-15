@@ -24,25 +24,26 @@ What you can do with events in Rev is defined by the role you are assigned. The 
 
 ## Event Granular Roles and Permissions
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Role",
-    "h-1": "Permissions",
-    "h-2": "Granular Restrictions",
-    "0-0": "Internal Event Host",
-    "0-1": "Add internal [All Users Events](doc:all-users-events)  \nAdd [Private Events](doc:private-events)",
-    "0-2": "This is a granular form of the **Event Host** role and is used to create hosts that can create/edit _internal_ **All Users** or **Private** events _only_.  \n  \nFurther, this role _restricts_ the ability to make [Public](doc:public-events) events.  \n  \nThe role may edit an existing event _only_ if they are the **Internal Event's Host/Event Host** (or an Event Admin).",
-    "1-0": "Event Analyst",
-    "1-1": "Access to the **Events** tab and [Events System Analytics](doc:events-system-analytics) on the **Account Admin Dashboard**",
-    "1-2": "Only access to the **Events** tab is provided with this role; all other Admin/analytics areas are restricted."
-  },
-  "cols": 3,
-  "rows": 2,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Role</th>
+        <th>Permissions</th>
+        <th>Granular Restrictions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Internal Event Host</td>
+        <td>Add internal [All Users Events](doc:all-users-events)<br>Add [Private Events](doc:private-events)</td>
+        <td>This is a granular form of the <strong>Event Host</strong> role and is used to create hosts that can create/edit <em>internal</em> <strong>All Users</strong> or <strong>Private</strong> events <em>only</em>.<br><br>Further, this role <em>restricts</em> the ability to make [Public](doc:public-events) events.<br><br>The role may edit an existing event <em>only</em> if they are the <strong>Internal Event's Host/Event Host</strong> (or an Event Admin).</td>
+      </tr>
+      <tr>
+        <td>Event Analyst</td>
+        <td>Access to the <strong>Events</strong> tab and [Events System Analytics](doc:events-system-analytics) on the <strong>Account Admin Dashboard</strong></td>
+        <td>Only access to the <strong>Events</strong> tab is provided with this role; all other Admin/analytics areas are restricted.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
