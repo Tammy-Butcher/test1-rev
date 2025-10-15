@@ -13,6 +13,7 @@ next:
 ## :star2: **New**
 
 ### Content Subscriptions
+
 *Rev Only*
 
 There are three new content subscription APIs that build on our last release and subscription endpoints.  They are:
@@ -32,13 +33,11 @@ There are three new content subscription APIs that build on our last release and
 ### Authentication APIs
 
 * A new [Extend Login Session for All Authentication Methods](ref:extendusersession) now extends the current user login session regardless of the authentication method used and includes preventing the user API key sessions and JWT authentication sessions from timing out.  
-[block:callout]
-{
-  "type": "info",
-  "title": "Note",
-  "body": "[Extend API Key Session](ref:extendapikeysessiontimeout) and [Extend User Login Session](ref:extendsessiontimeout) have been deprecated as a result of this addition."
-}
-[/block]
+
+> 📘 Note
+>
+> [Extend API Key Session](ref:extendapikeysessiontimeout) and [Extend User Login Session](ref:extendsessiontimeout) have been deprecated as a result of this addition.
+
 ## :wrench: **Updated/Fixed**
 
 The [Get Video Transcription Files](ref:getvideotranscriptionfiles) and [Download Transcription File](ref:downloadvideotranscriptionfile) APIs have been updated to get a list of, and download, transcription file(s) via API when the user only has view rights.   **Note**: Previously to do this edit rights were required.
@@ -59,10 +58,7 @@ Webcast APIs have been updated in preparation for the upcoming **Producer** func
 * [Patch Webcast](ref:patchwebcast)
 * [Get Webcast Details](ref:getevent)
 * [Get Webcasts By Time Range](ref:geteventslist)
-[block:callout]
-{
-  "type": "warning",
-  "title": "Important!",
-  "body": "While the webcast updates are visible at this time, they are not functional until the Producer functionality is released in Q4 of 2022."
-}
-[/block]
+
+> 🚧 Important!
+>
+> While the webcast updates are visible at this time, they are not functional until the Producer functionality is released in Q4 of 2022.
