@@ -10,29 +10,39 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n  <li>&#128187; <a href=\"/docs/vbrick-distribution\">Vbrick Distribution</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
+</div>
+
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
 }
-[/block]
+  
+</style>
+`}</HTMLBlock>
+
 Rev integrates with a variety of video sources that you may use to power your events. An overview of each is provided here.  Note that each one requires that the integration is installed and configured *before* the tabs are visible and available as video sources in your Rev events.  You may need assistance from your Account Admin.  For complete details on a specific integration, view our [Rev Integration Guides](doc:rev-integration-guides).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d96acba-vcStreamWebcastUsage.png",
-        "vcStreamWebcastUsage.png",
-        824,
-        122,
-        "#b6dbf0"
-      ],
-      "caption": "Each integration must be enabled and configured before its tab is visible under Video Sources during Event set up"
-    }
-  ]
-}
-[/block]
+<Image title="vcStreamWebcastUsage.png" alt={824} src="https://files.readme.io/d96acba-vcStreamWebcastUsage.png">
+  Each integration must be enabled and configured before its tab is visible under Video Sources during Event set up
+</Image>
+
 ## Video Conference (VC) Live Events
 
 You can use Rev cloud to broadcast your video conferencing software so that you take advantage of your video conference while using Rev’s Webcast features at the same time. You need a **SIP** address to stream a video conference to your Rev event and to use this video source. 
