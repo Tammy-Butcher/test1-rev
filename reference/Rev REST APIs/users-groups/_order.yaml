@@ -10,3 +10,4 @@
 - getgroups-1
 - getgroup-1
 - editgroup
+- deletegroup
