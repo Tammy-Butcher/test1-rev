@@ -10,17 +10,37 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n  <li>&#128187; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Universal eCDN</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
-}
-[/block]
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+  <li>&#128187; <a href="/docs/rev-license-types-and-add-ons">Vbrick Universal eCDN</a></li>
+</div>
 
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
+}
+  
+</style>
+`}</HTMLBlock>
 
 There are two sets of configurations that need to be accomplished to enable Microsoft Teams to utilize the Vbrick eCDN.  
 
-- First, it must be configured within **Vbrick**.  
-- Second, it must be configured within **Microsoft Teams**.  As always, the third step is testing.
+* First, it must be configured within **Vbrick**.  
+* Second, it must be configured within **Microsoft Teams**.  As always, the third step is testing.
 
 Both configurations must be set for the feature to work across the systems.
 
@@ -32,8 +52,8 @@ Microsoft Teams supports 3rd-party eCDN distribution with **MS Teams Townhall Pr
 
 ### Requirements
 
-- Rev Cloud or Vbrick Universal eCDN Account
-- Microsoft Teams Admin access (for configuration only)
+* Rev Cloud or Vbrick Universal eCDN Account
+* Microsoft Teams Admin access (for configuration only)
 
 ### Configuration
 
@@ -41,47 +61,20 @@ Microsoft supports 3rd-party eCDN distribution which means you can use Vbrick Re
 
 1. Navigate to **Media Settings > Integrations** and scroll down to the **Microsoft** - **Use Vbrick Universal eCDN with Teams** section.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f1c7a78-msTeamsECDN.png",
-        "",
-        "Enable the Vbrick Universal eCDN with Teams integration to use Rev or Vbrick Universal eCDN for distribution"
-      ],
-      "align": "center",
-      "caption": "Enable the Vbrick Universal eCDN with Teams integration to use Rev and Vbrick Universal eCDN for distribution"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Enable the Vbrick Universal eCDN with Teams integration to use Rev or Vbrick Universal eCDN for distribution" align="center" src="https://files.readme.io/f1c7a78-msTeamsECDN.png">
+  Enable the Vbrick Universal eCDN with Teams integration to use Rev and Vbrick Universal eCDN for distribution
+</Image>
 
 2. In the Select **JWT Certificate** dropdown, select the certificate you want to use. Make sure you either create a new certificate or select an already generated certificate.
 3. By default, a Certificate named **RevConnectDefault** should have already been created. You can use that certificate or provide your own.
 4. Copy the **Microsoft Teams JSON** and provide it to your IT staff that controls and configures your Microsoft Teams environment. This JSON provides the location and authentication for Microsoft Teams to utilize the **Vbrick Universal eCDN** distribution.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/06db85f-teamsIntegration.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/06db85f-teamsIntegration.png" />
 
-
-5. Note that the **apiKey** and **apiSecret** within the **Microsoft Teams JSON** use the **UNIVERSAL_ECDN API** key defined within the Vbrick Management Interface.
-   1. This **UNIVERSAL_ECDN** key _must_ exist and remain in place.
+5. Note that the **apiKey** and **apiSecret** within the **Microsoft Teams JSON** use the **UNIVERSAL\_ECDN API** key defined within the Vbrick Management Interface.
+   1. This **UNIVERSAL\_ECDN** key *must* exist and remain in place.
    2. If the API key is changed (at a later time), the JSON will need to be regenerated and reapplied into Microsoft Teams.
-   3. If the apiKey and apiSecret fields are **blank** within the JSON, that is an indication that the API Key **UNIVERSAL_ECDN** does not exist. Please recreate the API key.
+   3. If the apiKey and apiSecret fields are **blank** within the JSON, that is an indication that the API Key **UNIVERSAL\_ECDN** does not exist. Please recreate the API key.
 
 You are now ready to use the [Vbrick Universal eCDN](doc:what-is-the-vbrick-universal-ecdn) for distribution with Microsoft Teams.  Next step is to tie this eCDN into Microsoft Teams (see below).
 
@@ -99,9 +92,9 @@ To enable the **Vbrick Universal eCDN** option for Teams delivery, we provide **
 
 For information on establishing an authenticated administrator PowerShell session for Teams, see Microsoft documentation.  (These are provided only as starting points)
 
-- [Install Microsoft Teams PowerShell - Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-install)
-- [Configure live event settings in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell)
-- [Install Microsoft Teams PowerShell - Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/configure-teams-live-events)
+* [Install Microsoft Teams PowerShell - Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-powershell-install)
+* [Configure live event settings in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/set-teams-live-events-policies-using-powershell)
+* [Install Microsoft Teams PowerShell - Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/teams-live-events/configure-teams-live-events)
 
 For all the following command steps, log in as an authenticated Teams administrator and open PowerShell as an administrator; authenticate, and then connect to Teams administration.
 
@@ -204,10 +197,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 ```
 
 > 📘 Note
-> 
-> You can utilize a Vbrick tool at <https://livetools.rampecdn.com/portal/dev/psescape.html> to check the format of your JSON and generate the Set-CsTeamsMeetingBroadcastConfiguration command above.
+>
+> You can utilize a Vbrick tool at [https://livetools.rampecdn.com/portal/dev/psescape.html](https://livetools.rampecdn.com/portal/dev/psescape.html) to check the format of your JSON and generate the Set-CsTeamsMeetingBroadcastConfiguration command above.
 
-Next **Verify the eCDN **setting with:
+Next **Verify the eCDN** setting with:
 
 ```Text Verify the eCDN
 Get-CsTeamsMeetingBroadcastConfiguration -ExposeSDNConfigurationJsonBlob
@@ -226,7 +219,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $F
 ```
 
 > 📘 Note
-> 
+>
 > While on average the change takes effect within 60 minutes, it may also take up to 24 hours to propagate.
 
 At this point, you can begin testing Microsoft Teams with Vbrick distribution.
@@ -237,12 +230,12 @@ When initially testing and setting up your environment, it is often better to se
 
 Follow the steps outlined below to utilize this alternative approach for a config URL file is accomplished
 
-- Generate the JSON on Vbrick Universal eCDN as you normally would and copy it to a file
-- Host the file that contains the generated JSON.
-  - Note: You determine the name of the file but it should be meaningful.  
-    - Format: https\://hostFQDN/path/file 
-  - Make sure the host machine is reachable by your testing machines
-- When providing Microsoft the JSON (via the commands above), use the following JSON:
+* Generate the JSON on Vbrick Universal eCDN as you normally would and copy it to a file
+* Host the file that contains the generated JSON.
+  * Note: You determine the name of the file but it should be meaningful.  
+    * Format: https\://hostFQDN/path/file 
+  * Make sure the host machine is reachable by your testing machines
+* When providing Microsoft the JSON (via the commands above), use the following JSON:
 
 ```
 {"configUrl":"https\://hostFQDN/path/file"}   
@@ -250,5 +243,5 @@ Follow the steps outlined below to utilize this alternative approach for a confi
 ```
 
 > 🚧 Important!
-> 
-> If you've been using Vbrick with Microsoft Teams and you are testing or have transitioned to Microsoft Teams Premium, please visit our blog at <https://vbrick.com/blogs/check-your-ecdn-settings-for-microsoft-teams-premium/> for important information about changes to Microsoft 3rd party eCDN settings.
+>
+> If you've been using Vbrick with Microsoft Teams and you are testing or have transitioned to Microsoft Teams Premium, please visit our blog at [https://vbrick.com/blogs/check-your-ecdn-settings-for-microsoft-teams-premium/](https://vbrick.com/blogs/check-your-ecdn-settings-for-microsoft-teams-premium/) for important information about changes to Microsoft 3rd party eCDN settings.
