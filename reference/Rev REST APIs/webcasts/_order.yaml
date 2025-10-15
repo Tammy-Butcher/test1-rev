@@ -45,3 +45,4 @@
 - deletewebcastembeddedcontentlink-1
 - getwebcastpushcontentlinks
 - createpushcontentlink
+- setpushcontentlinkstatus
