@@ -23,9 +23,9 @@ What you can do with video in Rev is defined by the role you are assigned. The r
 
 <sup>1: Public videos must be enabled on the Rev portal first.</sup>
 
-<sup>2: The Event Host role must be combined with another role that has public video upload permissions to be able to upload Public videos.
+<sup>2: The Event Host role must be combined with another role that has public video upload permissions to be able to upload Public videos.</sup>
 
-<sup>3: An Internal Media Contributor may not record video.
+<sup>3: An Internal Media Contributor may not record video.</sup>
 
 ## Media and Video Granular Roles and Permissions
 
