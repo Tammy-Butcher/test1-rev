@@ -46,8 +46,137 @@ With Rev, you have access to robust insights delivered with real-time analytics 
 Track video viewing down to each employee to support compliance requirements. Measure the viewing and completeness of viewing to see the whole picture.
 
 The Analytics and Report Guides get you started to understanding the power of your portal!
-[block:html]
-{
-  "html": "<link\n\thref=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n\trel=\"stylesheet\"\n/>\n<link\n\thref=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600\"\n\trel=\"stylesheet\"\n/>\n\n<div class=\"card-menu\">\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Webcast</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">analytics</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/view-webcast-analytics\"\n\t\t\t\t\t>Analytics & Reports</a\n\t\t\t\t>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Webcast</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">trending_up</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/real-time-webcast-analytics\"\n\t\t\t\t\t>Real-Time Webcast Analytics</a\n\t\t\t\t>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Video</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">bar_chart</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/video-analytics-dashboard\"\n\t\t\t\t\t>Analytics & Reports</a\n\t\t\t\t>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Account</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">pie_chart</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/view-system-analytics\"\n\t\t\t\t\t>System Analytics & Reports</a\n\t\t\t\t>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Account</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">question_answer</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/analytics-faq\">Analytics FAQs</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n<style>\n\tbody {\n\t\tfont-family: \"Open Sans\", sans-serif;\n\t}\n\n\t.card-menu {\n\t\tdisplay: flex;\n\t\tflex-flow: row wrap;\n\t\tjustify-content: center;\n\t\talign-items: middle;\n\t}\n\n\t.card {\n\t\twidth: 150px;\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tborder: 1px solid #4fb9e7;\n\t\tborder-radius: 4px;\n\t\toverflow: hidden;\n\t\tmargin: 5px;\n\t}\n\n\t.card:hover {\n\t\tbox-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n\t}\n\n\t.card-header {\n\t\tcolor: #1d9dd5;\n\t\ttext-align: center;\n\t\tfont-size: 12px;\n\t\tfont-weight: 600;\n\t\tborder-bottom: 1px solid #7ccbed;\n\t\tbackground-color: #b8e3f5;\n\t\tpadding: 5px 10px;\n\t}\n\n\t.card-main {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tpadding: 15px 0;\n\t}\n\n\t.material-icons {\n\t\tfont-size: 36px;\n\t\tcolor: #1d9dd5;\n\t\tmargin-bottom: 5px;\n\t}\n\n\t.main-description {\n\t\tcolor: #1d9dd5;\n\t\tfont-size: 12px;\n\t\ttext-align: center;\n\t\ttext-decoration: none;\n\t}\n\n\t.main-description a {\n\t\ttext-decoration: none;\n\t\tcolor: #1d9dd5;\n\t}\n</style>"
-}
-[/block]
+
+<HTMLBlock>{`
+<link
+	href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet"
+/>
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+	rel="stylesheet"
+/>
+
+<div class="card-menu">
+	<div class="card">
+		<div class="card-header">Webcast</div>
+		<div class="card-main">
+			<i class="material-icons">analytics</i>
+			<div class="main-description">
+				<a href="/docs/view-webcast-analytics"
+					>Analytics & Reports</a
+				>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Webcast</div>
+		<div class="card-main">
+			<i class="material-icons">trending_up</i>
+			<div class="main-description">
+				<a href="/docs/real-time-webcast-analytics"
+					>Real-Time Webcast Analytics</a
+				>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Video</div>
+		<div class="card-main">
+			<i class="material-icons">bar_chart</i>
+			<div class="main-description">
+				<a href="/docs/video-analytics-dashboard"
+					>Analytics & Reports</a
+				>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Account</div>
+		<div class="card-main">
+			<i class="material-icons">pie_chart</i>
+			<div class="main-description">
+				<a href="/docs/view-system-analytics"
+					>System Analytics & Reports</a
+				>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Account</div>
+		<div class="card-main">
+			<i class="material-icons">question_answer</i>
+			<div class="main-description">
+				<a href="/docs/analytics-faq">Analytics FAQs</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	body {
+		font-family: "Open Sans", sans-serif;
+	}
+
+	.card-menu {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: middle;
+	}
+
+	.card {
+		width: 150px;
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #4fb9e7;
+		border-radius: 4px;
+		overflow: hidden;
+		margin: 5px;
+	}
+
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.card-header {
+		color: #1d9dd5;
+		text-align: center;
+		font-size: 12px;
+		font-weight: 600;
+		border-bottom: 1px solid #7ccbed;
+		background-color: #b8e3f5;
+		padding: 5px 10px;
+	}
+
+	.card-main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 15px 0;
+	}
+
+	.material-icons {
+		font-size: 36px;
+		color: #1d9dd5;
+		margin-bottom: 5px;
+	}
+
+	.main-description {
+		color: #1d9dd5;
+		font-size: 12px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.main-description a {
+		text-decoration: none;
+		color: #1d9dd5;
+	}
+</style>
+`}</HTMLBlock>
