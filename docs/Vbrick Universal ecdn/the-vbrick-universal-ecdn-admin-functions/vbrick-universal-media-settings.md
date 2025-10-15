@@ -13,26 +13,13 @@ next:
 The **Media Settings** menu for the Vbrick Universal eCDN displays the compatible integrations.  
 
 > 📘 Note
-> 
+>
 > At present, the Universal eCDN is limited to the **Microsoft Teams** integration which is configured in the Ramp SDK during installation.  More integrations are being added in the future.
 
 ## Use the Vbrick Universal eCDN with Microsoft Teams
 
-The **Use the Vbrick Universal eCDN with Teams** integration section defines a **Microsoft Teams JSON** that is used within Microsoft Teams as a configuration.  You can select your own certificate or use the default certificate we provide.  You _must_ have a **UNIVERSAL_ECDN** API key in place.
+The **Use the Vbrick Universal eCDN with Teams** integration section defines a **Microsoft Teams JSON** that is used within Microsoft Teams as a configuration.  You can select your own certificate or use the default certificate we provide.  You *must* have a **UNIVERSAL\_ECDN** API key in place.
 
 For complete details on configuring the Vbrick Universal eCDN for distribution use view the [Microsoft Teams integration](doc:use-vbrick-universal-ecdn-with-microsoft-teams) topic.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/c6a385b-teamsIntegration.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/c6a385b-teamsIntegration.png" />
