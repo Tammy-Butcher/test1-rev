@@ -16,8 +16,8 @@ next:
 
 The [Get Playlists](ref:getplaylists) API now returns the playlist owner and profile image in the response.  This is included when returning a standard playlist and the featured playlist.  The new fields returned are:
 
-- **ownerFullName**
-- **ownerProfileImageUri**
+* **ownerFullName**
+* **ownerProfileImageUri**
 
 The [Update Playlist](ref:editplaylist) and [Update Featured Playlist](ref:editfeaturedplaylist) body parameters were being incorrectly documented resulting in a 500 exception. This has been corrected and the **videoId** and **action** fields are now correctly added in a **playlistVideoDetails** object.
 
@@ -25,10 +25,10 @@ The [Update Playlist](ref:editplaylist) and [Update Featured Playlist](ref:editf
 
 The following APIs now return a **profileImageURI** field so that an avatar can be displayed alongside the entities returned.
 
-- [Get User By Username](ref:getuserbyusername)
-- [Get User By Email](ref:getuserbyemailaddress)
-- [Get User By ID](ref:getuser)
-- [Search Users, Groups, and Channels](ref:searchaccessentity) Note: When **type** is equal to **user**.
+* [Get User By Username](ref:getuserbyusername)
+* [Get User By Email](ref:getuserbyemailaddress)
+* [Get User By ID](ref:getuser)
+* [Search Users, Groups, and Channels](ref:searchaccessentity) Note: When **type** is equal to **user**.
 
 ### Role API Updates
 
