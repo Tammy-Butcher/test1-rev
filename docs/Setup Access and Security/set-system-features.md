@@ -14,20 +14,8 @@ next:
 
 System Settings are alphabetized into the following areas that Admins should be familiar with.  The **User Security** section focuses on user access features.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a757a81-userSecurity.png",
-        null,
-        "User Security focuses on user access features in Rev and how to control and manage them"
-      ],
-      "align": "center",
-      "caption": "User Security focuses on user access features in Rev and how to control and manage them"
-    }
-  ]
-}
-[/block]
+<Image alt="User Security focuses on user access features in Rev and how to control and manage them" align="center" src="https://files.readme.io/a757a81-userSecurity.png">
+  User Security focuses on user access features in Rev and how to control and manage them
+</Image>
 
 As with all menu options in Rev, your level of access and visibility depends on your account and permission settings. **System Settings** are accessed through the [Admin Menu Options](doc:admin-menu-options).
