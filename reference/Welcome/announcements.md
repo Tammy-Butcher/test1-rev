@@ -17,5 +17,5 @@ Make sure you also review our [Getting Started](ref:getting-started) and [Authen
 > View the [Rev OpenAPI specification](https://github.com/vbrick/sample-code/blob/main/openapi.json) on Github!
 
 > 🚧 Important!
-> 
-> Per our [Rev v7.40 deprecation announcement](https://revdocs.vbrick.com/v7.40/reference/announcements), the Rev v1 API is being decommissioned and will no longer function as of the **Rev June 2025 Release**. If you have not already done so, please begin using the Rev v2 API _immediately_.
+>
+> Per our [Rev v7.40 deprecation announcement](https://revdocs.vbrick.com/v7.40/reference/announcements), the Rev v1 API is being decommissioned and will no longer function as of the **Rev June 2025 Release**. If you have not already done so, please begin using the Rev v2 API *immediately*.
