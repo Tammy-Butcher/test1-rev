@@ -10,13 +10,12 @@ metadata:
 next:
   description: ''
 ---
-[block:callout]
-{
-  "type": "info",
-  "title": "Note",
-  "body": "This tab is only visible if [Webcast Recording Settings](doc:webcast-recording-settings) are enabled.\n\nThe options available on the tab depend on Rev's various [Integration](doc:rev-integration-guides) settings that are enabled."
-}
-[/block]
+> 📘 Note
+>
+> This tab is only visible if [Webcast Recording Settings](doc:webcast-recording-settings) are enabled.
+>
+> The options available on the tab depend on Rev's various [Integration](doc:rev-integration-guides) settings that are enabled.
+
 ## Record a Video Conference
 
 Rev Cloud supports recording **Video Conferences** and ingesting them into your standard media workflow.
