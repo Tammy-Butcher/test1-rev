@@ -10,31 +10,38 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n  <li>&#128187; <a href=\"/docs/vbrick-distribution\">Vbrick Distribution</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
+</div>
+
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
 }
-[/block]
+  
+</style>
+`}</HTMLBlock>
 
+The **Attendees** section determines who has access to attend and view the event.  You can also specify content restrictions on the webcast recording by unlisting it and enabling Viewer ID.
 
-
-The **Attendees **section determines who has access to attend and view the event.  You can also specify content restrictions on the webcast recording by unlisting it and enabling Viewer ID.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1902e13-attendeesSection.png",
-        "attendeesSection.png",
-        1147
-      ],
-      "align": "center",
-      "caption": "The Listing Type determines what settings are available.  All types can be unlisted and estimate number of attendees."
-    }
-  ]
-}
-[/block]
+<Image title="attendeesSection.png" alt={1147} align="center" src="https://files.readme.io/1902e13-attendeesSection.png">
+  The Listing Type determines what settings are available.  All types can be unlisted and estimate number of attendees.
+</Image>
 
 ## Set the Listing Type
 
@@ -51,33 +58,21 @@ Use the **Estimated Number of Attendees** field to estimate the number of people
 When you choose to **Unlist this Webcast**, it prevents its display from all Media Contributors, Media Viewers, and Event Hosts that did not create it and hides it from view, similar to when you [unlist a video](doc:delete-replace-or-deactivate-videos#unlist-a-video).
 
 > 👍 Tip
-> 
+>
 > An Unlisted webcast may still be manipulated through Rev APIs.
 
 ## Enable Viewer ID Watermark for an Event
 
 You may want to make sure that your webcast is not shared or leaked outside of your company portal. To discourage this, you can select the **Enable Viewer ID Watermark** checkbox for your event.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8fb7d73-videoWatermarked.png",
-        null,
-        "If you enable Viewer ID Watermark for the event, the viewer's information is displayed during the playback of the recorded event"
-      ],
-      "align": "center",
-      "caption": "If you enable Viewer ID Watermark for the event, the viewer's information is displayed during the playback of the recorded event"
-    }
-  ]
-}
-[/block]
+<Image alt="If you enable Viewer ID Watermark for the event, the viewer's information is displayed during the playback of the recorded event" align="center" src="https://files.readme.io/8fb7d73-videoWatermarked.png">
+  If you enable Viewer ID Watermark for the event, the viewer's information is displayed during the playback of the recorded event
+</Image>
 
 This floats the viewer's information over the recorded event during playback to discourage recording and sharing in other places on the Web. If the viewer is anonymous, the IP Address displays instead. You can also enter any custom text you want to display as well.
 
-> 📘  Note
-> 
+> 📘 Note
+>
 > Overlays added by this feature display during playback in Rev but are not displayed if the video is downloaded.
 
 Your Account Admin must [enable this feature](doc:viewer-id-content-restriction) before you are able to use it on your webcast.  You may also use it on your [videos](doc:update-basic-video-settings#enable-viewer-id-watermark-on-a-video).
