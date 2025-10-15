@@ -13,24 +13,10 @@ next:
 The **Webcast User Engagement** section under the **Admin** > **Media Settings** > **Features** menu option displays the attendee engagements that Account Admins can allow globally in Rev for use in webcast events by an Event Host during setup.
 
 > 🚧 Important
-> 
+>
 > If these settings are disabled, they are not be visible or selectable during event setup by an Event Host.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/dd6ff3e-enableWebcastUserEngagement.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/dd6ff3e-enableWebcastUserEngagement.png" />
 
 ## Allow Chat
 
@@ -44,11 +30,11 @@ If you have the **Allow Polls on Webcasts** option checked, the [Enable Polls](d
 
 To enable, select the **Allow Polls on Webcasts** checkbox in the **Webcast User Engagement** section.
 
-## Allow Q&A
+## Allow Q\&A
 
-If you have the **Allow Q&A on Webcasts** option checked, the [Enable Q&A](doc:add-qa-to-a-webcast) toggle becomes available during Event setup. This allows Event Admins and Hosts to decide whether or not they want Rev’s Q&A features available on their Webcast events.
+If you have the **Allow Q\&A on Webcasts** option checked, the [Enable Q\&A](doc:add-qa-to-a-webcast) toggle becomes available during Event setup. This allows Event Admins and Hosts to decide whether or not they want Rev’s Q\&A features available on their Webcast events.
 
-To enable, select the **Allow Q&A on Webcasts** checkbox in the **Webcast User Engagement** section.
+To enable, select the **Allow Q\&A on Webcasts** checkbox in the **Webcast User Engagement** section.
 
 ## Allow Live Event Banners
 
