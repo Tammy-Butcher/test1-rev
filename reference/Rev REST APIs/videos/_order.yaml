@@ -39,3 +39,4 @@
 - deletevideoexternalaccess
 - revokevideoexternalaccess
 - transcodevideo
+- convertdualstreamtoswitchedstream
