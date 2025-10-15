@@ -10,19 +10,39 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "\n<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n  <li>&#128736; <a href=\"/docs/rev-ai\">Rev IQ Module</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
-}
-[/block]
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+  <li>&#128736; <a href="/docs/rev-ai">Rev IQ Module</a></li>
+</div>
 
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
+}
+  
+</style>
+`}</HTMLBlock>
 
 Featured as part of Vbrick’s **Generative AI Tools** is Vbrick’s **Video Metadata Generation** tool. This tool enables you to automatically generate the following metadata if you also have an English transcript applied:
 
-- Title
-- Description
-- Tags
-- Chapters
+* Title
+* Description
+* Tags
+* Chapters
 
  When you have rich metadata for your video, it enhances its searchability and context. This significantly improves content accessibility and relevance to your users. Videos become valuable resources that are easily understood and searchable and can be purposefully utilized across your various platforms and audiences.
 
@@ -30,9 +50,9 @@ Featured as part of Vbrick’s **Generative AI Tools** is Vbrick’s **Video Met
 
 ## Requirements
 
-- You must have a **Rev AI license** and [Rev IQ credits](doc:rev-license-types-and-add-ons#rev-iq-credits) available to use the **Video Metadata Generation** tool. 
-- The video must have an [English transcript](doc:rev-iq-transcription-and-translation#automatic-and-default-transcription-settings) available.
-- The feature must be enabled.  It is disabled by default.
+* You must have a **Rev AI license** and [Rev IQ credits](doc:rev-license-types-and-add-ons#rev-iq-credits) available to use the **Video Metadata Generation** tool. 
+* The video must have an [English transcript](doc:rev-iq-transcription-and-translation#automatic-and-default-transcription-settings) available.
+* The feature must be enabled.  It is disabled by default.
 
 ## Configuration
 
@@ -59,23 +79,10 @@ A **Generate** link is available for each of the metadata fields described above
 
 You can also click the [Generate All Metadata](doc:video-title-description-and-tags#use-vbrick-generative-ai-for-automatic-video-metadata-generation) link to generate all fields at once.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/40fb013-generateAllMetadata.png",
-        "videoBasicInfoFlyout.png",
-        "Use generate links to generate all of the video metadata"
-      ],
-      "align": "center",
-      "caption": "Use the Generate All Metadata link if you want to quickly generate a video's metadata"
-    }
-  ]
-}
-[/block]
-
+<Image title="videoBasicInfoFlyout.png" alt="Use generate links to generate all of the video metadata" align="center" src="https://files.readme.io/40fb013-generateAllMetadata.png">
+  Use the Generate All Metadata link if you want to quickly generate a video's metadata
+</Image>
 
 > 📘 Note
-> 
+>
 > Remember, if there is not an **English** transcript available for the video, you will not be able to use this feature even if it has been enabled!
