@@ -15,10 +15,6 @@ metadata:
 next:
   description: ''
 ---
-[block:callout]
-{
-  "type": "info",
-  "title": "Note",
-  "body": "This API is not the same endpoint as the (now renamed) [Get Video Embed Playback URL](ref:getvideoplaybackurl)."
-}
-[/block]
+> 📘 Note
+>
+> This API is not the same endpoint as the (now renamed) [Get Video Embed Playback URL](ref:getvideoplaybackurl).
