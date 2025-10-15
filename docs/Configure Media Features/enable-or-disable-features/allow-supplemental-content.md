@@ -14,19 +14,19 @@ You are able to attach a supplemental file to a video from your hard drive if yo
 
 Select the **Allow supplemental content on all media** checkbox under **Media Settings** > **Features** > **Video Settings** to enable this option. This feature is enabled by default. 
 
-When _enabled_:
+When *enabled*:
 
-- This adds the [Add Files](doc:update-advanced-video-settings#attach-a-supplemental-file) button on the **Advanced **tab in [Video Settings](doc:updating-video-settings).
-- File types you may attach to video include: 
-  - PowerPoint presentations (.ppt, .pptx)
-  - Word documents (.doc, .docx)
-  - Excel documents (.xls, .xlsx, .csv)
-  - PDFs
-  - Zip files (.zip, .rar, .7z)
-  - Text files (.txt)
-  - Images (.jpg, .png, .gif)
+* This adds the [Add Files](doc:update-advanced-video-settings#attach-a-supplemental-file) button on the **Advanced** tab in [Video Settings](doc:updating-video-settings).
+* File types you may attach to video include: 
+  * PowerPoint presentations (.ppt, .pptx)
+  * Word documents (.doc, .docx)
+  * Excel documents (.xls, .xlsx, .csv)
+  * PDFs
+  * Zip files (.zip, .rar, .7z)
+  * Text files (.txt)
+  * Images (.jpg, .png, .gif)
 
-When _disabled_:
+When *disabled*:
 
-- The **Add Files** button is no longer available.
-- Any files attached prior to disabling the checkbox are not deleted. They reappear with their associated video if the checkbox is re-enabled.
+* The **Add Files** button is no longer available.
+* Any files attached prior to disabling the checkbox are not deleted. They reappear with their associated video if the checkbox is re-enabled.
