@@ -15,10 +15,6 @@ metadata:
 next:
   description: ''
 ---
-[block:callout]
-{
-  "type": "warning",
-  "title": "Important!",
-  "body": "This endpoint (and playback URL) is used for embedding purposes *only* and is *not* a direct link to the video file itself."
-}
-[/block]
+> 🚧 Important!
+>
+> This endpoint (and playback URL) is used for embedding purposes *only* and is *not* a direct link to the video file itself.
