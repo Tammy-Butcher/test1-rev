@@ -13,7 +13,7 @@ next:
 The **Devices** option under the Admin menu consists of the supported devices the Account Admins can manage in the Vbrick Universal eCDN.  Most settings here directly mirror Rev settings unless otherwise noted.
 
 > 👍 Tip
-> 
+>
 > This is only a brief introduction.  Please make sure to review the **More Details** links in each of the following sections.
 
 ## Add a DME to Vbrick Universal
@@ -27,50 +27,22 @@ To add a DME to your Vbrick Universal eCDN:
 1. Navigate to **Admin** > **Devices** and click the **DME Management** dropdown.
 2. Click the **Add DME** button to [add a new DME](doc:add-a-dme) to your eCDN.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d5f2255-addDME.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/d5f2255-addDME.png" />
 
 **More Details:**
 
-- [Manage and Add DMEs](doc:manage-dme-devices)
-- [Add a DME](doc:add-a-dme)
+* [Manage and Add DMEs](doc:manage-dme-devices)
+* [Add a DME](doc:add-a-dme)
 
 ### View DME Network Activity
 
 Use the **Devices** > [DME Network Statistics](doc:view-dme-network-statistics) menu to monitor the overall health, activity, and video usage statistics of each DME in your network. Immediately displayed is health information for each DME including percentages used for **CPU**, **Memory** (including swap space), **Disk space**, and **Throughput**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1fbb3b5-viewDMENetworkActivity.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/1fbb3b5-viewDMENetworkActivity.png" />
 
 **More Details**:
 
-- [View DME Network Statistics](doc:view-dme-network-statistics)
+* [View DME Network Statistics](doc:view-dme-network-statistics)
 
 ## Add a Presentation Profile to Vbrick Universal
 
@@ -83,25 +55,11 @@ To add a **Presentation Profile** to your Vbrick Universal eCDN:
 1. Navigate to **Admin** > **Devices** and click the **Presentation Profiles** dropdown.
 2. Click the **Add a Presentation Profile** button to [add a new Presentation Profile](doc:add-a-presentation-profile) to your eCDN.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d1c0948-addPresentationProfile.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/d1c0948-addPresentationProfile.png" />
 
 **More Details**:
 
-- [Add a Presentation Profile](doc:add-a-presentation-profile)
+* [Add a Presentation Profile](doc:add-a-presentation-profile)
 
 ## Add Source Devices and LDAP Connectors to Vbrick Universal
 
@@ -114,27 +72,13 @@ To add a **Source Device and/or LDAP Connector** to your Vbrick Universal eCDN:
 1. Navigate to **Admin** > **Devices** and click the **Source Devices and LDAP Connectors** dropdown.
 2. Click the **Add a Device** dropdown to [add a new source or custom device](doc:add-a-source-or-custom-device) to your eCDN.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/84aa71e-sourceCustomDevices.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/84aa71e-sourceCustomDevices.png" />
 
 **More Details**:
 
-- [Add an Encoder](doc:add-an-encoder)
-- [Add an LDAP Connector](doc:add-ldap-connector-device)
-- [Add a Custom Device](doc:add-a-custom-device)
+* [Add an Encoder](doc:add-an-encoder)
+* [Add an LDAP Connector](doc:add-ldap-connector-device)
+* [Add a Custom Device](doc:add-a-custom-device)
 
 ## Add a Zone to Vbrick Universal
 
@@ -147,24 +91,10 @@ To add a **Zone** to your Vbrick Universal eCDN:
 1. Navigate to **Admin** > **Devices** and click the **Zones** dropdown.
 2. Click the **Add Zone** button to [add a new zone](doc:add-a-zone) to your eCDN.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3f2915c-addZone.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/3f2915c-addZone.png" />
 
 **More Details**:
 
-- [Manage and Add Zones](doc:manage-and-add-zones)
-- [Add a Zone](doc:add-a-zone)
-- [Vbrick Peer-to-Peer Zones](doc:rev-connect-zones)
+* [Manage and Add Zones](doc:manage-and-add-zones)
+* [Add a Zone](doc:add-a-zone)
+* [Vbrick Peer-to-Peer Zones](doc:rev-connect-zones)
