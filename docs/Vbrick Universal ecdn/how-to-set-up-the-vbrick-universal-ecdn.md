@@ -55,7 +55,7 @@ To initially configure your environment, an **Account Admin** performs the follo
    2. Develop bespoke integrations with our SDK.
 
 > 👍 Tip
-> 
+>
 > Once configured, you may not need to reconfigure unless there is a change in your network topology or distribution use case.  At this point, you will have the ability to include the SDK within your developed webpage and player or to utilize a 3rd party integration that will automatically include the SDK within your webpage.
 
 ## Configured Workflow Overview
@@ -78,10 +78,10 @@ A viewer/end-user lands on either your page or the page of a 3rd party integrati
 9. The SDK will periodically report real-time player analytics to Vbrick Universal SDK.
 
 > 📘 Note
-> 
+>
 > If you are a **Vbrick EVP Customer** or **Partner** and want to use the [Vbrick Universal SDK](ref:vbrick-universal-sdk), you need only to enable **JWT Authentication**.
-> 
-> However, if you are a **Vbrick Universal eCDN Customer** or **Partner**, you must _also_ setup and configure your account by completing the steps below.
+>
+> However, if you are a **Vbrick Universal eCDN Customer** or **Partner**, you must *also* setup and configure your account by completing the steps below.
 
 To get started, each step is described in more detail in the sections below.
 
@@ -100,24 +100,10 @@ Next, configure the user location service.
 1. Navigate to **System Settings** > **eCDN Settings** and scroll down to the **User Location** section.
 2. Select the **Validate User Location** checkbox and then enter a **User Location Service URL**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cd0d755-userLocationURL.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/cd0d755-userLocationURL.png" />
 
 3. HTTPS URL should point to a FQDN with  /cgi-bin/localip.cgi on an existing, reachable (by all players ) DME 
-   1. <https://LondonDME-01-HQ.mycomanyname.com/cgi-gin/localip.cgi>
+   1. [https://LondonDME-01-HQ.mycomanyname.com/cgi-gin/localip.cgi](https://LondonDME-01-HQ.mycomanyname.com/cgi-gin/localip.cgi)
 4. View the topic on [User Location Service (ULS)](doc:user-location-service-uls) for complete details on configuration.
 
 ### Configure Zones
@@ -139,21 +125,7 @@ To define the distribution modalities for this Zone, make the following configur
 
 If you want the **Zone** to utilize **Vbrick Peer-to-Peer** you must enable it.  View the [Vbrick Peer-to-Peer Zones](doc:rev-connect-zones) topic for complete details if needed
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b441234-enablePeer2Peer.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/b441234-enablePeer2Peer.png" />
 
 ##### Vbrick Multicast
 
@@ -176,39 +148,11 @@ To verify or create a new JWT authentication certificate:
 1. Navigate to **System Settings** > **User Security** and scroll to the **JWT Authentication** section.
 2. Verify that the **RevConnectDefault** certificate already in place with a corresponding Signing and Encryption certificate.  If it exists, skip to end.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2034760-revConnectDefaultCert.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/2034760-revConnectDefaultCert.png" />
 
 3. If this does not exist, please add it.  Click the **Add New** button to create a new certificate.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ec887ef-addNewCert.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/ec887ef-addNewCert.png" />
 
 4. On the popup, you will have the option to auto-generate a Signing Certificate or to paste in your own.
 5. Don't forget to click Save.
@@ -220,27 +164,13 @@ At this point, you now have a certificate that will be used for authentication t
 Additionally, you will need to [create an API key](doc:create-an-api-key) that is to be used specifically for the **Vbrick Universal eCDN** and the integrations it uses.
 
 1. Navigate to **System Settings** > **API Keys** 
-2. Verify that there is an API key named UNIVERSAL_ECDN, if so skip to end.
+2. Verify that there is an API key named UNIVERSAL\_ECDN, if so skip to end.
 3. If this does not exist, please add it.  Click the **Add Key** button to create a new API key.
-4. Make sure the key is named **UNIVERSAL_ECDN** and that you provide a unique key text (the secret will be generated, but you can view it there if necessary)
+4. Make sure the key is named **UNIVERSAL\_ECDN** and that you provide a unique key text (the secret will be generated, but you can view it there if necessary)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/099bbac-addAPIKey.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/099bbac-addAPIKey.png" />
 
-
-At this point, you now have a UNIVERSAL_ECDN API key that will be used in the integrations.
+At this point, you now have a UNIVERSAL\_ECDN API key that will be used in the integrations.
 
 ### Finalize Usage Options
 
