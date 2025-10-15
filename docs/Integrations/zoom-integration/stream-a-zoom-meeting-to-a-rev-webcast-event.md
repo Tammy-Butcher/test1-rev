@@ -10,55 +10,61 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "\n<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
-}
-[/block]
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+</div>
 
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
+}
+  
+</style>
+`}</HTMLBlock>
 
 You can use a Zoom meeting as a **video source** for your Webcast event once you have installed and enabled the Zoom meeting Integration. When you select Zoom as a Video Source, starting your Rev Webcast event also starts your scheduled Zoom meeting. 
 
 This means you can take advantage of Rev’s Webcast functionality and pair it with the Zoom meeting. Afterward, you can then save the recording and use Rev’s video settings and metadata features.
 
 > 👍 Tip
-> 
+>
 > You must be logged in to a Zoom Meeting account that has an email that **matches** the email being used in the Rev account for the Webcast Event setup.
 
 To stream a Zoom meeting to a Rev webcast event:
 
 1. Schedule the Rev event as you normally would. **View**: [Scheduled Webcasts](doc:webcast-listing-types-and-video-sources#scheduled-webcasts)
 
-2. Select **Zoom **as the source in the [Video Sources](doc:video-sources)  section.
+2. Select **Zoom** as the source in the [Video Sources](doc:video-sources)  section.
 
 3. Configure the [DTMF](doc:dtmf-configuration-and-usage#use-dtmf-codes-in-events) codes you want to use with the event if any. (optional)
 
 4. Enter a **Zoom meeting** or **Zoom meeting URL** in the source field.
 
 > 📘 Note
-> 
+>
 > All previously scheduled Zoom meetings automatically appear in the Video Source drop-down. Meetings that are scheduled in the past do not appear.
-> 
+>
 > You may also enter a **Zoom Meeting ID** or **URL** if you do not have any meetings scheduled when you create your Webcast. The meeting ID requires a number between 9 and 11 digits.
 
 5. If a password has been set for the Zoom meeting, you must enter the **H323/SIP numeric Password** for the meeting.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9cfac73-zoomWebcast.png",
-        "zoomWebcast.png",
-        1157
-      ],
-      "align": "center",
-      "caption": "Once you have configured your Zoom Meeting in your Rev Webcast, starting the Rev Event also starts the Zoom Meeting"
-    }
-  ]
-}
-[/block]
-
+<Image title="zoomWebcast.png" alt={1157} align="center" src="https://files.readme.io/9cfac73-zoomWebcast.png">
+  Once you have configured your Zoom Meeting in your Rev Webcast, starting the Rev Event also starts the Zoom Meeting
+</Image>
 
 6. Start the **Rev event** and the **Zoom meeting** when ready.  Starting the Rev event also starts the Zoom meeting although ideally the endpoint (Zoom meeting) should be started first before beginning your Rev meeting.
 
