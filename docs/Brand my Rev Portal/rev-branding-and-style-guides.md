@@ -12,70 +12,31 @@ metadata:
 next:
   description: ''
 ---
-The **Branding **menu allows Admins to turn the Rev portal into a true video portal styled with your organization’s logo, colors, and font preferences. You can choose different themes and designs for [The Rev Home Page](doc:the-rev-home-page) that reflect your organization’s style. 
+The **Branding** menu allows Admins to turn the Rev portal into a true video portal styled with your organization’s logo, colors, and font preferences. You can choose different themes and designs for [The Rev Home Page](doc:the-rev-home-page) that reflect your organization’s style. 
 
 Admins can access Branding options through the **System Settings > Branding** menu drop-down.
 
 Your Rev portal template settings are configured for you to begin receiving value immediately and also to assist you when you want to customize them.  The settings below reflect how a new a new tenant is set up out-of-the-box.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4eb787932ecd33de60b32c6801f96455575fa2be1cd17f345e86d0204626e2db-brandingModule.png",
-        "brandingModule.png",
-        1106
-      ],
-      "align": "center",
-      "caption": "Admins can access Branding features under the System Settings menu"
-    }
-  ]
-}
-[/block]
-
+<Image title="brandingModule.png" alt={1106} align="center" src="https://files.readme.io/4eb787932ecd33de60b32c6801f96455575fa2be1cd17f345e86d0204626e2db-brandingModule.png">
+  Admins can access Branding features under the System Settings menu
+</Image>
 
 ## Default Header Template
 
 The default **Header** template selected is the **Classic** template. You can change this template  under the [Header](doc:customize-the-portal-header) tab.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f50e3b5a3db3cba353aa7cb0091cf0fd93e4469eecf865da72df7ead5bb8d849-defaultHeaderTemplate.png",
-        "",
-        "There are three Header templates to choose from with Classic being the default selection"
-      ],
-      "align": "center",
-      "caption": "There are three Header templates to choose from with Classic being the default selection"
-    }
-  ]
-}
-[/block]
-
+<Image alt="There are three Header templates to choose from with Classic being the default selection" align="center" src="https://files.readme.io/f50e3b5a3db3cba353aa7cb0091cf0fd93e4469eecf865da72df7ead5bb8d849-defaultHeaderTemplate.png">
+  There are three Header templates to choose from with Classic being the default selection
+</Image>
 
 ## Default Featured Video Template and Content Settings
 
 The **Featured Video** default display is set to **Poster Carousel** with the **Most Popular (7 Days)** video filter selected as the **Featured Content**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1b8e3b9-defaultFeaturedVideo.png",
-        "",
-        "The Featured Video carousel is set to Poster with the Featured Content set to Most Popular"
-      ],
-      "align": "center",
-      "caption": "The Featured Video carousel is set to Poster with the Featured Content set to Most Popular"
-    }
-  ]
-}
-[/block]
-
+<Image alt="The Featured Video carousel is set to Poster with the Featured Content set to Most Popular" align="center" src="https://files.readme.io/1b8e3b9-defaultFeaturedVideo.png">
+  The Featured Video carousel is set to Poster with the Featured Content set to Most Popular
+</Image>
 
 You can customize the content that appears here under the [Featured Video](doc:customize-the-featured-video-playlist) tab.
 
@@ -83,29 +44,16 @@ You can customize the content that appears here under the [Featured Video](doc:c
 
 The default carousel settings for a new Rev portal **Home Page** is the **Classic** carousel template. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/30da5a9-homePageTemplateSelections.png",
-        "homePageTemplateSelections.png",
-        1202
-      ],
-      "align": "center",
-      "caption": "There are two Home Page Template selections; Classic is the default selection."
-    }
-  ]
-}
-[/block]
-
+<Image title="homePageTemplateSelections.png" alt={1202} align="center" src="https://files.readme.io/30da5a9-homePageTemplateSelections.png">
+  There are two Home Page Template selections; Classic is the default selection.
+</Image>
 
 The default **Home Page** carousels are initially set to:
 
-- Recently Added Videos
-- Upcoming Events
-- Recommended for You
-- Continue Watching
-- None for all the remaining options
+* Recently Added Videos
+* Upcoming Events
+* Recommended for You
+* Continue Watching
+* None for all the remaining options
 
 You can customize these options under the [Home Page](doc:customize-the-home-page) tab.
