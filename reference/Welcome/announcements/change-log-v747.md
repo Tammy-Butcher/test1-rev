@@ -13,6 +13,7 @@ next:
 ## :star2: **New**
 
 ### Content Subscriptions
+
 *Rev Only*
 
 Rev APIs now support the ability to [Subscribe to a Channel or Category](ref:subscribe) . The **id** and **type** (channel/category) is required when subscribing.  
@@ -20,6 +21,7 @@ Rev APIs now support the ability to [Subscribe to a Channel or Category](ref:sub
 Once subscribed, use the [Unsubscribe to a Channel or Category](ref:unsubscribe) endpoint to unsubscribe to a specific channel or category.
 
 ### Get Categories for a User
+
 *Rev Only*
 
 The new [Get Categories for User](ref:getcategoriesforuser) API displays the number of videos in a category based on the video permissions inside the category or subcategory.  
@@ -50,12 +52,12 @@ The **key** needed is the image **id** returned in the Owner section.
 
 The following APIs have been updated to allow for support of a new parameter, **attendeeJoinMethod**, when the **accessControl** is equal to **Public**.  The attendeeJoinMethod can be either **registration** or **anonymous**.  If it is not specified, it defaults to registration.  
 
-  * [Create Webcast](ref:createevent) 
-  * [Update Webcast](ref:editevent) 
-  * [Patch Webcast](ref:patchwebcast) 
-  * [Get Webcast Details](ref:getevent) 
-  * [Get Webcasts By Time Range](ref:geteventslist) 
-  * [Search Webcasts By Custom Field or Date Range](ref:searchwebcasts) 
+* [Create Webcast](ref:createevent) 
+* [Update Webcast](ref:editevent) 
+* [Patch Webcast](ref:patchwebcast) 
+* [Get Webcast Details](ref:getevent) 
+* [Get Webcasts By Time Range](ref:geteventslist) 
+* [Search Webcasts By Custom Field or Date Range](ref:searchwebcasts) 
 
 When **anonymous** is specified, no user details are collected. View: [Anonymous Attendees for Public Events](doc:public-events#anonymous-attendees-for-public-events) topic for more details.
 
@@ -63,11 +65,11 @@ When **anonymous** is specified, no user details are collected. View: [Anonymous
 
 The following endpoints have been updated to include Pexip as a videoSourceType:
 
-  * [Create Webcast](ref:createevent) 
-  * [Update Webcast](ref:editevent) 
-  * [Patch Webcast](ref:patchwebcast) 
-  * [Get Webcast Details](ref:getevent) 
-  * [Get Webcasts By Time Range](ref:geteventslist) 
+* [Create Webcast](ref:createevent) 
+* [Update Webcast](ref:editevent) 
+* [Patch Webcast](ref:patchwebcast) 
+* [Get Webcast Details](ref:getevent) 
+* [Get Webcasts By Time Range](ref:geteventslist) 
 
 View: [Pexip](doc:pexip) integrations topic for details on usage.
 
@@ -88,9 +90,9 @@ The [Search Videos](ref:searchvideo) endpoint now has an optional **filter** par
 
 The **canEdit** permission is now returned in the following endpoints:
 
-  * [Get Video Details/Metadata](ref:getvideosdetails)
-  * [Search Videos](ref:searchvideo) 
-  * [Get Channels For User](ref:getuserchannels) 
+* [Get Video Details/Metadata](ref:getvideosdetails)
+* [Search Videos](ref:searchvideo) 
+* [Get Channels For User](ref:getuserchannels) 
 
 This is a Boolean value that, when true, means that a user can edit an object.  Note that an admin user always returns a value of true but this does not mean that every one can edit.
 
