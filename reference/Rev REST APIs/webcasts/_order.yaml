@@ -27,3 +27,4 @@
 - startevent
 - endevent
 - broadcastevent
+- pausebroadcastevent
