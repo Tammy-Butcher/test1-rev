@@ -12,14 +12,14 @@ next:
 ---
 Once the Webcast has ended, you may download all the results for the **Polls** you published during the event. The Polls Result report contains all the polls you published during the event and includes the following columns in a csv file:
 
-- Event name
-- Total number of attendees
-- Poll question and all available responses
-- Attendee's response to poll question(s) if not anonymous
-- Total number of respondents to the poll
-- Total number of attendees that did not respond
-- If the poll allowed multiple answers
-- Number of responses per answer
+* Event name
+* Total number of attendees
+* Poll question and all available responses
+* Attendee's response to poll question(s) if not anonymous
+* Total number of respondents to the poll
+* Total number of attendees that did not respond
+* If the poll allowed multiple answers
+* Number of responses per answer
 
 To view a polls log report:
 
