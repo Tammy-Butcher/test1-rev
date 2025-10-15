@@ -18,22 +18,10 @@ To unlock a user account that is locked out:
 
 2. Under **Access Management** > click the **Reset Password** button to generate an entirely new password for the User.  **View**: [Reset a User’s Password](doc:user-accounts#reset-a-users-password).
 
-3. Click **Unlock **to unlock the user account. The previous password will still be in place rather than forcing a password reset.
+3. Click **Unlock** to unlock the user account. The previous password will still be in place rather than forcing a password reset.
 
-4. The user account status must be either **Active **or in **Locked Out** status for these two buttons to be present at the same time. It cannot be expired.
+4. The user account status must be either **Active** or in **Locked Out** status for these two buttons to be present at the same time. It cannot be expired.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/89f428b2081fd0a36c99f68385e3ecdb7327160c0b28662f9c0860cda24923b0-unlockUserAccount.png",
-        "unlockUserAccount.png",
-        ""
-      ],
-      "align": "center",
-      "caption": "If the user account is Active or Locked Out you may reset the password or unlock the account"
-    }
-  ]
-}
-[/block]
+<Image title="unlockUserAccount.png" alt="If the user account is Active or Locked Out you may reset the password or unlock the account" align="center" src="https://files.readme.io/89f428b2081fd0a36c99f68385e3ecdb7327160c0b28662f9c0860cda24923b0-unlockUserAccount.png">
+  If the user account is Active or Locked Out you may reset the password or unlock the account
+</Image>
