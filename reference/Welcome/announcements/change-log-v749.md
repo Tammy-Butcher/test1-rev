@@ -13,6 +13,7 @@ next:
 ## :star2: **New**
 
 ### Webcast Content Embeds
+
 *Rev Only*
 
 New APIs are now available for the [Webcast Engagement Embed](doc:allow-webcast-engagement-embeds) feature release.  This feature allows you to embed content or URLs from third-party sites of your choice so that they function in a Rev webcast. API support includes:
@@ -21,7 +22,7 @@ New APIs are now available for the [Webcast Engagement Embed](doc:allow-webcast-
 
 * [Set Embedded Engagement Status](ref:setembeddedcontentlinkstatus) - Activates or deactivates an embedded engagement link for Webcast. Activating a link makes it visible to attendees. Multiple embeds can be activated but only one at a time is activated each time the API is run. Additionally, the webcast must be in-progress for an engagement to be activated.
 
-* [Get Embedded Engagements for a Webcast](ref:getwebcastembeddedcontentlinks) - Retrieves a list of *all *embedded webcast links for a specific webcast.  Also specifies if the links are active.
+* [Get Embedded Engagements for a Webcast](ref:getwebcastembeddedcontentlinks) - Retrieves a list of *all* embedded webcast links for a specific webcast.  Also specifies if the links are active.
 
 * [Update Embedded Engagement for a Webcast](ref:updateembeddedcontentlink) - Updates a (previously created) Embedded Webcast Engagement for a Webcast. You must specify both the webcast and the engagement Ids.
 
