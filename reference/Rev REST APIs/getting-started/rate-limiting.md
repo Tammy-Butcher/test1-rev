@@ -41,7 +41,7 @@ Consider the following scenario:
 
 ## Rate Limits Per Endpoint
 
-There are certain endpoints that have separate limits on rate limiting than the base limits specified above.  Those are noted in the table below.
+There are certain endpoints that have separate limits on rate limiting than the base limits specified above. Those are noted in the table below.
 
 [block:parameters]
 {
@@ -52,10 +52,10 @@ There are certain endpoints that have separate limits on rate limiting than the 
     "0-1": "2000",
     "1-0": "[Search Videos](ref:searchvideo) ",
     "1-1": "120",
-    "2-0": "[Add User](ref:createuser)  \n[Patch User](ref:edituserdetails)  \n[Delete User](ref:deleteuser)   ",
+    "2-0": "[Add User](ref:createuser)  \n[Patch User](ref:edituserdetails)  \n[Delete User](ref:deleteuser)",
     "2-1": "60",
     "3-0": "[Audit Endpoints](ref:audit) (all Audit endpoints)",
-    "3-1": "60 ",
+    "3-1": "60",
     "4-0": "[Upload Video](ref:uploadvideo-1)  \n[Update Video Metadata](ref:updatevideo)  \n[Get Video Report](ref:postvideoreport)  \n[Delete Video](ref:deletevideo)  \n[(Patch) Partially Update Video Metadata](ref:editvideopatch)",
     "4-1": "30",
     "5-0": "[Get Users By Login Date](ref:loginreport)",
