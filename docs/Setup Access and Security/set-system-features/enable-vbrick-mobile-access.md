@@ -14,24 +14,12 @@ To provide **Vbrick Mobile** app access to your portal users, you must make sure
 
 To enable Vbrick Mobile access:
 
-1.  Navigate to **Admin > System Settings > User Security**.
+1. Navigate to **Admin > System Settings > User Security**.
 2. Scroll to the **Rev Mobile App Settings** section and click the **Mobile App Access** checkbox.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a4b00a1-enableMobileApp.png",
-        null,
-        "Users must have an active account and email address before they will be able to use the mobile app"
-      ],
-      "align": "center",
-      "caption": "Users must have an active account and email address before they will be able to use the mobile app"
-    }
-  ]
-}
-[/block]
+<Image alt="Users must have an active account and email address before they will be able to use the mobile app" align="center" src="https://files.readme.io/a4b00a1-enableMobileApp.png">
+  Users must have an active account and email address before they will be able to use the mobile app
+</Image>
 
 Settings for the app can be adjusted based on your security and compliance requirements by adjusting the **Mobile Inactivity Timeout** setting to the number of days (up to 365) that a user may be inactive before they are logged out automatically.
 
@@ -40,7 +28,7 @@ The **Vbrick Mobile** app is designed for on-demand playback and provides the ab
 Once you enable access, users may [Download Vbrick Mobile](doc:download-vbrick-mobile) from both **Google Play** and the **Apple Store** for their mobile devices.
 
 > 🚧 Important!
-> 
+>
 > Vbrick mobile is available to all Vbrick cloud customers. Users must have an active account and email address in their company's cloud-hosted Vbrick portal to use the app.
 
 ## Microsoft Intune MAM Support
@@ -49,13 +37,13 @@ The Vbrick Mobile app is integrated with the **Microsoft Intune SDK** and can be
 
 ### Rev Configuration
 
-To enable **Mobile Application Management (MAM) **in Rev:
+To enable **Mobile Application Management (MAM)** in Rev:
 
 1. In the **Rev Mobile App Settings** section, check the **Microsoft Intune** checkbox.
 
 > ❗️ Warning!
-> 
-> This setting is disabled by default and should _not_ be enabled until Intune is configured first. Enabling this before Intune is configured can cause unexpected results or crashes.
+>
+> This setting is disabled by default and should *not* be enabled until Intune is configured first. Enabling this before Intune is configured can cause unexpected results or crashes.
 
 ### Microsoft Intune Configuration
 
@@ -73,7 +61,7 @@ The Vbrick Mobile app can be [granted permissions](https://learn.microsoft.com/e
 
 An admin can consent to the application for all users by performing the following steps:
 
-1. Login into <https://portal.azure.com> as admin.
+1. Login into [https://portal.azure.com](https://portal.azure.com) as admin.
 2. Click **Enterprise applications** from the left side menu.
 3. Click **Vbrick Mobile** from the app list.  If you do not see this option, try **install the app** and then login from the app first.
 4. Click **Permissions** from the left side menu.
