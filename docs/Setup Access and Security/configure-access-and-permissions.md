@@ -41,8 +41,144 @@ next:
 The Rev Access and Security Guides assist you in defining the security features that are enabled for your portal so that your content remains safe. 
 
 You also set your password and security question rules here and learn how to manage the Users and Groups that use them effectively.
-[block:html]
-{
-  "html": "<link\n\thref=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\n\trel=\"stylesheet\"\n/>\n<link\n\thref=\"https://fonts.googleapis.com/css?family=Open+Sans:400,600\"\n\trel=\"stylesheet\"\n/>\n\n<div class=\"card-menu\">\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Users</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">person</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/user-accounts\">Add User Accounts</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Groups</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">group</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/groups\">Add Groups</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Roles</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">verified_user</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/roles-and-permissions\">Roles & Permissions</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">Security</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">security</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/set-system-features\"\n\t\t\t\t\t>Manage User Security</a\n\t\t\t\t>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n  \n  <div class=\"card\">\n\t\t<div class=\"card-header\">Security</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">security</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/manage-content-restriction-features\"\n\t\t\t\t\t>Manage Content Restrictions</a\n\t\t\t\t>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n\n\t<div class=\"card\">\n\t\t<div class=\"card-header\">API Keys</div>\n\t\t<div class=\"card-main\">\n\t\t\t<i class=\"material-icons\">vpn_keys</i>\n\t\t\t<div class=\"main-description\">\n\t\t\t\t<a href=\"/docs/create-an-api-key\">Create an API Key</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n\n<style>\n\tbody {\n\t\tfont-family: \"Open Sans\", sans-serif;\n\t}\n\n\t.card-menu {\n\t\tdisplay: flex;\n\t\tflex-flow: row wrap;\n\t\tjustify-content: center;\n\t\talign-items: middle;\n\t}\n\n\t.card {\n\t\twidth: 150px; \n\t\tdisplay: flex; \n\t\tflex-direction: column; \n\t\tborder: 1px solid #4fb9e7; \n\t\tborder-radius: 4px; \n\t\toverflow: hidden; \n\t\tmargin: 5px; \n\t}\n\n\t.card:hover {\n\t\tbox-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n\t}\n\n\t.card-header {\n\t\tcolor: #1d9dd5;\n\t\ttext-align: center;\n\t\tfont-size: 12px;\n\t\tfont-weight: 600;\n\t\tborder-bottom: 1px solid #7ccbed;\n\t\tbackground-color: #b8e3f5;\n\t\tpadding: 5px 10px;\n\t}\n\n\t.card-main {\n\t\tdisplay: flex; \n\t\tflex-direction: column; \n\t\tjustify-content: center; \n\t\talign-items: center; \n\t\tpadding: 15px 0; \n\t}\n\n\t.material-icons {\n\t\tfont-size: 36px;\n\t\tcolor: #1d9dd5;\n\t\tmargin-bottom: 5px;\n\t}\n\n\t.main-description {\n\t\tcolor: #1d9dd5;\n\t\tfont-size: 12px;\n\t\ttext-align: center;\n\t\ttext-decoration: none;\n\t}\n\n\t.main-description a {\n\t\ttext-decoration: none;\n\t\tcolor: #1d9dd5;\n\t}\n</style>"
-}
-[/block]
+
+<HTMLBlock>{`
+<link
+	href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet"
+/>
+<link
+	href="https://fonts.googleapis.com/css?family=Open+Sans:400,600"
+	rel="stylesheet"
+/>
+
+<div class="card-menu">
+	<div class="card">
+		<div class="card-header">Users</div>
+		<div class="card-main">
+			<i class="material-icons">person</i>
+			<div class="main-description">
+				<a href="/docs/user-accounts">Add User Accounts</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Groups</div>
+		<div class="card-main">
+			<i class="material-icons">group</i>
+			<div class="main-description">
+				<a href="/docs/groups">Add Groups</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">Roles</div>
+		<div class="card-main">
+			<i class="material-icons">verified_user</i>
+			<div class="main-description">
+				<a href="/docs/roles-and-permissions">Roles & Permissions</a>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="card">
+		<div class="card-header">Security</div>
+		<div class="card-main">
+			<i class="material-icons">security</i>
+			<div class="main-description">
+				<a href="/docs/set-system-features"
+					>Manage User Security</a
+				>
+			</div>
+		</div>
+	</div>
+  
+  <div class="card">
+		<div class="card-header">Security</div>
+		<div class="card-main">
+			<i class="material-icons">security</i>
+			<div class="main-description">
+				<a href="/docs/manage-content-restriction-features"
+					>Manage Content Restrictions</a
+				>
+			</div>
+		</div>
+	</div>
+
+	<div class="card">
+		<div class="card-header">API Keys</div>
+		<div class="card-main">
+			<i class="material-icons">vpn_keys</i>
+			<div class="main-description">
+				<a href="/docs/create-an-api-key">Create an API Key</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<style>
+	body {
+		font-family: "Open Sans", sans-serif;
+	}
+
+	.card-menu {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: middle;
+	}
+
+	.card {
+		width: 150px; 
+		display: flex; 
+		flex-direction: column; 
+		border: 1px solid #4fb9e7; 
+		border-radius: 4px; 
+		overflow: hidden; 
+		margin: 5px; 
+	}
+
+	.card:hover {
+		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.card-header {
+		color: #1d9dd5;
+		text-align: center;
+		font-size: 12px;
+		font-weight: 600;
+		border-bottom: 1px solid #7ccbed;
+		background-color: #b8e3f5;
+		padding: 5px 10px;
+	}
+
+	.card-main {
+		display: flex; 
+		flex-direction: column; 
+		justify-content: center; 
+		align-items: center; 
+		padding: 15px 0; 
+	}
+
+	.material-icons {
+		font-size: 36px;
+		color: #1d9dd5;
+		margin-bottom: 5px;
+	}
+
+	.main-description {
+		color: #1d9dd5;
+		font-size: 12px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	.main-description a {
+		text-decoration: none;
+		color: #1d9dd5;
+	}
+</style>
+`}</HTMLBlock>
