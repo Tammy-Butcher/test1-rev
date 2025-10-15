@@ -20,3 +20,4 @@
 - getjwtencryptionkeys
 - deletejwtpublickey
 - getaccountiqcreditsusage
+- maintenance-schedule
