@@ -26,10 +26,6 @@ metadata:
 next:
   description: ''
 ---
-[block:callout]
-{
-  "type": "success",
-  "title": "Tip",
-  "body": "The [User Login API key](doc:user-accounts#create-a-user-api-key) parameters are generated in the Rev client."
-}
-[/block]
+> 👍 Tip
+>
+> The [User Login API key](doc:user-accounts#create-a-user-api-key) parameters are generated in the Rev client.
