@@ -16,5 +16,5 @@ next:
   description: ''
 ---
 > ❗️ Warning!
-> 
+>
 > This is a deprecated endpoint.
