@@ -11,30 +11,17 @@ next:
   description: ''
 ---
 Before you may import LDAP groups, you must first download and install the **Rev Cloud LDAP Connector**.
-[block:callout]
-{
-  "type": "info",
-  "title": "Note",
-  "body": "You do *not *need to download this application if you are using **On-Premises Rev**. Proceed to Add an LDAP Connector Device."
-}
-[/block]
-The latest version is found on the Vbrick Customer Portal [Downloads ](https://portal.vbrick.com/downloads/)site under the **Applications **tab.
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d80d2c9-ldapConnectorDownload.png",
-        "ldapConnectorDownload.png",
-        1202,
-        329,
-        "#edf0f0"
-      ],
-      "caption": "The LDAP Connector for Rev Cloud should be installed on your local environment"
-    }
-  ]
-}
-[/block]
+
+> 📘 Note
+>
+> You do *not* need to download this application if you are using **On-Premises Rev**. Proceed to Add an LDAP Connector Device.
+
+The latest version is found on the Vbrick Customer Portal [Downloads ](https://portal.vbrick.com/downloads/)site under the **Applications** tab.
+
+<Image title="ldapConnectorDownload.png" alt={1202} src="https://files.readme.io/d80d2c9-ldapConnectorDownload.png">
+  The LDAP Connector for Rev Cloud should be installed on your local environment
+</Image>
+
 During installation, you are prompted for the following information:
 
 * URL to your Rev portal
