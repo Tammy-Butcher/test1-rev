@@ -17,3 +17,4 @@
 - createwebcastregistrationfield
 - editwebcastregistrationfield
 - deletewebcastregistrationfield
+- getjwtencryptionkeys
