@@ -13,6 +13,7 @@ next:
 ## :star2: **New**
 
 ### Producer Webcast API Enhancements
+
 *Rev Only*
 
 As part of Producer's new [Background feature](changelog:release-notes-v751-februarymarch-2023) and the ability to upload custom backgrounds and streaming layouts, there are also two new APIs for uploading and deleting **Producer** backgrounds:
@@ -32,17 +33,15 @@ In the v7.51 release, Account Admins are able to hide all detailed **individual 
 * [Get Video Report](ref:getvideoreport) 
 * [Get Video Watch Report](ref:uservideocompletion) 
 * [Get Webcast Attendees Report](ref:getposteventsessions) 
-     * **Note**: Totals are returned but the session array is not. Includes deprecated version.
+  * **Note**: Totals are returned but the session array is not. Includes deprecated version.
 * [Get Users By Login Date](ref:loginreport) 
 * [Get Webcast Attendees in Realtime](ref:getrealtimeattendeessearchrequest) 
-     * **Note**: Totals are returned but the attendees array is not.
-[block:callout]
-{
-  "type": "warning",
-  "title": "Important!",
-  "body": "Audit service detailed analytics must be disabled manually."
-}
-[/block]
+  * **Note**: Totals are returned but the attendees array is not.
+
+> 🚧 Important!
+>
+> Audit service detailed analytics must be disabled manually.
+
 ### Video Upload and Migration Updates
 
 You are now able to upload and migrate a video from outside of Rev and retain the video's total view count.  A new parameter, **legacyViewCount**, can be used to track and retain the *original* view count of outside videos when porting them to Rev.
@@ -56,13 +55,11 @@ As users in Rev begin to view the video, the legacyViewCount parameter is then u
 
 * **viewCount** in [Search Videos](ref:searchvideo) 
 * **totalViews** in [Get Video Details/Metadata](ref:getvideosdetails)
-[block:callout]
-{
-  "type": "info",
-  "title": "Note",
-  "body": "These views are not reflected in video analytics."
-}
-[/block]
+
+> 📘 Note
+>
+> These views are not reflected in video analytics.
+
 ### Get (Deleted) Video Comments
 
 A new parameter now allows admin accounts to view unredacted deleted comments on the [Get Video Comments](ref:getvideocomments) endpoint.  The **showAll** parameter is set to false by default.
@@ -71,9 +68,9 @@ When toggled to true, if the account is an *admin* account (Account Admin or Med
 
 * Return unredacted comment values with text, userName, firstName, lastName, and date.
 * There are three new response values as part of the addition:
-     * **isRemoved** - true/false to signify a deleted comment
-     * **deletedBy** - user name that deleted the comment
-     * **deletedWhen** - date and time the comment was deleted
+  * **isRemoved** - true/false to signify a deleted comment
+  * **deletedBy** - user name that deleted the comment
+  * **deletedWhen** - date and time the comment was deleted
 
 If **showAll** is false, the endpoint performs exactly as it does today with only *redacted* values appearing.
 
@@ -86,7 +83,7 @@ A new **htmlComment** parameter is now returned in the [Get Webcast Comments Log
 
 ### API Structure and Documentation Updates
 
-To provide more structure and consistency in the data that is returned in our APIs, the [Get Webcast Q&A Report](ref:geteventquestions) API has been updated to include the following objects in the main response body:
+To provide more structure and consistency in the data that is returned in our APIs, the [Get Webcast Q\&A Report](ref:geteventquestions) API has been updated to include the following objects in the main response body:
 
 * **userName** - This is the username of the user submitting the question.
 * **repliedUserName** - This is the username of the user who replies to the question, if applicable.
