@@ -32,4 +32,4 @@ next:
 
 > 👍 Tip
 > 
-> **Vbrick **in the table above refers to browser plug-ins that are used to play the stream type. To use these plug-ins, users may need to grant permission for them to run in the browser.
+> **Vbrick** in the table above refers to browser plug-ins that are used to play the stream type. To use these plug-ins, users may need to grant permission for them to run in the browser.
