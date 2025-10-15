@@ -10,11 +10,32 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n  <li>&#128187; <a href=\"/docs/vbrick-distribution\">Vbrick Distribution</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
+</div>
+
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
 }
-[/block]
+  
+</style>
+`}</HTMLBlock>
 
 Vbrick Rev has many accessibility features implemented and continues to add improvements for people using assistive technology so that when using Rev it is an overall positive experience.  Current accessibility features include keyboard, mouse, and audio/video controls and transcripts.
 
@@ -22,12 +43,12 @@ Vbrick Rev has many accessibility features implemented and continues to add impr
 
 Keyboard navigation and automatic tabbing is implemented in both navigaton headers and in the VOD and Webcast sidebar flyouts.
 
-- The `Tab` order proceeds through the navigation, sidebar tabs, and then the body content
-- Navigate forward with `Tab`, using `Enter` to make a selection and arrow keys to navigate through content
-- Pressing `Shift+Tab` highlights the previously highlighted content (goes back)
-- You can use automatic keyboard tabbing to navigate through the following content/areas in Rev:
-  - **Home** page carousel and all video pages such as **My Videos**, **All Videos** and **Search** result pages. 
-  - Rev's [video player](doc:rev-video-player-features#tab-navigation-support) features
+* The `Tab` order proceeds through the navigation, sidebar tabs, and then the body content
+* Navigate forward with `Tab`, using `Enter` to make a selection and arrow keys to navigate through content
+* Pressing `Shift+Tab` highlights the previously highlighted content (goes back)
+* You can use automatic keyboard tabbing to navigate through the following content/areas in Rev:
+  * **Home** page carousel and all video pages such as **My Videos**, **All Videos** and **Search** result pages. 
+  * Rev's [video player](doc:rev-video-player-features#tab-navigation-support) features
 
 ## Audio / Video Controls
 
@@ -39,6 +60,6 @@ View the [video player support page](doc:rev-video-player-features) for details 
 
 When selecting your [theme colors](doc:apply-ui-branding-and-theme-colors), ensuring appropriate contrast is critical for accessibility. Check to ensure the following color pairs offer sufficient contrast:
 
-- Primary Color and Primary Font Color
-- Accent Color and Accent Font Color
-- Header Background Color and Header Font Color
+* Primary Color and Primary Font Color
+* Accent Color and Accent Font Color
+* Header Background Color and Header Font Color
