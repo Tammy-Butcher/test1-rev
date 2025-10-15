@@ -15,19 +15,7 @@ This setting determines the autoplay setting of a webcast. When enabled, the web
 Requirements:
 
 * Available for all video source types
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8d33b0c-autoplayWebcasts.png",
-        "autoplayWebcasts.png",
-        697,
-        68,
-        "#eef1f3"
-      ]
-    }
-  ]
-}
-[/block]
-When autoplay is disabled, all attendees must click the **Play ** control to start the video stream upon joining the webcast.  This click action allows the browser to play the audio to play unmuted.
+
+![697](https://files.readme.io/8d33b0c-autoplayWebcasts.png "autoplayWebcasts.png")
+
+When autoplay is disabled, all attendees must click the **Play** control to start the video stream upon joining the webcast.  This click action allows the browser to play the audio to play unmuted.
