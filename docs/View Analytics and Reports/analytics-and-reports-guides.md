@@ -28,6 +28,6 @@ next:
 ---
 With Rev, you have access to robust insights delivered in real-time with analytics for live events and engagement analytics for video-on-demand reports. You can optimize your return on video investments during and after broadcasts by extracting trends and patterns about viewer experience and engagement report downloads. 
 
-You are able to track video viewing down to _each_ employee to support compliance requirements. Measure the viewing and completeness of viewing to see the whole picture.
+You are able to track video viewing down to *each* employee to support compliance requirements. Measure the viewing and completeness of viewing to see the whole picture.
 
 The **Analytics and Report** topics in this section allow you to understand the power of your portal!
