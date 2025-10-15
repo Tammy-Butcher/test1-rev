@@ -13,6 +13,7 @@ next:
 ## :star2: **New**
 
 ### Webcast Attendee Engagement / Push Links
+
 *Rev Only*
 
 This release includes a new webcast attendee engagement feature that allows hosts to push link (URLs) to their attendees during a live event.  New API support for the [Add Links to a Webcast](doc:add-links-to-a-webcast) feature include:
@@ -28,6 +29,7 @@ This release includes a new webcast attendee engagement feature that allows host
 * [Delete a Push Link for a Webcast](ref:deletewebcastpushcontentlink) - Deletes previously created push links for a Webcast. You must specify both the webcast and the link Ids.
 
 ### Webcast Video Source / Producer Event Addition
+
 *Rev Only* 
 
 The [Resend Email to External Presenter](ref:resendexternalpresenteremail) endpoint will trigger email notifications for an individual [Guest presenter](doc:producer-settings) as needed for the new Guest presenter feature in Producer events. 
