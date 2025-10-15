@@ -33,3 +33,4 @@
 - endevent
 - broadcastevent
 - pausebroadcastevent
+- startrecordingevent
