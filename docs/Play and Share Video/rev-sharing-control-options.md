@@ -18,21 +18,9 @@ Clicking the **Share Screen** button prompts you to select what screen(s) you ar
 
 You can also click the **Share system audio** checkbox to share what audio may be currently playing (if you have audio as part of a presentation for example).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3b0e975-shareScreenSelfProduce.png",
-        "shareScreenSelfProduce.png",
-        756
-      ],
-      "align": "center",
-      "caption": "Once you start an event, decide what you are going to share as part of it"
-    }
-  ]
-}
-[/block]
+<Image title="shareScreenSelfProduce.png" alt={756} align="center" src="https://files.readme.io/3b0e975-shareScreenSelfProduce.png">
+  Once you start an event, decide what you are going to share as part of it
+</Image>
 
 Keep in mind that you can always change what you are sharing or even change the screen you are sharing by clicking the **Change Screen** button (once you have started sharing a screen).  The **Stop Share** button will stop sharing the screen completely if needed.
 
@@ -40,22 +28,9 @@ Keep in mind that you can always change what you are sharing or even change the 
 
 Use the **Start Camera** and **Start Microphone** buttons to use the default webcam and microphone options available on your computer.  These can always be changed if you have more than one option available.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/7042c6c-webcamScreenShareButtons.png",
-        null,
-        "The Start Camera and Start Microphone buttons use the default webcam and microphone you have on your system"
-      ],
-      "align": "center",
-      "sizing": "50% ",
-      "caption": "The Start Camera and Start Microphone buttons use the default webcam and microphone you have on your system"
-    }
-  ]
-}
-[/block]
+<Image alt="The Start Camera and Start Microphone buttons use the default webcam and microphone you have on your system" align="center" width="50% " src="https://files.readme.io/7042c6c-webcamScreenShareButtons.png">
+  The Start Camera and Start Microphone buttons use the default webcam and microphone you have on your system
+</Image>
 
 ### Rev Producer AV Controls
 
