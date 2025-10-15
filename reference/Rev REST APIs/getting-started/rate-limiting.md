@@ -41,31 +41,43 @@ Consider the following scenario:
 
 ## Rate Limits Per Endpoint
 
-There are certain endpoints that have separate limits on rate limiting than the base limits specified above.  Those are noted in the table below.
+There are certain endpoints that have separate limits on rate limiting than the base limits specified above. Those are noted in the table below.
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Endpoint",
-    "h-1": "Rate Limit (Calls per Minute)",
-    "0-0": "[Get Video Details/Metadata](ref:getvideosdetails)",
-    "0-1": "2000",
-    "1-0": "[Search Videos](ref:searchvideo) ",
-    "1-1": "120",
-    "2-0": "[Audit Endpoints](ref:audit) (all Audit endpoints)",
-    "2-1": "60 ",
-    "3-0": "[Upload Video](ref:uploadvideo-1)  \n[Update Video Metadata](ref:updatevideo)  \n[Get Video Report](ref:postvideoreport)  \n[Delete Video](ref:deletevideo)  \n[(Patch) Partially Update Video Metadata](ref:editvideopatch)",
-    "3-1": "30",
-    "4-0": "[Get Users By Login Date](ref:loginreport)",
-    "4-1": "10",
-    "5-0": "[Get Webcast Attendees Realtime](ref:getrealtimeattendeessearchrequest)",
-    "5-1": "2"
-  },
-  "cols": 2,
-  "rows": 6,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+<!-- block:parameters -->
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Endpoint</th>
+        <th>Rate Limit (Calls per Minute)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="ref:getvideosdetails">Get Video Details/Metadata</a></td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td><a href="ref:searchvideo">Search Videos</a></td>
+        <td>120</td>
+      </tr>
+      <tr>
+        <td><a href="ref:audit">Audit Endpoints</a> (all Audit endpoints)</td>
+        <td>60</td>
+      </tr>
+      <tr>
+        <td><a href="ref:uploadvideo-1">Upload Video</a><br/><a href="ref:updatevideo">Update Video Metadata</a><br/><a href="ref:postvideoreport">Get Video Report</a><br/><a href="ref:deletevideo">Delete Video</a><br/><a href="ref:editvideopatch">(Patch) Partially Update Video Metadata</a></td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td><a href="ref:loginreport">Get Users By Login Date</a></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td><a href="ref:getrealtimeattendeessearchrequest">Get Webcast Attendees Realtime</a></td>
+        <td>2</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<!-- /block:parameters -->
