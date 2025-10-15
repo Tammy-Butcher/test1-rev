@@ -20,60 +20,19 @@ To generate an additional voice **Audio Track** for a video:
 2. Click the **Add** button next to the language you want to add a voice **Audio Track** for. 
 3. **Pending Save** appears as a status in the **Audio Track** column for the language.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2f0c6df0749951de77ef746f1f6fb4e15bd336a93072d97d3d619b421dacd4e9-pendingSaveAudioTrack.png",
-        "",
-        "Audio Tracks that you add are generated once you Save the video"
-      ],
-      "align": "center",
-      "caption": "Audio Tracks that you add are generated once you Save the video"
-    }
-  ]
-}
-[/block]
+<Image alt="Audio Tracks that you add are generated once you Save the video" align="center" src="https://files.readme.io/2f0c6df0749951de77ef746f1f6fb4e15bd336a93072d97d3d619b421dacd4e9-pendingSaveAudioTrack.png">
+  Audio Tracks that you add are generated once you Save the video
+</Image>
 
-
-4. Notice that languages that do not have a transcription file added do _not_ have the ability to have a voice **Audio Track** added as seen in the German and Italian row in the image above; the **Add** button is disabled until the **Subtitle** file is [generated or uploaded](doc:adding-a-subtitle-file-to-a-video).
+4. Notice that languages that do not have a transcription file added do *not* have the ability to have a voice **Audio Track** added as seen in the German and Italian row in the image above; the **Add** button is disabled until the **Subtitle** file is [generated or uploaded](doc:adding-a-subtitle-file-to-a-video).
 5. When **Save** is clicked, the video begins processing and is unable to be viewed until the Audio Tracks are generated. You are notified through Rev notifications and email when your new audio is available.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/440a5f0c3e3f17155f6f2f27654db38c2b5431f57f81b3fc28f896b201a71a6f-languageNotification.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/440a5f0c3e3f17155f6f2f27654db38c2b5431f57f81b3fc28f896b201a71a6f-languageNotification.png" />
 
 6. People that view the video now have the ability to view subtitles and hear the voice audio of their choice in the languages you have added.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/aa5e90d822839635812190f16eb0ff418b96d90766d3940ca6a5f2335021e4d6-newLanguagesAdded.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/aa5e90d822839635812190f16eb0ff418b96d90766d3940ca6a5f2335021e4d6-newLanguagesAdded.png" />
 
 > 📘 Note
-> 
+>
 > As mentioned, you may generate up to ten additional voice **Audio Tracks** at this time.
