@@ -16,13 +16,13 @@ next:
 
 There is now a **sensitiveContent** flag for our video endpoints that completely removes a video from search and most views within the platform. This boolean flag is set to **false** by default and must be enabled through Vbrick support before use. It can be set and is returned in the following endpoints:
 
-- [Upload Video](ref:uploadvideo-1)
-- [Add Video Link](ref:createvideolink-1)
-- [Update Video Details/Metadata](ref:updatevideo)
-- [Patch Video Details/Metadata](ref:editvideopatch)
-- [Migrate Video](ref:migratevideo)
-- [Get Video Details/Metadata](ref:getvideosdetails)
-- [Search Videos](ref:searchvideo)
+* [Upload Video](ref:uploadvideo-1)
+* [Add Video Link](ref:createvideolink-1)
+* [Update Video Details/Metadata](ref:updatevideo)
+* [Patch Video Details/Metadata](ref:editvideopatch)
+* [Migrate Video](ref:migratevideo)
+* [Get Video Details/Metadata](ref:getvideosdetails)
+* [Search Videos](ref:searchvideo)
 
 ## :wrench: **Updated/Fixed**
 
