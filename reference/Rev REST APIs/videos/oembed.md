@@ -18,53 +18,24 @@ metadata:
 next:
   description: ''
 ---
-**Example Url Query Params **
+**Example Url Query Params**
 
 Url example(s):
-[block:code]
-{
-  "codes": [
-    {
-      "code": "https://myRevURL.vbrick.com/#/videos/5e0625da-d2a0-45d7-a221-deb49b9623ab",
-      "language": "http",
-      "name": "url"
-    }
-  ]
-}
-[/block]
 
-[block:code]
-{
-  "codes": [
-    {
-      "code": "https%3A%2F%2FmyRevURL.vbrick.com%2F%23%2Fvideos%2F5e0625da-d2a0-45d7-a221-deb49b9623ab",
-      "language": "http",
-      "name": "encoded url"
-    }
-  ]
-}
-[/block]
+```http url
+https://myRevURL.vbrick.com/#/videos/5e0625da-d2a0-45d7-a221-deb49b9623ab
+```
+
+```http encoded url
+https%3A%2F%2FmyRevURL.vbrick.com%2F%23%2Fvideos%2F5e0625da-d2a0-45d7-a221-deb49b9623ab
+```
+
 Shared and encoded url example(s):
-[block:code]
-{
-  "codes": [
-    {
-      "code": "https://myRevURL.vbrick.com/sharevideo/5e0625da-d2a0-45d7-a221-deb49b9623ab",
-      "language": "http",
-      "name": "shared url"
-    }
-  ]
-}
-[/block]
 
-[block:code]
-{
-  "codes": [
-    {
-      "code": "https%3A%2F%2FmyRevURL.vbrick.com%2Fsharevideo%2F5e0625da-d2a0-45d7-a221-deb49b9623ab",
-      "language": "http",
-      "name": "encoded shared url"
-    }
-  ]
-}
-[/block]
+```http shared url
+https://myRevURL.vbrick.com/sharevideo/5e0625da-d2a0-45d7-a221-deb49b9623ab
+```
+
+```http encoded shared url
+https%3A%2F%2FmyRevURL.vbrick.com%2Fsharevideo%2F5e0625da-d2a0-45d7-a221-deb49b9623ab
+```
