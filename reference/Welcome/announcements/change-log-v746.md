@@ -18,7 +18,7 @@ Rev APIs now support [OAuth2 Authorization](ref:authorize) with fully compliant 
 
 ### Search Suggestions for Videos
 
-The new [Search Suggestions for Videos](ref:searchsuggestedvideos) API allows you to enter a string of 2-15 characters to return video search suggestions (up to 10) based on that string.  The suggestions returned all begin with the string entered and results directly mimic using the **Rev UI ** search bar.
+The new [Search Suggestions for Videos](ref:searchsuggestedvideos) API allows you to enter a string of 2-15 characters to return video search suggestions (up to 10) based on that string.  The suggestions returned all begin with the string entered and results directly mimic using the **Rev UI** search bar.
 
 ### Get User Pending Completion Videos
 
