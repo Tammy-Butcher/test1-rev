@@ -15,46 +15,20 @@ You may bulk edit video settings and metadata to save time when edits on multipl
 To use bulk transcription and AI metadata creation, you must have the [Rev IQ user role](doc:granular-roles-and-permissions) and your Rev portal must have [Rev IQ credits](doc:rev-license-types-and-add-ons#rev-iq-credits) available.
 
 > 👍 Tip
-> 
-> There is a **1000 **video maximum cap that can be edited at once. You must have bulk video editing permissions before you may perform the operations described in this guide.
+>
+> There is a **1000** video maximum cap that can be edited at once. You must have bulk video editing permissions before you may perform the operations described in this guide.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2481164-bulkEditIcon.png",
-        "bulkEditIcon.png",
-        "The Bulk Edit icon appears in most Media menu dropdown options"
-      ],
-      "align": "center",
-      "caption": "The Bulk Edit icon appears in most Media menu dropdown options"
-    }
-  ]
-}
-[/block]
-
+<Image title="bulkEditIcon.png" alt="The Bulk Edit icon appears in most Media menu dropdown options" align="center" src="https://files.readme.io/2481164-bulkEditIcon.png">
+  The Bulk Edit icon appears in most Media menu dropdown options
+</Image>
 
 Bulk editing functions are accessed through the **Bulk Edit** icon that appears with right navigation icons under most [Media](doc:user-menu-options#the-media-menu) menu dropdown options.
 
 When you click the **Bulk Edit** icon, videos appear in list form for selection. Videos are selected for bulk editing by selecting the checkbox to the left of the video. Click the topmost checkbox to select all videos in the displayed list.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/8d13a1e90ea9844ee1c052168fa8207c94d0b752f7d9fca24ee34b0f171b2542-bulkEditUI.png",
-        "bulkEditUI.png",
-        "Selecting a checkbox next to a video selects it for inclusion in the bulk edit"
-      ],
-      "align": "center",
-      "caption": "Selecting a checkbox next to a video selects it for inclusion in the bulk edit"
-    }
-  ]
-}
-[/block]
-
+<Image title="bulkEditUI.png" alt="Selecting a checkbox next to a video selects it for inclusion in the bulk edit" align="center" src="https://files.readme.io/8d13a1e90ea9844ee1c052168fa8207c94d0b752f7d9fca24ee34b0f171b2542-bulkEditUI.png">
+  Selecting a checkbox next to a video selects it for inclusion in the bulk edit
+</Image>
 
 When you click the **Bulk Edit** (pencil) icon, there are six icons in the right navigation bar that perform various functions that are explained below.
 
@@ -72,12 +46,12 @@ When you click the **Bulk Edit** (pencil) icon, there are six icons in the right
 
 When available, the following features generally behave in the following manner during a bulk edit process unless otherwise noted:
 
-- **Add** adds to whatever is already in place on the video.  No setting already in place is modified.
-- **Replace **completely removes a current setting and replaces the configuration with your new setting.
-- **Remove **deletes a current setting entirely and nothing new is added.
+* **Add** adds to whatever is already in place on the video.  No setting already in place is modified.
+* **Replace** completely removes a current setting and replaces the configuration with your new setting.
+* **Remove** deletes a current setting entirely and nothing new is added.
 
 When you use the **Auto Generate Transcription & Metadata** features, the generate and replace features may vary depending on the field in use.  View the [Bulk Transcription and AI Metadata Creation](doc:bulk-transcription-and-ai-metadata-creation) topic for details.
 
 > 👍 Tip
-> 
-> If you are unsure of the results of a bulk edit, **test **your settings on **one** video first before applying it to multiple videos!
+>
+> If you are unsure of the results of a bulk edit, **test** your settings on **one** video first before applying it to multiple videos!
