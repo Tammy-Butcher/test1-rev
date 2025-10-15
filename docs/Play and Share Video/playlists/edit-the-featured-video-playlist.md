@@ -22,23 +22,10 @@ To view the the **Featured Videos** playlist:
 
 4. You can also [share and embed the Featured Playlist](doc:share-a-playlist) and apply layout and styling effects to it.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/73ef4bf-editFeaturedVideo.png",
-        null,
-        "Edit the Featured Videos Playlist as you would an individual playlist, including sharing and embedding options"
-      ],
-      "align": "center",
-      "caption": "Edit the Featured Videos Playlist as you would an individual playlist, including sharing and embedding options"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Edit the Featured Videos Playlist as you would an individual playlist, including sharing and embedding options" align="center" src="https://files.readme.io/73ef4bf-editFeaturedVideo.png">
+  Edit the Featured Videos Playlist as you would an individual playlist, including sharing and embedding options
+</Image>
 
 > 📘 Note
-> 
+>
 > Only Account and Media Admins may andd and update the Featured Videos playlist.  All other accounts may only share and embed the Featured Videos playlist.
