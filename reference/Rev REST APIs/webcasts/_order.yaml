@@ -30,3 +30,4 @@
 - geteventstatus
 - getplaybackurl
 - startevent
+- endevent
