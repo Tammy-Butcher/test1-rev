@@ -19,18 +19,18 @@ This guide outlines the essential steps for integrating third-party Video Conten
 The **Vbrick Universal eCDN SDK** is available to both **Vbrick EVP** customers and **Vbrick Universal eCDN** customers.  All customers use a provided tenant / cloud-based Vbrick Management Interface to configure the use of this SDK.  The **Vbrick Management Interface** is also commonly referred to **Vbrick Rev**.
 
 > 📘 Note
-> 
+>
 > The initial configuration is slightly different for **Vbrick EVP** customers versus **Vbrick Universal eCDN** customers.
-> 
-> - If you are a **Vbrick EVP Customer** or **Partner**, follow [Enable JWT Authentication](doc:enable-jwt-authentication) to setup JWT in the Vbrick Management Interface. 
-> - If you are **Vbrick Universal eCDN Customer** or **Partner**, follow [How To Set Up the Vbrick Universal eCDN](doc:how-to-set-up-the-vbrick-universal-ecdn) to setup and configure your Vbrick Universal eCDN account in Vbrick Management Interface.
+>
+> * If you are a **Vbrick EVP Customer** or **Partner**, follow [Enable JWT Authentication](doc:enable-jwt-authentication) to setup JWT in the Vbrick Management Interface. 
+> * If you are **Vbrick Universal eCDN Customer** or **Partner**, follow [How To Set Up the Vbrick Universal eCDN](doc:how-to-set-up-the-vbrick-universal-ecdn) to setup and configure your Vbrick Universal eCDN account in Vbrick Management Interface.
 
 You will need the following information from the **Vbrick Management Interface** to continue with the SDK integration:
 
-- **hostName**: Vbrick Rev hostname/URL (management interface tenant URL. Ex. acme.vbrickrev.com )
-- **jwtKeyName**: Default is RevConnectDefault (which can be verified within the management interface)
-- **apiKey**
-- **apiSecret**
+* **hostName**: Vbrick Rev hostname/URL (management interface tenant URL. Ex. acme.vbrickrev.com )
+* **jwtKeyName**: Default is RevConnectDefault (which can be verified within the management interface)
+* **apiKey**
+* **apiSecret**
 
 ## Integration Steps
 
@@ -177,71 +177,260 @@ let Vbrick_eCDN_Config = {
 
 ## Appendix A: Parameter Reference for Vbrick Universal eCDN SDK
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Parameter",
-    "h-1": "Default",
-    "h-2": "Description",
-    "0-0": "sourceUrl",
-    "0-1": "empty",
-    "0-2": "This **required** string indicates the original video source URL.",
-    "1-0": "eventId",
-    "1-1": "empty",
-    "1-2": "This **required** string GUID provides a unique identifier for this event/webcast.  \n  \n**Best Practice**: The integration should supply a unique identifier for this specific event.",
-    "2-0": "eventTitle",
-    "2-1": "empty",
-    "2-2": "This **required** string provides the title of the supplied video source URL.  \n  \n**Best Practice**: The integration should supply an appropriate title associated with this specific event.",
-    "3-0": "eventDesc",
-    "3-1": "empty",
-    "3-2": "This optional string provides a brief description for this event.",
-    "4-0": "userId",
-    "4-1": "empty",
-    "4-2": "This **required** string provides a unique identifier for the current user.  \n  \n**Best Practice**: The integration should supply a unique identifier for this specific user for example email address of the user so that user level analytics can be captured.",
-    "5-0": "verbose",
-    "5-1": "false",
-    "5-2": "When set to true, turns on additional logging in the console.  \nWhen set to a function, logging is sent to that function instead of the console.",
-    "6-0": "debug",
-    "6-1": "false",
-    "6-2": "When set to true, may turn on more informative messaging in the console as well as enabling some debug features.",
-    "7-0": "enableBuffering",
-    "7-1": "true",
-    "7-2": "When true and used with debug, above, enables an overlay widget that shows buffering and playback statistics.",
-    "8-0": "player",
-    "8-1": "empty",
-    "8-2": "This **required** object reference points to the targeted instance object of the player.",
-    "9-0": "playerRoot",
-    "9-1": "empty",
-    "9-2": "This object reference points to the player factory object.  \n  \n**Best Practice**: The integration must supply this reference if the player factory is encapsulated in a module or is otherwise not accessible through its common global scope name.",
-    "10-0": "rev",
-    "10-1": "empty",
-    "10-2": "This object supplies configuration parameters for engaging with Vbrick Rev.",
-    "11-0": "rev.hostName",
-    "11-1": "empty",
-    "11-2": "This **required** string provides Vbrick Rev cloud host name.",
-    "12-0": "rev.apiKey",
-    "12-1": "empty",
-    "12-2": "This **required** string provides the API Key from Vbrick Rev. This is **optional** if you are generating your JWT in which case you should use the **rev.jwtToken** parameter below instead.",
-    "13-0": "rev.apiSecret",
-    "13-1": "empty",
-    "13-2": "This **required** string provides the API Secret associated with the API Key from Vbrick Rev. This is **optional** if you are generating your JWT in which case you should use the **rev.jwtToken** parameter below instead.",
-    "14-0": "rev.jwtKeyName",
-    "14-1": "empty",
-    "14-2": "This **required** string provides the JWT Key Name from Vbrick Rev to use when using Rev to generate a JWT for authentication. This is **optional** if you are generating your JWT in which case you should use **rev.jwtToken** parameter below instead.",
-    "15-0": "rev.jwtToken",
-    "15-1": "empty",
-    "15-2": "This **optional** string is a customer generated JWT. Use this _only_ if you are generating your own JWT.  \n  \n**Note**: View the topic on [JWT Authentication](ref:jwt-authentication) for generating your own JWT. If supplying this then _do not_ supply **apiKey**, **apiSecret**, and **jwtKeyName**."
-  },
-  "cols": 3,
-  "rows": 16,
-  "align": [
-    "left",
-    "left",
-    "left"
-  ]
-}
-[/block]
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Parameter
+      </th>
 
+      <th>
+        Default
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        sourceUrl
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string indicates the original video source URL.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        eventId
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string GUID provides a unique identifier for this event/webcast.  
+
+        * \*Best Practice\*\*: The integration should supply a unique identifier for this specific event.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        eventTitle
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string provides the title of the supplied video source URL.  
+
+        * \*Best Practice\*\*: The integration should supply an appropriate title associated with this specific event.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        eventDesc
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This optional string provides a brief description for this event.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        userId
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string provides a unique identifier for the current user.  
+
+        * \*Best Practice\*\*: The integration should supply a unique identifier for this specific user for example email address of the user so that user level analytics can be captured.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        verbose
+      </td>
+
+      <td>
+        false
+      </td>
+
+      <td>
+        When set to true, turns on additional logging in the console.\
+        When set to a function, logging is sent to that function instead of the console.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        debug
+      </td>
+
+      <td>
+        false
+      </td>
+
+      <td>
+        When set to true, may turn on more informative messaging in the console as well as enabling some debug features.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        enableBuffering
+      </td>
+
+      <td>
+        true
+      </td>
+
+      <td>
+        When true and used with debug, above, enables an overlay widget that shows buffering and playback statistics.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        player
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** object reference points to the targeted instance object of the player.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        playerRoot
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This object reference points to the player factory object.  
+
+        * \*Best Practice\*\*: The integration must supply this reference if the player factory is encapsulated in a module or is otherwise not accessible through its common global scope name.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        rev
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This object supplies configuration parameters for engaging with Vbrick Rev.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        rev.hostName
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string provides Vbrick Rev cloud host name.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        rev.apiKey
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string provides the API Key from Vbrick Rev. This is **optional** if you are generating your JWT in which case you should use the **rev.jwtToken** parameter below instead.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        rev.apiSecret
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string provides the API Secret associated with the API Key from Vbrick Rev. This is **optional** if you are generating your JWT in which case you should use the **rev.jwtToken** parameter below instead.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        rev.jwtKeyName
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **required** string provides the JWT Key Name from Vbrick Rev to use when using Rev to generate a JWT for authentication. This is **optional** if you are generating your JWT in which case you should use **rev.jwtToken** parameter below instead.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        rev.jwtToken
+      </td>
+
+      <td>
+        empty
+      </td>
+
+      <td>
+        This **optional** string is a customer generated JWT. Use this *only* if you are generating your own JWT.  
+
+        * \*Not&#x65;**: View the topic on[JWT Authentication](ref:jwt-authentication) for generating your own JWT. If supplying this then *do not* supply **apiKe&#x79;**,**apiSecre&#x74;**, and**jwtKeyName\*\*.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ## Appendix B: Using the Vbrick Video Video.js Plugin
 
@@ -265,10 +454,10 @@ If you are using **Video.js plugin** instead of directly integrating with **Vide
 3. Provide Vbrick configuration/credentials. View the steps on providing [Vbrick configuration/credentials](ref:vbrick-universal-sdk#integration-steps) above in the integration steps section.
 
 > ❗️ Caution!
-> 
-> - Do _not_ set **sourceUrl**, it is passed to the player directly (see below). 
-> - Do _not_ set the **source** on the player in **onRcvrReady**.
-> - Do _not_ set the **player** but do set the **playerRoot** if it is not the common global.
+>
+> * Do *not* set **sourceUrl**, it is passed to the player directly (see below). 
+> * Do *not* set the **source** on the player in **onRcvrReady**.
+> * Do *not* set the **player** but do set the **playerRoot** if it is not the common global.
 
 ```javascript
 let Vbrick_eCDN_Config = {
