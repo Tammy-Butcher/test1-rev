@@ -14,17 +14,4 @@ There are several global settings specifically related to the Vbrick eCDN (for b
 
 To configure the Vbrick eCDN, navigate to **Admin > System Settings > eCDN Settings**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5bb9970-ecdnSettings.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/5bb9970-ecdnSettings.png" />
