@@ -16,15 +16,15 @@ Select the **Allow supplemental content on all media** checkbox under **Media Se
 
 When *enabled*:
 
-* This adds the [Add Files](doc:update-advanced-video-settings#attach-a-supplemental-file) button on the **Advanced **tab in [Video Settings](doc:updating-video-settings).
+* This adds the [Add Files](doc:update-advanced-video-settings#attach-a-supplemental-file) button on the **Advanced** tab in [Video Settings](doc:updating-video-settings).
 * File types you may attach to video include: 
-   - PowerPoint presentations (.ppt, .pptx)
-   - Word documents (.doc, .docx)
-   - Excel documents (.xls, .xlsx, .csv)
-   - PDFs
-   - Zip files (.zip, .rar, .7z)
-   - Text files (.txt)
-   - Images (.jpg, .png, .gif)
+  * PowerPoint presentations (.ppt, .pptx)
+  * Word documents (.doc, .docx)
+  * Excel documents (.xls, .xlsx, .csv)
+  * PDFs
+  * Zip files (.zip, .rar, .7z)
+  * Text files (.txt)
+  * Images (.jpg, .png, .gif)
 
 When *disabled*:
 
