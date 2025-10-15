@@ -22,12 +22,8 @@ When *enabled*:
 When *disabled*:
 
 * The **360 video** checkbox is no longer available when uploading video.
-* Any files uploaded *prior *to disabling the **Enable 360 video** checkbox are not deleted or hidden.
+* Any files uploaded *prior* to disabling the **Enable 360 video** checkbox are not deleted or hidden.
 
-[block:callout]
-{
-  "type": "danger",
-  "title": "Warning!",
-  "body": "360 video file sizes, particularly those that are 4k video, can be very large. This should be taken into consideration for account management usage when viewing and managing 360 videos."
-}
-[/block]
+> ❗️ Warning!
+>
+> 360 video file sizes, particularly those that are 4k video, can be very large. This should be taken into consideration for account management usage when viewing and managing 360 videos.
