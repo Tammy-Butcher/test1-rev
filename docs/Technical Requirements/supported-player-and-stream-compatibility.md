@@ -19,14 +19,14 @@ next:
 | HLS                      | HTML5         | HTML5  | HTML5   | HTML5  | HTML5 | HTML5   |
 | MP4 Progressive Download | HTML5         | HTML5  | HTML5   | HTML5  | HTML5 | HTML5   |
 
-<sup> 1 : Vbrick Multicast playback requires the installation of the Vbrick Multicast (VBM) Agent for Windows or Mac to be installed from the Support Download Portal.</sup>  
+<sup> 1 : Vbrick Multicast playback requires the installation of the Vbrick Multicast (VBM) Agent for Windows or Mac to be installed from the Support Download Portal.</sup>
 <sup> 2, 3 : Vbrick Peer-to-Peer can only be utilized from within Rev using the Vbrick Rev HTML5 player or via the SDK with Vbrick Universal eCDN. While it is supported on Mac Safari, it is NOT supported on iOS Safari.</sup>
 
 > 📘 Note
 > 
-> Vbrick currently does _not_ support **video-only** or **audio-only** _Live_ streams. 
+> Vbrick currently does _not_ support **video-only** or **audio-only** _Live_ streams.
 > 
-> Audio-only _VOD_ streams _are_ currently supported. 
+> Audio-only _VOD_ streams _are_ currently supported.
 > 
 > Note that Vbrick Encoders can be set up to add silent audio if the source does not have audio.
 
