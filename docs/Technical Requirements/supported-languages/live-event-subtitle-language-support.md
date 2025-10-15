@@ -135,7 +135,7 @@ When broadcasting [Live events in Rev](doc:video-sources#live-event-subtitles), 
 | Telugu                        | te          |
 | Thai                          | th          |
 | Turkish                       | tr          |
-| Ukrainian                     | uk           |
+| Ukrainian                     | uk          |
 | Uzbek                         | uz          |
 | Vietnamese                    | vi          |
 | Welsh                         | cy          |
