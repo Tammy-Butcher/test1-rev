@@ -2,3 +2,4 @@
 - configure-single-sign-on-sso
 - configure-okta-saml-single-sign-on-sso
 - enable-okta-scim
+- enable-microsoft-azure-ad-scim
