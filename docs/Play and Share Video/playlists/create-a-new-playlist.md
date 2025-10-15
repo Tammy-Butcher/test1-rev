@@ -17,38 +17,10 @@ To create a new playlist:
 1. Navigate to the **Media > My Playlists** menu option.
 2. Click the **New Playlist** button.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/2e5f128-newPlaylistButton.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/2e5f128-newPlaylistButton.png" />
 
 3. Choose the [Playlist type](doc:playlists) you want to create and a Playlist Name.  Click **Save**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4ad8915-createPlaylist.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/4ad8915-createPlaylist.png" />
 
 4. You are now ready to [add videos to the playlist](doc:add-a-video-to-a-playlist).
