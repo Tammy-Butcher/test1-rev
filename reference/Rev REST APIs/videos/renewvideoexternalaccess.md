@@ -17,7 +17,7 @@ next:
   description: ''
 ---
 > 📘 Note
-> 
+>
 > The default expiration date for **Trusted External Access** is 14 days.  You can change this amount in Rev. Any status can be renewed: **Active**, **Expired**, or **Revoked**.
-> 
+>
 > View: [Manage External Access to Videos and Webcasts](doc:guest-portal-and-public-access-control) for more details.
