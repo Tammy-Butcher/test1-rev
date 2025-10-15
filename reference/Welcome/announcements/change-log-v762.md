@@ -16,9 +16,9 @@ next:
 
 With this release is the ability to [moderate a Live webcast chat](doc:chat-module-management).  You can choose to hide a specific comment or mute a specific attendee and reverse both actions if you choose.  The comments log has been updated in support of this feature to include a new Hidden parameter which denotes if a comment has been hidden during the event.
 
-- [Hide Webcast Comment](ref:hidewebcastcomment) and [Unhide Webcast Comment](ref:unhidewebcastcomment)
-- [Mute Webcast Attendee](ref:mutewebcastattendee) and [Unmute Webcast Attendee](ref:unmutewebcastattendee)
-- [Get Webcast Comments Log](ref:geteventcomments)
+* [Hide Webcast Comment](ref:hidewebcastcomment) and [Unhide Webcast Comment](ref:unhidewebcastcomment)
+* [Mute Webcast Attendee](ref:mutewebcastattendee) and [Unmute Webcast Attendee](ref:unmutewebcastattendee)
+* [Get Webcast Comments Log](ref:geteventcomments)
 
 ### Get Video Thumbnail Configuration
 
@@ -42,9 +42,9 @@ We are also updating each of our event APIs to support this feature with the add
 
 The following endpoints support this feature:
 
-- [Create Webcast](ref:createevent)
-- [Update Webcast](ref:editevent)
-- [Patch Webcast](ref:patchwebcast)
-- [Get Webcast Details](ref:getevent)
+* [Create Webcast](ref:createevent)
+* [Update Webcast](ref:editevent)
+* [Patch Webcast](ref:patchwebcast)
+* [Get Webcast Details](ref:getevent)
 
 There is a new [Get Webcast User Reactions Summary Report](ref:geteventreactions) that will detail the reactions used (and how many times) once an event has concluded.
