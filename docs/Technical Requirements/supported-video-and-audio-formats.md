@@ -10,19 +10,19 @@ metadata:
 next:
   description: ''
 ---
-- MP3
-- M4A
-- MP4
-- FLV \*
-- F4V \*
-- MKV \*
-- MOV \*
-- WMV (VC-1) \*
-- MPEG-1 \*
-- MPEG-2 \*
-- MTS \*
-- OGV \*
-- TS \*
+* MP3
+* M4A
+* MP4
+* FLV \*
+* F4V \*
+* MKV \*
+* MOV \*
+* WMV (VC-1) \*
+* MPEG-1 \*
+* MPEG-2 \*
+* MTS \*
+* OGV \*
+* TS \*
 
 <sup>\* These file types must be transcoded first and are not playable in their original formats.</sup>
 
@@ -42,11 +42,11 @@ If you upload a video that has multiple audio tracks, Rev's [transcoding presets
 
 <h4>Android</h4>
 
-- The Rev video player is an HTML5 player and audio tracks can be played and selected normally
-- If you change to full screen, you are not able to select a separate track.  The first track selected continues to play.
+* The Rev video player is an HTML5 player and audio tracks can be played and selected normally
+* If you change to full screen, you are not able to select a separate track.  The first track selected continues to play.
 
 <h4>iOS</h4>
 
-- The native player does not display the Audio section in the CC Menu
-- The device's language that is set is what audio plays, if available
-- If no tracks match the device language, it plays the first track instead which should be the video default track
+* The native player does not display the Audio section in the CC Menu
+* The device's language that is set is what audio plays, if available
+* If no tracks match the device language, it plays the first track instead which should be the video default track
