@@ -18,33 +18,21 @@ Adding a Master Key transfers complete ownership of encryption keys to you allow
 
 You have the assurance of knowing that you retain complete control of your video assets, even when they are in the cloud. Further, Rev keeps track of Master Key rotations so that you are fully aware of past key history and usage.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/94b7fbb-keyManagementModule.png",
-        "keyManagementModule.png",
-        655
-      ],
-      "align": "center",
-      "caption": "Manage Master Keys under the System Settings menu option"
-    }
-  ]
-}
-[/block]
+<Image title="keyManagementModule.png" alt={655} align="center" src="https://files.readme.io/94b7fbb-keyManagementModule.png">
+  Manage Master Keys under the System Settings menu option
+</Image>
 
 > ❗️ Warning!
-> 
+>
 > A waiver must be on file with Vbrick to use this feature.
 
 The Key Management module displays:
 
-- **Key **— The current **Master Key** and all previous keys used. Note: The actual **Master Encryption Key** is _not_ stored in Rev.
-- **Key Added** — The date each key is added and the user name that added the key.
-- **Key Activated** — The date each key is activated and the user name that activated the key.
-- **Key Disabled** — The date each key is disabled and the user name that disabled the key.
-- **Status **— They key’s status. The number of files that failed encryption is noted here.
+* **Key** — The current **Master Key** and all previous keys used. Note: The actual **Master Encryption Key** is *not* stored in Rev.
+* **Key Added** — The date each key is added and the user name that added the key.
+* **Key Activated** — The date each key is activated and the user name that activated the key.
+* **Key Disabled** — The date each key is disabled and the user name that disabled the key.
+* **Status** — They key’s status. The number of files that failed encryption is noted here.
 
 ## Activate a New Master Key
 
@@ -54,24 +42,12 @@ To activate a new Master Key:
 
 2. Enter a new key in the **Master Key** field.
 
-3. **Validate **and **Activate **the new key.
+3. **Validate** and **Activate** the new key.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0ea90ae-activateMasterKey.png",
-        "activateMasterKey.png",
-        655
-      ],
-      "align": "center",
-      "caption": "Previous Master Keys are tracked below the Current Key in use"
-    }
-  ]
-}
-[/block]
+<Image title="activateMasterKey.png" alt={655} align="center" src="https://files.readme.io/0ea90ae-activateMasterKey.png">
+  Previous Master Keys are tracked below the Current Key in use
+</Image>
 
 > ❗️ Warning!
-> 
+>
 > If you are replacing a Master Key, be sure to retain access to your previous Master Key until the key rotation process is complete.
