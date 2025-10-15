@@ -20,24 +20,12 @@ To set a webcast data retention policy:
 
 3. Specify a number between 3 and 2555 (days) to determine how many days the webcast(s) data is retained afterwards in the **Data Retention Period (Days)** field.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0468968-webcastDataRetention.png",
-        "webcastDataRetention.png",
-        843
-      ],
-      "align": "center",
-      "caption": "Once a webcast is deleted, all personally identifiable information and all webcast data is removed"
-    }
-  ]
-}
-[/block]
+<Image title="webcastDataRetention.png" alt={843} align="center" src="https://files.readme.io/0468968-webcastDataRetention.png">
+  Once a webcast is deleted, all personally identifiable information and all webcast data is removed
+</Image>
 
 When enabled:
 
-- The policy is applied to all existing webcasts based on end date, regardless of whether they were ever run
-- If a webcast is older than the policy, it is deleted
-- As webcasts pass the data retention expiration period, data is deleted on a daily basis
+* The policy is applied to all existing webcasts based on end date, regardless of whether they were ever run
+* If a webcast is older than the policy, it is deleted
+* As webcasts pass the data retention expiration period, data is deleted on a daily basis
