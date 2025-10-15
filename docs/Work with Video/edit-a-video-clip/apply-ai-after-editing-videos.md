@@ -18,22 +18,9 @@ It should be noted that these are optional selections and re-applications.  You 
 
 If you choose **Save**, you are notified that you will overwrite your original video with the edited version.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e1e18984ed3efe47de826b49909fa0582b0ae6711bf11090c963a38bd875976e-saveAI.png",
-        "",
-        "Click Save to overwrite your original video. You can choose the AI features you want to regenerate. Be sure! This overwrites your original video!"
-      ],
-      "align": "center",
-      "caption": "Click Save to overwrite your original video. You can choose the AI features you want to regenerate. Be sure! This overwrites your original video!"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Click Save to overwrite your original video. You can choose the AI features you want to regenerate. Be sure! This overwrites your original video!" align="center" src="https://files.readme.io/e1e18984ed3efe47de826b49909fa0582b0ae6711bf11090c963a38bd875976e-saveAI.png">
+  Click Save to overwrite your original video. You can choose the AI features you want to regenerate. Be sure! This overwrites your original video!
+</Image>
 
 You are then provided the option(s) to transcribe the video through AI and to generate one or more of its metadata fields using Rev IQ.  [Rev AI features](doc:rev-ai) must be enabled by your Admin before this is available.
 
@@ -41,18 +28,6 @@ If you choose **Save As New**, you are notified that the video will be copied wi
 
 This means that you are not able to modify transcription options and may only decide what metadata options you want to regenerate for your video when you edit it.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/ce47f9eff413f849451946fe9b283ec15de603b971d45e8806d5d2ebada6259b-saveAsNewAI.png",
-        "",
-        "Click Save As to make a copy of your original video and then use Rev AI to regenerate your transcription and metadata features. You may not translate languages if your Admin has set default languages."
-      ],
-      "align": "center",
-      "caption": "Click Save As to make a copy of your original video and then use Rev AI to regenerate your transcription and metadata features. You may not translate languages if your Admin has set default languages."
-    }
-  ]
-}
-[/block]
+<Image alt="Click Save As to make a copy of your original video and then use Rev AI to regenerate your transcription and metadata features. You may not translate languages if your Admin has set default languages." align="center" src="https://files.readme.io/ce47f9eff413f849451946fe9b283ec15de603b971d45e8806d5d2ebada6259b-saveAsNewAI.png">
+  Click Save As to make a copy of your original video and then use Rev AI to regenerate your transcription and metadata features. You may not translate languages if your Admin has set default languages.
+</Image>
