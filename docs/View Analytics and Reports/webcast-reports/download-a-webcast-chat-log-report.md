@@ -12,11 +12,11 @@ next:
 ---
 Once the Webcast has ended, you may download a **Chat** log report. The Chat Log report contains all comments made during the event and includes the following columns in a csv file:
 
-- Date
-- User Id
-- Full Name
-- Chat Text
-- Hidden (specifies true or false if the comment was hidden by a moderator or host during the event)
+* Date
+* User Id
+* Full Name
+* Chat Text
+* Hidden (specifies true or false if the comment was hidden by a moderator or host during the event)
 
 To view a chat log report:
 
