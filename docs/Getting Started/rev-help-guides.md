@@ -21,27 +21,12 @@ Here we have developed comprehensive technical reference material and Help guide
 Use the links below to get started with our most popular guides.
 
 > 📘 Note
-> 
-> This Help documentation is to help you use Rev features _already released_ or in progress. For help on Rev access or other issues not related to product features already implemented, contact [Vbrick Customer Support](https://portal.vbrick.com/contact-us/) instead.
-> 
-> To request a feature that is _not yet implemented_  or to view trending ideas, visit the [Product Ideas](https://portal.vbrick.com/prod-ideas/) page in the Customer Portal.
+>
+> This Help documentation is to help you use Rev features *already released* or in progress. For help on Rev access or other issues not related to product features already implemented, contact [Vbrick Customer Support](https://portal.vbrick.com/contact-us/) instead.
+>
+> To request a feature that is *not yet implemented*  or to view trending ideas, visit the [Product Ideas](https://portal.vbrick.com/prod-ideas/) page in the Customer Portal.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4986891dce723394c80b34f8b89b97d4eff1954c00e55c14cc64ad9e014a108e-readMeGettingStarted.png",
-        "",
-        ""
-      ],
-      "align": "left",
-      "sizing": "32em"
-    }
-  ]
-}
-[/block]
-
+<Image align="left" width="32em" src="https://files.readme.io/4986891dce723394c80b34f8b89b97d4eff1954c00e55c14cc64ad9e014a108e-readMeGettingStarted.png" />
 
 ### Getting Started
 
@@ -49,30 +34,15 @@ If you are new to Rev, start here. This set of guides provides tips on the Rev u
 
 ***
 
-- [Navigating the Rev User Interface](doc:the-rev-home-page)
-- [Rev Video Player Features](doc:rev-video-player-features)
-- [Your Rev Account](doc:your-rev-account)
-- [Your Rev Profile](doc:your-rev-profile)
-- [Your Content Subscriptions](doc:my-subscriptions) 
+* [Navigating the Rev User Interface](doc:the-rev-home-page)
+* [Rev Video Player Features](doc:rev-video-player-features)
+* [Your Rev Account](doc:your-rev-account)
+* [Your Rev Profile](doc:your-rev-profile)
+* [Your Content Subscriptions](doc:my-subscriptions) 
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b8a09342c2492f96652e18fca17c39ea88364eac7a57fc3019974815a81123d0-readMeCreator.png",
-        "",
-        ""
-      ],
-      "align": "left",
-      "sizing": "32em"
-    }
-  ]
-}
-[/block]
-
+<Image align="left" width="32em" src="https://files.readme.io/b8a09342c2492f96652e18fca17c39ea88364eac7a57fc3019974815a81123d0-readMeCreator.png" />
 
 ### Content Creator Guides
 
@@ -82,47 +52,32 @@ Our content guides demonstrate how to work with video and webcasts from uploadin
 
 #### Working with Video
 
-- [Upload, Stream, and Record Video](doc:adding-video)
-- [Understanding Video Metadata](doc:update-basic-video-settings) 
-- [Advanced Video Settings](doc:update-advanced-video-settings)
-- [Controlling Video Access](doc:video-access-control) 
-- [Video Languages](doc:video-languages)
-- [Using the Rev Video Editor](doc:edit-a-video-clip) 
-- [Playlists](doc:playlists)
-- [Create and Manage Video Channels](doc:create-and-manage-a-channel)
-- [Share](doc:share-a-video) and [Embed](doc:embed-a-video) Videos
+* [Upload, Stream, and Record Video](doc:adding-video)
+* [Understanding Video Metadata](doc:update-basic-video-settings) 
+* [Advanced Video Settings](doc:update-advanced-video-settings)
+* [Controlling Video Access](doc:video-access-control) 
+* [Video Languages](doc:video-languages)
+* [Using the Rev Video Editor](doc:edit-a-video-clip) 
+* [Playlists](doc:playlists)
+* [Create and Manage Video Channels](doc:create-and-manage-a-channel)
+* [Share](doc:share-a-video) and [Embed](doc:embed-a-video) Videos
 
 ***
 
 #### Working with Events
 
-- [The Rev Event Types](doc:create-event) 
-- [Event Basic Settings](doc:event-basic-settings)
-- [Webcast Video Sources](doc:video-sources)
-- [Add Interactive Features to Your Event](doc:attendee-engagement) 
-- [The Rev Event Calendar](doc:the-event-calendar)
-- [Host a Webcast](doc:host-a-webcast)
-- [Host a Producer Event](doc:produce-an-event) 
-- [Embed a Webcast](doc:embed-a-webcast)
+* [The Rev Event Types](doc:create-event) 
+* [Event Basic Settings](doc:event-basic-settings)
+* [Webcast Video Sources](doc:video-sources)
+* [Add Interactive Features to Your Event](doc:attendee-engagement) 
+* [The Rev Event Calendar](doc:the-event-calendar)
+* [Host a Webcast](doc:host-a-webcast)
+* [Host a Producer Event](doc:produce-an-event) 
+* [Embed a Webcast](doc:embed-a-webcast)
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/323c89062d20afc656210aac07179f7e06e3c3e844950d8292675427a715d246-readMeSecurity.png",
-        "",
-        ""
-      ],
-      "align": "left",
-      "sizing": "32em"
-    }
-  ]
-}
-[/block]
-
+<Image align="left" width="32em" src="https://files.readme.io/323c89062d20afc656210aac07179f7e06e3c3e844950d8292675427a715d246-readMeSecurity.png" />
 
 ### Account and System Administrator Guides
 
@@ -132,51 +87,36 @@ Account Admins in Rev can manage everything from portal security to the devices 
 
 #### Feature Management
 
-- [Enable Global Video Settings](doc:enable-or-disable-features) 
-- [Category Setup](doc:add-categories) 
-- [Video Expiration Rules](doc:setup-expiration-rules) 
-- [Enable Webcast User Engagement Features](doc:allow-webcast-features) 
-- [Rev Device Setup](doc:getting-started-with-rev-devices) 
-- [Rev Branding and Style Guides](doc:rev-branding-and-style-guides)
-- [Analytics and Reports](doc:analytics-and-reports-guides) 
+* [Enable Global Video Settings](doc:enable-or-disable-features) 
+* [Category Setup](doc:add-categories) 
+* [Video Expiration Rules](doc:setup-expiration-rules) 
+* [Enable Webcast User Engagement Features](doc:allow-webcast-features) 
+* [Rev Device Setup](doc:getting-started-with-rev-devices) 
+* [Rev Branding and Style Guides](doc:rev-branding-and-style-guides)
+* [Analytics and Reports](doc:analytics-and-reports-guides) 
 
 ***
 
 #### Portal Security
 
-- [Roles and Permissions](doc:roles-and-permissions)
-- [Portal Security and Content Restriction Features](doc:manage-content-restriction-features) 
-- [Content Approval Processes](doc:define-an-approval-process)
-- [Manage User Security Features](doc:set-system-features)
+* [Roles and Permissions](doc:roles-and-permissions)
+* [Portal Security and Content Restriction Features](doc:manage-content-restriction-features) 
+* [Content Approval Processes](doc:define-an-approval-process)
+* [Manage User Security Features](doc:set-system-features)
 
 ***
 
 #### Portal Updates and Upgrades
 
-- [Rev Account Details and Child Portals](doc:view-and-edit-account-details) 
-- [License Types and Modules](doc:rev-license-types-and-add-ons)
-- [Rev AI](doc:rev-ai) and [Generative AI Tools](doc:generative-ai-tools)
-- [Technical Requirements](doc:rev-technical-requirements)
-- [Integrations](doc:rev-integration-guides)
+* [Rev Account Details and Child Portals](doc:view-and-edit-account-details) 
+* [License Types and Modules](doc:rev-license-types-and-add-ons)
+* [Rev AI](doc:rev-ai) and [Generative AI Tools](doc:generative-ai-tools)
+* [Technical Requirements](doc:rev-technical-requirements)
+* [Integrations](doc:rev-integration-guides)
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f9267f583225f32d0d8c6895f74c4bbc79ce616b3b585860a37e7eb6fe721b04-readMeUseWith.png",
-        "",
-        ""
-      ],
-      "align": "left",
-      "sizing": "32em"
-    }
-  ]
-}
-[/block]
-
+<Image align="left" width="32em" src="https://files.readme.io/f9267f583225f32d0d8c6895f74c4bbc79ce616b3b585860a37e7eb6fe721b04-readMeUseWith.png" />
 
 ### Use with Rev
 
@@ -184,7 +124,7 @@ Vbrick Rev® is a web-based media management platform that integrates well with 
 
 ***
 
-- [Integrations](doc:rev-integration-guides)
-- [Vbrick Universal eCDN](doc:what-is-the-vbrick-universal-ecdn)
-- [Vbrick Distributed Media Engine (DME) Hub](https://dmedocs.vbrick.com/docs/dme-help-guides)
-- [Compatibility Matrix](doc:compatibility-matrix)
+* [Integrations](doc:rev-integration-guides)
+* [Vbrick Universal eCDN](doc:what-is-the-vbrick-universal-ecdn)
+* [Vbrick Distributed Media Engine (DME) Hub](https://dmedocs.vbrick.com/docs/dme-help-guides)
+* [Compatibility Matrix](doc:compatibility-matrix)
