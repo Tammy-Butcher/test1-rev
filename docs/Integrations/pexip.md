@@ -10,21 +10,39 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "\n<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+</div>
+
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
 }
-[/block]
-
-
+  
+</style>
+`}</HTMLBlock>
 
 Rev integrates with **Pexip** so that you are able to use a **Pexip Meeting** conference call as the **video source** for a Rev Webcast Event. You can also record a Pexip Meeting as a new Rev VOD which means you can then apply all of Rev's associated metadata settings once it has concluded.
 
 ## Requirements
 
-- Rev Cloud
-- [Video Conference (VC) Integrations](doc:video-conference-vc-integrations) enabled
-- A Pexip account that has access to the Pexip video conference meeting you want to stream and/or record
+* Rev Cloud
+* [Video Conference (VC) Integrations](doc:video-conference-vc-integrations) enabled
+* A Pexip account that has access to the Pexip video conference meeting you want to stream and/or record
 
 ## Configuration
 
@@ -54,21 +72,9 @@ To stream a Pexip Meeting to a Rev Webcast event:
 
 3. Enter a **Pexip** email address that is associated with the Pexip meeting room you want to join.  Pexip also allows you to [join the Pexip Meeting as a Guest](https://help.pexip.com/service/join-as-guest.htm#guest_android_join).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/009d793-pexipVidSource.png",
-        "pexipVidSource.png",
-        1141
-      ],
-      "align": "center",
-      "caption": "Select Pexip as the video source to stream a Pexip meeting"
-    }
-  ]
-}
-[/block]
+<Image title="pexipVidSource.png" alt={1141} align="center" src="https://files.readme.io/009d793-pexipVidSource.png">
+  Select Pexip as the video source to stream a Pexip meeting
+</Image>
 
 4. Enter the Pin / Password for the meeting if one was set up.
 
@@ -90,21 +96,9 @@ To record a Pexip meeting:
 
 1. Click the **Recording** tab > **Pexip** option.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1e25d1e-pexipRecording.png",
-        null,
-        "Click the Recording tab and then select the Pexip option"
-      ],
-      "align": "center",
-      "caption": "Click the Recording tab and then select the Pexip option"
-    }
-  ]
-}
-[/block]
+<Image alt="Click the Recording tab and then select the Pexip option" align="center" src="https://files.readme.io/1e25d1e-pexipRecording.png">
+  Click the Recording tab and then select the Pexip option
+</Image>
 
 2. Enter a **Pexip** email address that is associated with the Pexip meeting room you want to join. 
 
@@ -114,4 +108,4 @@ To record a Pexip meeting:
 
 5. Click the **Start Recording** button. If a valid Pexip meeting is used, Rev connects and begins recording.
 
-6. When the **Stop **button is pushed, Rev uploads the video to Rev and disconnects.  You can then modify and control the [Video Settings](doc:updating-video-settings) and metadata in Rev as you normally would.
+6. When the **Stop** button is pushed, Rev uploads the video to Rev and disconnects.  You can then modify and control the [Video Settings](doc:updating-video-settings) and metadata in Rev as you normally would.
