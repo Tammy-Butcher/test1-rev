@@ -69,3 +69,4 @@
 - startscheduledrecording
 - stopscheduledrecording
 - scheduledrecordingstatus
+- getvideoreport
