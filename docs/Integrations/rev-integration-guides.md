@@ -41,7 +41,7 @@ next:
 This section contains topics on how to enable and use Rev's supported integrations. Integration guides are useful for all roles in Rev.  Account Admins are generally responsible for requirements and configuration while all role types use them once installed.
 
 > 📘 Note
-> 
+>
 > Most integration Apps will come packaged with detailed Developer documentation when downloaded in addition to the Help topics featured here.
-> 
+>
 > If you need additional assistance, contact [Vbrick Support](mailto:support@vbrick.com).
