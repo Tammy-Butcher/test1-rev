@@ -11,3 +11,4 @@
 - get_api-v2-scheduled-events-eventid-is-public
 - getdeletewebcastsjobstatus
 - uploadpresentationfile-1-1
+- downloadpresentationfile
