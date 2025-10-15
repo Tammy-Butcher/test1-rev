@@ -12,7 +12,7 @@ next:
 ---
 **Vbrick Distribution** is a stand-alone product offering that bundles together our market-leading eCDN capabilities along with our robust Webcasting tools as a stand-alone package. Vbrick Distribution supports direct integration with Webex Webinars, as well as our other existing video conferencing integrations (Zoom, Microsoft Teams, Webex Teams) and RTMP video sources. This product offering is [licensed](doc:rev-license-types-and-add-ons#vbrick-distribution-licensing) in bundles of annual Distribution Hours.
 
-The tables below detail what is available with our Vbrick Distribution offering versus our full Vbrick Rev offering.  As more modules and offerings become available, details will be provided here.
+The tables below detail what is available with our Vbrick Distribution offering versus our full Vbrick Rev offering. As more modules and offerings become available, details will be provided here.
 
 ## Vbrick Distribution Features versus Full Rev Features
 
@@ -20,7 +20,7 @@ The tables below indicate if a feature is available in the Vbrick Distribution p
 
 ### Access and Visibility
 
-When you purchase Vbrick Distribution, certain features and areas of the platform are available while others are not.  Access to all the capabilities of Vbrick Rev require the purchase of the full Vbrick Rev product. The table below notes the difference.
+When you purchase Vbrick Distribution, certain features and areas of the platform are available while others are not. Access to all the capabilities of Vbrick Rev require the purchase of the full Vbrick Rev product. The table below notes the difference.
 
 | Feature                                     | Vbrick Distribution | Vbrick Rev |
 | :------------------------------------------ | :------------------ | :--------- |
@@ -32,7 +32,7 @@ When you purchase Vbrick Distribution, certain features and areas of the platfor
 
 ### eCDN Capabilities
 
-**Vbrick Distribution** consists of the capabilities related to the eCDN and distribution technologies that are offered as part of the full Vbrick Rev offering.  As such, all of the distribution technologies that are included in the full Vbrick Rev Product are also available with the Vbrick Distribution offering.
+**Vbrick Distribution** consists of the capabilities related to the eCDN and distribution technologies that are offered as part of the full Vbrick Rev offering. As such, all of the distribution technologies that are included in the full Vbrick Rev Product are also available with the Vbrick Distribution offering.
 
 | Feature                                          | Vbrick Distribution | Vbrick Rev |
 | :----------------------------------------------- | :------------------ | :--------- |
@@ -43,7 +43,7 @@ When you purchase Vbrick Distribution, certain features and areas of the platfor
 
 ### Webcasting Sources
 
-All of our Video Conferencing integrations are immediately available for use with Vbrick Distribution.  However, the 'Existing Video' and 'Webcam and Screenshare' video sources are only available with the full Vbrick Rev offering.
+All of our Video Conferencing integrations are immediately available for use with Vbrick Distribution. However, the 'Existing Video' and 'Webcam and Screenshare' video sources are only available with the full Vbrick Rev offering.
 
 | Feature                                         | Vbrick Distribution | Vbrick Rev |
 | :---------------------------------------------- | :------------------ | :--------- |
@@ -72,7 +72,7 @@ Vbrick Distribution includes a basic set of Webcast features, but to receive ful
 
 ### VOD Features
 
-To receive the full power of the Vbrick Rev offering when it comes to video content management you will need to purchase the full Vbrick Rev product.  See below for a comparison. 
+To receive the full power of the Vbrick Rev offering when it comes to video content management you will need to purchase the full Vbrick Rev product. See below for a comparison.
 
 | Feature                       | Vbrick Distribution | Vbrick Rev |
 | :---------------------------- | :------------------ | :--------- |
@@ -93,7 +93,7 @@ To receive the full power of the Vbrick Rev offering when it comes to video cont
 
 ### Rev IQ
 
-Vbrick's Rev IQ add-on offering uses artificial intelligence (AI) to help users find the specific video content they need across all of your video assets.  Access to the Transcription, Translation and User Tagging features that make up Rev IQ require the full Vbrick Rev product.
+Vbrick's Rev IQ add-on offering uses artificial intelligence (AI) to help users find the specific video content they need across all of your video assets. Access to the Transcription, Translation and User Tagging features that make up Rev IQ require the full Vbrick Rev product.
 
 | Feature                  | Vbrick Distribution | Vbrick Rev |
 | :----------------------- | :------------------ | :--------- |
