@@ -24,9 +24,9 @@ frameIndex = floor(scrubTime / spf)
 
 Where:
 
-- **frameIndex**: Index of the desired thumbnail (starting from 0) as it appears in the thumbnail sheet.
-- **scrubTime**: The time in seconds of the desired frameIndex.
-- **spf**: Seconds per Frame. 
+* **frameIndex**: Index of the desired thumbnail (starting from 0) as it appears in the thumbnail sheet.
+* **scrubTime**: The time in seconds of the desired frameIndex.
+* **spf**: Seconds per Frame. 
 
 This is returned in the thumbnail config.
 
@@ -44,11 +44,11 @@ yOffset = row * frameHeight
 
 Where:
 
-- **horizontalTiles**: Number of tiles in the rows of the thumbnail sheet grid (found in the config)
-- **verticalTiles**: Number of tiles in the columns of the thumbnail sheet grid (found in the config)
-- **sheetWidth**: Total width (in pixels) of the thumbnail sheet (found in the config)
-- **sheetHeight**: Total height (in pixels) of the thumbnail sheet grid (found in the config)
-- **hostHeight**: Height (in pixels) of the element that will contain the desired thumbnail.
+* **horizontalTiles**: Number of tiles in the rows of the thumbnail sheet grid (found in the config)
+* **verticalTiles**: Number of tiles in the columns of the thumbnail sheet grid (found in the config)
+* **sheetWidth**: Total width (in pixels) of the thumbnail sheet (found in the config)
+* **sheetHeight**: Total height (in pixels) of the thumbnail sheet grid (found in the config)
+* **hostHeight**: Height (in pixels) of the element that will contain the desired thumbnail.
 
 Finally, the style for the **background** can be computed using:
 
