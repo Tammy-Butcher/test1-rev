@@ -4,3 +4,4 @@
 - logoff
 - extendusersession
 - extendapikeysessiontimeout
+- extendsessiontimeout
