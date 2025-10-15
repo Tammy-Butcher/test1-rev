@@ -180,7 +180,7 @@ The [Rev IQ Transcription and Translation](doc:rev-iq-transcription-and-translat
 | Telgu                         | te          |
 | Thai                          | th          |
 | Turkish                       | tr          |
-| Ukrainian                     | uk           |
+| Ukrainian                     | uk          |
 | Uzbek                         | uz          |
 | Vietnamese                    | vi          |
 | Welsh                         | cy          |
