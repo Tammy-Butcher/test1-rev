@@ -18,5 +18,5 @@ next:
   description: ''
 ---
 > ❗️ Warning!
-> 
+>
 > If [Hide User Level Analytics](doc:hide-user-level-analytics) under the **Content Restriction** menu is enabled, this endpoint returns a 401 error.
