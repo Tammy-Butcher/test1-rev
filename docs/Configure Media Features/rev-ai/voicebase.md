@@ -13,8 +13,8 @@ next:
 If you have a **VoiceBase** account, you may send a video for transcription and have a **SubRip (.srt)** file created directly in Rev. Once your video is transcribed and the .srt file returned to Rev, your videos are deleted from VoiceBase, ensuring your account’s security.
 
 > 🚧 Caution
-> 
-> As this time, **English **is the only supported language in VoiceBase.
+>
+> As this time, **English** is the only supported language in VoiceBase.
 
 ## Requirements
 
@@ -29,16 +29,16 @@ To enable the VoiceBase Integration:
 2. Select the **VoiceBase Integration** checkbox in the **AI & Machine Learning** section.
 
 3. Enter the **VoiceBase Bearer Token** obtained from your VoiceBase account. 
-   - To obtain a token, log in to <https://apis.voicebase.com/developer-portal>.
-   - Navigate to and click the **Bearer Token Management** widget.
-   - Click the **New Key** button in the upper right corner to generate a new token.
-   - Copy the generated token into the **VoiceBase Bearer Token** field in Rev.
+   * To obtain a token, log in to [https://apis.voicebase.com/developer-portal](https://apis.voicebase.com/developer-portal).
+   * Navigate to and click the **Bearer Token Management** widget.
+   * Click the **New Key** button in the upper right corner to generate a new token.
+   * Copy the generated token into the **VoiceBase Bearer Token** field in Rev.
 
 4. Configure [Automatic and Default Transcription and Translation Settings](doc:rev-iq-transcription-and-translation#automatic-and-default-transcription-settings) as needed.
 
 > 📘 Note
-> 
-> While **Automatic Transcription **may be configured, VoiceBase may not be used for **Automatic Translation** services at this time.
+>
+> While **Automatic Transcription** may be configured, VoiceBase may not be used for **Automatic Translation** services at this time.
 
 5. Click **Save Changes**.
 
@@ -50,22 +50,9 @@ When a video is uploaded, you can view languages and transcription options you h
 
 2. Use this tab to view the **Default Transcription Language** on the top row and to view the translation languages you selected. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/79bbe69-languagesTab.png",
-        "revIQTranscription.png",
-        370
-      ],
-      "align": "center",
-      "caption": "The Languages tab displays default transcription and translation languages"
-    }
-  ]
-}
-[/block]
-
+<Image title="revIQTranscription.png" alt={370} align="center" src="https://files.readme.io/79bbe69-languagesTab.png">
+  The Languages tab displays default transcription and translation languages
+</Image>
 
 3. Use this tab to [edit, delete, and dowload video subtitles](doc:video-languages) as needed.
 4. You can also [autogenerate a VoiceBase .srt file](doc:video-languages#auto-generate-a-new-subtitle-file) by clicking the **Add Lanaguage** button.
