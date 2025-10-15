@@ -10,7 +10,7 @@ metadata:
 next:
   description: ''
 ---
-The **Peering **tab filters Vbrick Peer-to-Peer peering efficiency in real-time.  This is the primary metric for showing the percentage of bandwidth saved when using Vbrick Peer-to-Peer.
+The **Peering** tab filters Vbrick Peer-to-Peer peering efficiency in real-time. This is the primary metric for showing the percentage of bandwidth saved when using Vbrick Peer-to-Peer.
 
 ![](https://files.readme.io/6acea2a-peeringTab.png "peeringTab.png")
 
@@ -26,7 +26,7 @@ The efficiency column should increase with the number of users connected to a pe
 **How can this information be used?**  
 This information can indicate if there could be a connectivity or sharing issue for users within a cluster or Zone.
 
-<hr>
+<hr />
 
 ## View Avg Bitrate By Peer Cluster
 
