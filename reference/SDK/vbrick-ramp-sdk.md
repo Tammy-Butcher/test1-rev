@@ -11,7 +11,7 @@ next:
   description: ''
 ---
 > ❗️ Warning!
-> 
+>
 > **This SDK is deprecated!** Please begin migrating to the new [Vbrick Universal eCDN SDK](ref:vbrick-universal-ecdn-sdk).
 
 ## Integration With Vbrick Peer-to-Peer
@@ -19,7 +19,7 @@ next:
 Third parties video platforms can integrate with the **Vbrick Ramp SDK for Vbrick Peer-to-Peer** to provide eCDN functionality in their video players.  This guide provides the steps to integrate with Vbrick Ramp SDK which uses P2P for streaming live media at scale.
 
 > 📘 Note
-> 
+>
 > Below example uses **HLS.js player**
 
 ### Getting Started
@@ -27,7 +27,7 @@ Third parties video platforms can integrate with the **Vbrick Ramp SDK for Vbric
 This section describes how to get started with the SDK.
 
 > 👍 Tip
-> 
+>
 > Scripts can be loaded statically (as shown below) or dynamically by content management.
 
 1. Load the **Vbrick Ramp SDK**. 
@@ -36,7 +36,7 @@ This section describes how to get started with the SDK.
 <script type="application/javascript" src="https://static.us.vbrickrev.com/vbrick-ramp-sdk/rampapi.min.js"></script>
 ```
 
-2. Load a compatible version of **HLS.js**. HLS.js _must_ be >= v1.0!
+2. Load a compatible version of **HLS.js**. HLS.js *must* be >= v1.0!
 
 ```javascript
 <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
@@ -53,7 +53,7 @@ let User_ID = '<User Identifier>';
 ```
 
 4. Provide **Vbrick Peer-to-Peer** configuration and credentials.
-   1. A question mark `?` after the parameter name in the json below denotes that these are _optional_ fields. 
+   1. A question mark `?` after the parameter name in the json below denotes that these are *optional* fields. 
    2. The **jwtToken** can be generated in one of two methods:  a) generate the jwtToken on the backend or b) use a combination of **jwtKeyName**, **apiKey**, and **apiSecret** which is used by the SDK to generate the jwtToken for the user.
 
 ```javascript
