@@ -11,8 +11,8 @@ next:
   description: ''
 ---
 > 🚧 Important!
-> 
-> Per our [Rev v7.40 deprecation announcement](https://revdocs.vbrick.com/v7.40/reference/announcements), the Rev v1 API is being decommissioned and will no longer function as of the **Rev June 2025 Release**. If you have not already done so, please begin using the Rev v2 API _immediately_.
+>
+> Per our [Rev v7.40 deprecation announcement](https://revdocs.vbrick.com/v7.40/reference/announcements), the Rev v1 API is being decommissioned and will no longer function as of the **Rev June 2025 Release**. If you have not already done so, please begin using the Rev v2 API *immediately*.
 
 ## :star2: **New**
 
@@ -32,11 +32,11 @@ In addition to the new Header endpoints above for new Channel features, existing
 
 The following endpoints support this parameter:
 
-- [Create Channel](ref:createchannel)
-- [Update Channel](ref:editchannel)
-- [Patch Channel](ref:patchchannel)
-- [Get Channels](ref:getchannels)
-- [Get Channels For User](ref:getuserchannels)
+* [Create Channel](ref:createchannel)
+* [Update Channel](ref:editchannel)
+* [Patch Channel](ref:patchchannel)
+* [Get Channels](ref:getchannels)
+* [Get Channels For User](ref:getuserchannels)
 
 ### Webcast Bumper and Trailer Setting Updates
 
@@ -44,11 +44,11 @@ Webcast endpoints have been updated in support of the new bumper (**preRollVideo
 
 The following endpoints support these two parameters:
 
-- [Create Webcast](ref:createevent)
-- [Update Webcast](ref:editevent)
-- [Patch Webcast](ref:patchwebcast)
-- [Get Webcast Details](ref:getevent)
+* [Create Webcast](ref:createevent)
+* [Update Webcast](ref:editevent)
+* [Patch Webcast](ref:patchwebcast)
+* [Get Webcast Details](ref:getevent)
 
 ### Video Endpoint Updates
 
-The **accessControlEntities** object in the [Get Video Details/Metadata](ref:getvideosdetails) response has been updated so that, if the user calling the endpoint is a **Channel Member**, the response returns _all_ the channels that the video is a part of. Previously, the response only displayed the video's channels when the user was a **Channel Contributor**.
+The **accessControlEntities** object in the [Get Video Details/Metadata](ref:getvideosdetails) response has been updated so that, if the user calling the endpoint is a **Channel Member**, the response returns *all* the channels that the video is a part of. Previously, the response only displayed the video's channels when the user was a **Channel Contributor**.
