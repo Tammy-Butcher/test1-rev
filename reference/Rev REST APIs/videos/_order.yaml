@@ -56,3 +56,4 @@
 - getvideotaggingstatus
 - getapprovalprocess
 - sendvideoapproval
+- getpendingapprovalvideos
