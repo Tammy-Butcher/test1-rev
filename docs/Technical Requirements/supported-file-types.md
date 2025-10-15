@@ -11,27 +11,97 @@ next:
   description: ''
 ---
 The different file types that are used in Rev include [supplemental files](doc:update-advanced-video-settings#attach-a-supplemental-file) that are attached to videos to provide additional information and image files that are are also uploaded as [custom thumbnails](doc:update-advanced-video-settings#use-a-custom-thumbnail).
-[block:parameters]
-{
-  "data": {
-    "h-0": "File Type",
-    "h-1": "Extension",
-    "0-0": "PowerPoint presentations",
-    "0-1": ".ppt\n.pptx",
-    "1-0": "Microsoft Word",
-    "1-1": ".doc\n.docx",
-    "2-0": "Microsoft Excel",
-    "2-1": ".xls\n.xlsx\n.csv",
-    "3-0": "PDF",
-    "3-1": ".pdf",
-    "4-0": "Zip",
-    "4-1": ".zip\n.rar\n.7z",
-    "5-0": "Text",
-    "5-1": ".txt",
-    "6-0": "Images",
-    "6-1": ".jpg\n.png\n.gif"
-  },
-  "cols": 2,
-  "rows": 7
-}
-[/block]
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "left" }}>
+        File Type
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Extension
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        PowerPoint presentations
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .ppt\
+        .pptx
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Microsoft Word
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .doc\
+        .docx
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Microsoft Excel
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .xls\
+        .xlsx\
+        .csv
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        PDF
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .pdf
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Zip
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .zip\
+        .rar\
+        .7z
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Text
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .txt
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "left" }}>
+        Images
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        .jpg\
+        .png\
+        .gif
+      </td>
+    </tr>
+  </tbody>
+</Table>
