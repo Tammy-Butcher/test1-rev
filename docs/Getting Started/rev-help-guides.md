@@ -22,11 +22,11 @@ Use the links below to get started with our most popular guides.
 
 If you are new to Rev, start here. This set of guides provides tips on the Rev user interface and how to navigate videos, categories, events, and everywhere you need to be in the portal.
 
-- [Navigating the Rev User Interface](doc:the-rev-home-page)
-- [Rev Video Player Features](doc:rev-video-player-features)
-- [Your Rev Account](doc:your-rev-account)
-- [Your Rev Profile](doc:your-rev-profile)
-- [Your Content Subscriptions](doc:my-subscriptions) 
+* [Navigating the Rev User Interface](doc:the-rev-home-page)
+* [Rev Video Player Features](doc:rev-video-player-features)
+* [Your Rev Account](doc:your-rev-account)
+* [Your Rev Profile](doc:your-rev-profile)
+* [Your Content Subscriptions](doc:my-subscriptions) 
 
 ***
 
@@ -36,23 +36,23 @@ Our content guides demonstrate how to work with video and webcasts from uploadin
 
 #### Working with Video
 
-- [Upload, Stream, and Record Video](doc:adding-video)
-- [Understanding Video Metadata](doc:update-basic-video-settings) 
-- [Controlling Video Access](doc:video-access-control) 
-- [Video Languages](doc:video-languages)
-- [Using the Rev Video Editor](doc:edit-a-video-clip) 
-- [Playlists](doc:playlists)
-- [Create and Manage Video Channels](doc:create-and-manage-a-channel)
+* [Upload, Stream, and Record Video](doc:adding-video)
+* [Understanding Video Metadata](doc:update-basic-video-settings) 
+* [Controlling Video Access](doc:video-access-control) 
+* [Video Languages](doc:video-languages)
+* [Using the Rev Video Editor](doc:edit-a-video-clip) 
+* [Playlists](doc:playlists)
+* [Create and Manage Video Channels](doc:create-and-manage-a-channel)
 
 ***
 
 #### Working with Events
 
-- [The Rev Event Types](doc:create-event) 
-- [Event Basic Settings](doc:event-basic-settings)
-- [Adding Interactivity Features to Your Event](doc:attendee-engagement) 
-- [The Rev Event Calendar](doc:the-event-calendar)
-- [Hosting the Webcast](doc:host-a-webcast)
+* [The Rev Event Types](doc:create-event) 
+* [Event Basic Settings](doc:event-basic-settings)
+* [Adding Interactivity Features to Your Event](doc:attendee-engagement) 
+* [The Rev Event Calendar](doc:the-event-calendar)
+* [Hosting the Webcast](doc:host-a-webcast)
 
 ***
 
@@ -62,29 +62,29 @@ Account Admins in Rev can manage everything from portal security to the devices 
 
 #### Feature Management
 
-- [Enable Global Video Settings](doc:enable-or-disable-features) 
-- [Category Setup](doc:add-categories) 
-- [Video Expiration Rules](doc:setup-expiration-rules) 
-- [Enable Webcast User Engagement Features](doc:allow-webcast-features) 
-- [Rev Device Setup](doc:getting-started-with-rev-devices) 
-- [Rev Branding and Style Guides](doc:rev-branding-and-style-guides)
-- [Analytics and Reports](doc:view-webcast-analytics) 
+* [Enable Global Video Settings](doc:enable-or-disable-features) 
+* [Category Setup](doc:add-categories) 
+* [Video Expiration Rules](doc:setup-expiration-rules) 
+* [Enable Webcast User Engagement Features](doc:allow-webcast-features) 
+* [Rev Device Setup](doc:getting-started-with-rev-devices) 
+* [Rev Branding and Style Guides](doc:rev-branding-and-style-guides)
+* [Analytics and Reports](doc:view-webcast-analytics) 
 
 ***
 
 #### Portal Security
 
-- [Roles and Permissions](doc:roles-and-permissions)
-- [Portal Security and Content Restriction Features](doc:manage-content-restriction-features) 
-- [Content Approval Processes](doc:define-an-approval-process)
-- [Manage User Security Features](doc:set-system-features)
+* [Roles and Permissions](doc:roles-and-permissions)
+* [Portal Security and Content Restriction Features](doc:manage-content-restriction-features) 
+* [Content Approval Processes](doc:define-an-approval-process)
+* [Manage User Security Features](doc:set-system-features)
 
 ***
 
 #### Portal Updates and Upgrades
 
-- [Account Details and Child Portals](doc:view-and-edit-account-details) 
-- [License Types and Modules](doc:rev-license-types-and-add-ons)
-- [Rev AI](doc:rev-ai) and [Generative AI Tools](doc:generative-ai-tools)
-- [Technical Requirements](doc:supported-video-and-audio-formats)
-- [Integrations](doc:rev-integration-guides)
+* [Account Details and Child Portals](doc:view-and-edit-account-details) 
+* [License Types and Modules](doc:rev-license-types-and-add-ons)
+* [Rev AI](doc:rev-ai) and [Generative AI Tools](doc:generative-ai-tools)
+* [Technical Requirements](doc:supported-video-and-audio-formats)
+* [Integrations](doc:rev-integration-guides)
