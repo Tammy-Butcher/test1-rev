@@ -14,9 +14,9 @@ Use the **Default sort order for all videos** dropdown under **Media Settings** 
 
 Sort order options include:
 
-  * Recommended
-  * Upload Date
-  * Title
-  * Views
+* Recommended
+* Upload Date
+* Title
+* Views
 
-**Recommended**, **descending** is the default option. Keep in mind this only sets the default sort for the **All Videos **option. **Channels** and **My Videos** continue to be sorted by **Upload Date**, **descending**.
+**Recommended**, **descending** is the default option. Keep in mind this only sets the default sort for the **All Videos** option. **Channels** and **My Videos** continue to be sorted by **Upload Date**, **descending**.
