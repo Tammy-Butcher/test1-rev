@@ -12,7 +12,7 @@ next:
 ---
 Use the **My Playlists** interface to play a playlist.
 
-1. Navigate to the **Media **> [My Playlists](doc:user-menu-options).
+1. Navigate to the **Media** > [My Playlists](doc:user-menu-options).
 
 2. Click on the **Play All** button to play the playlist from the first video or select any video to start from a specific video.
 
