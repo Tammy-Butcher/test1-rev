@@ -10,25 +10,25 @@ metadata:
 next:
   description: ''
 ---
-Clicking **Download **> **Vbrick Peer-to-Peer - CSV** downloads details about Vbrick Peer-to-Peer zones once the event has ended but _only_ if they are enabled for the event.  If no zones are [Vbrick Peer-to-Peer enabled](doc:rev-connect-zones), this option is not visible.
+Clicking **Download** > **Vbrick Peer-to-Peer - CSV** downloads details about Vbrick Peer-to-Peer zones once the event has ended but *only* if they are enabled for the event.  If no zones are [Vbrick Peer-to-Peer enabled](doc:rev-connect-zones), this option is not visible.
 
 > 🚧 Important!
-> 
+>
 > If the **Hide User-Level Analytics** checkbox is enabled under [Content Restrictions](doc:hide-user-level-analytics), neither the **Attendees** nor the **Vbrick Peer-to-Peer** CSV file exports will be available for download, including to Admin accounts.
 
 Each line within the Vbrick Peer-to-Peer report represents one user within a Peer Mesh. In most cases, users join a single **Peer Mesh** for an entire event and, therefore, there is only one entry. However, if a user joins or rejoins one or more Peer Meshes, a line is added for each instance. This provides different user experiences based on membership in different Peer Meshes available to the analyst during review. The **UserID** should be used for grouping information about specific Users – and UserID is the same and used for correlation to the [Webcast Event Attendees](doc:webcast-reports#download-attendee-metrics) report.
 
-If viewed as a table (as in Excel), the first set of columns focus on the **User **(or viewer) characteristics. They include:
+If viewed as a table (as in Excel), the first set of columns focus on the **User** (or viewer) characteristics. They include:
 
-- Attendee Full Name (First Name / Last Name)
-- Account Username
-- UserID
-- Email Address
-- Session ID
-- Zone Name
-- IP Address
-- Browser Used
-- Origin URL
+* Attendee Full Name (First Name / Last Name)
+* Account Username
+* UserID
+* Email Address
+* Session ID
+* Zone Name
+* IP Address
+* Browser Used
+* Origin URL
 
 ***
 
@@ -36,11 +36,11 @@ Columns after User characteristics focus on **Peer Mesh** data. They include:
 
 **Peer Mesh GUID** - The Peer Mesh GUID is an unique ID representing a Peer Mesh. During analysis, this item can be used in a number of ways to:
 
-- Identify how many Peer Meshes were in this event (by counting unique Peer Mesh GUIDs)
-- Identify the timing life cycle of the Peer Mesh with start of this Peer Mesh (earliest Time In) and the end of the Peer Mesh (latest Time Out)
-- Grouping within Peer Mesh for analysis of:
-- Review User IPs for validation of the Peer Mesh membership (defined within the Zone settings for Peer Mesh)
-- Compare Peer Mesh metrics (defined below)
+* Identify how many Peer Meshes were in this event (by counting unique Peer Mesh GUIDs)
+* Identify the timing life cycle of the Peer Mesh with start of this Peer Mesh (earliest Time In) and the end of the Peer Mesh (latest Time Out)
+* Grouping within Peer Mesh for analysis of:
+* Review User IPs for validation of the Peer Mesh membership (defined within the Zone settings for Peer Mesh)
+* Compare Peer Mesh metrics (defined below)
 
 ***
 
@@ -82,17 +82,17 @@ This is the number of segments that the viewer requested within the peer mesh. T
 
 The following calculated percentages provide an insight to where (in percentage) the current user (within the peer mesh) is getting content (either via sharing from peers or going to origin), and how much user is sharing. While these are meaningful at the viewer level, they should not be used for an indication of the efficiency across the peer mesh.
 
-**Viewer Peer Mesh Efficiency (Peer Mesh Shares In / Total Segments In) \* 100**
+**Viewer Peer Mesh Efficiency (Peer Mesh Shares In / Total Segments In)\* 100**
 
 This is a viewer specific calculated measure. It represents the ratio/percentage of **Peer Mesh Shares In** (number of segments this viewer gets from peers) to the **Total Segments In** (total number of segments played, in from peers + origin gets).
 
 In other words: This is the percentage of segments that a viewer got from a peer.
 
-- The higher the value, the more that this viewer is using the peer mesh to get content. The lower the value, the more this viewer is going to origin.
+* The higher the value, the more that this viewer is using the peer mesh to get content. The lower the value, the more this viewer is going to origin.
 
 ***
 
-**Viewer Peer Mesh Origin Load (Origin Gets / Total Segments In) \* 100** 
+**Viewer Peer Mesh Origin Load (Origin Gets / Total Segments In)\* 100** 
 
 This is a viewer specific calculated measure, and the flip side of the Viewer Peer Mesh Efficiency. Meaning **Viewer Peer Mesh Origin Load** + **Viewer Peer Mesh Efficiency** = 100%.
 
@@ -100,11 +100,11 @@ This number represents the ratio/percentage of **Origin Gets** (number of segmen
 
 In other words: This is the percentage of segments that a viewer needed to go to origin.
 
-- The higher the value, the more this viewer is going to origin. The lower the value, the more that this viewer is using the peer mesh to get content.
+* The higher the value, the more this viewer is going to origin. The lower the value, the more that this viewer is using the peer mesh to get content.
 
 ***
 
-**Viewer Peer Mesh Samaritan Load (Peer Mesh Shares Out / Total Segments In ) \* 100** 
+**Viewer Peer Mesh Samaritan Load (Peer Mesh Shares Out / Total Segments In )\* 100** 
 
 This is a viewer specific calculated measure. It represents the ratio of how many times this user has shared with other peers to the total number of segments. This provides a quantitative measure to “How actively does this viewer share?” or “How good a Samaritan is this viewer in this Peer Mesh?”
 
@@ -112,7 +112,7 @@ This number represents the ratio of **Peer Mesh Shares Out** (how many times thi
 
 In other words: This is the percentage of how often this viewer shares to peers.
 
-- Higher numbers mean this viewer is sharing more (supplying segments to more peers.) Lower numbers represent a lack of sharing from this peer.
+* Higher numbers mean this viewer is sharing more (supplying segments to more peers.) Lower numbers represent a lack of sharing from this peer.
 
 ***
 
@@ -124,13 +124,13 @@ This is a Peer Mesh specific calculated measure. It represents the ratio of how 
 
 In other words: This percentage represents how often we are sharing.
 
-- Higher numbers mean better sharing within this Peer Mesh. Target should be > 90%. Lower numbers represent a lack of sharing within this Peer Mesh.
+* Higher numbers mean better sharing within this Peer Mesh. Target should be > 90%. Lower numbers represent a lack of sharing within this Peer Mesh.
 
 Do not confuse **Viewer Peer Mesh Efficiency** with **Mesh Peer Mesh Share Efficiency**. Each metric identifies scope by the first word, either Viewer (the single viewer) or Mesh (the single Peer Mesh) scope.
 
 ***
 
-**Mesh Peer Mesh Origin Efficiency = ( Sum(Origin Gets) / Unique (Origin Gets) ) \* 100** 
+**Mesh Peer Mesh Origin Efficiency = ( Sum(Origin Gets) / Unique (Origin Gets) )\* 100** 
 
 This is a Peer Mesh specific calculated measure that spans each Cluster. It represents the ratio of how many times (across all the users) there were origin retrievals for a segment to the number of unique segments. This provides a quantitative measure to “Is this the Peer Mesh Cluster going to origin too much?”
 
@@ -144,8 +144,8 @@ For larger Cluster sizes (up to 10), the **Mesh Peer Mesh Origin Efficiency**  c
 
 **Guidance**: 
 
-- If Peer Mesh Cluster size = 1, then strive for **Mesh Peer Mesh Origin Efficiency** value of 100-125
-- For larger Cluster size N, then strive for **Mesh Peer Mesh Origin Efficiency** value of (100-125)\*N/2
+* If Peer Mesh Cluster size = 1, then strive for **Mesh Peer Mesh Origin Efficiency** value of 100-125
+* For larger Cluster size N, then strive for **Mesh Peer Mesh Origin Efficiency** value of (100-125)\*N/2
 
 **Are higher values bad?** Higher values indicate more origin gets across all users, and hence more bandwidth used. High values of this metric are most impactful on Peer Meshes or Peer Mesh Clusters that exist on networks with reduced or restricted bandwidth. Networks with additional bandwidth can service more origin calls on average.
 
@@ -163,11 +163,11 @@ Do not confuse **Viewer Peer Mesh Origin Load** with **Mesh Peer Mesh Origin Eff
 
 This includes:
 
-- Peer Cluster (Zone-[group] - [clusterset] - [clusterid]) - displays the last one the user was in.
-- Peering Shares Sent
-- Peering Shares Received
-- Peering Origin Gets
-- Total Peering Segments (Total Segments In or Peering Shares Received plus Origin Gets)
-- Peering Bytes Saved (For the user in that event) 
+* Peer Cluster (Zone-\[group] - \[clusterset] - \[clusterid]) - displays the last one the user was in.
+* Peering Shares Sent
+* Peering Shares Received
+* Peering Origin Gets
+* Total Peering Segments (Total Segments In or Peering Shares Received plus Origin Gets)
+* Peering Bytes Saved (For the user in that event) 
 
 If the user was not a member of a peer mesh, these fields are blank.
