@@ -22,14 +22,14 @@ next:
 
 * [Delete Webcasts By Custom Field or Date Range](https://revdocs.vbrick.com/reference#deleteevents) deletes all events for a given date range or custom field. Use the [Get Delete Webcasts Job Status](https://revdocs.vbrick.com/reference#getdeletewebcastsjobstatus) endpoint to check on the status of any bulk delete.
 
-* [Upload Video Presentation Chapters](https://revdocs.vbrick.com/reference#uploadpresentationfile) is a new endpoint to create **video chapters with presentation file uploads** (similar to creating chapters in a video with a presentation in the Rev video edit interface). You can also use the [Get method](https://revdocs.vbrick.com/reference#getvideopresentationstatus) to retrieve the **status **of the presentation file upload.
+* [Upload Video Presentation Chapters](https://revdocs.vbrick.com/reference#uploadpresentationfile) is a new endpoint to create **video chapters with presentation file uploads** (similar to creating chapters in a video with a presentation in the Rev video edit interface). You can also use the [Get method](https://revdocs.vbrick.com/reference#getvideopresentationstatus) to retrieve the **status** of the presentation file upload.
 
 ## :wrench: **Updated/Fixed**
 
 [Create Webcast](ref:createevent) and [Update Webcast](ref:editevent) endpoints are updated with the following:
 
-* In support of the new event setting [Show Event Sharing Link](https://revdocs.vbrick.com/docs/event-basic-settings#show-event-sharing-link). A new parameter is now available that, when true, hides the **webcast URL** on the **Webcast Landing** page (both Admin and Attendee view) and on the **Event Details** page displayed to attendees while it is broadcasting. This option is **false **by default and the URL is displayed.
+* In support of the new event setting [Show Event Sharing Link](https://revdocs.vbrick.com/docs/event-basic-settings#show-event-sharing-link). A new parameter is now available that, when true, hides the **webcast URL** on the **Webcast Landing** page (both Admin and Attendee view) and on the **Event Details** page displayed to attendees while it is broadcasting. This option is **false** by default and the URL is displayed.
 
 * A new **eventAdmins** array of users has been added who will be **Webex Hosts and Co-hosts** (called **event admins** in the Rev UI).
 
-* A new **moderators **array that is equivalent to **panelists **in Webex.
+* A new **moderators** array that is equivalent to **panelists** in Webex.
