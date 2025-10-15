@@ -24,7 +24,7 @@ To enable Rev private video metadata sharing:
 
 View the following links for details on how to formulate these:
 
-- <https://oembed.com/>
-- <https://ogp.me/>
+* [https://oembed.com/](https://oembed.com/)
+* [https://ogp.me/](https://ogp.me/)
 
 Now when you [Share a Video](doc:share-a-video)  on external social sites like Facebook, LinkedIn, and Twitter a thumbnail, title, and friendly description of the video is displayed.
