@@ -14,8 +14,8 @@ Welcome to the :new: Vbrick **Developer Hub**!  We'll be updating this page on a
 
 In the meantime, be sure to checkout the following after each release:
 
-- [Announcements](ref:announcements) / The changelog for each API update and new endpoint releases and features and what we've been working on for each build including any bug fixes, new additions, or enhancements
+* [Announcements](ref:announcements) / The changelog for each API update and new endpoint releases and features and what we've been working on for each build including any bug fixes, new additions, or enhancements
 
-- [Getting Started](ref:getting-started) / How to start using our REST-based API right away
+* [Getting Started](ref:getting-started) / How to start using our REST-based API right away
 
-- [Rev SDK](ref:javascript-sdk) / Our Rev SDK
+* [Rev SDK](ref:javascript-sdk) / Our Rev SDK
