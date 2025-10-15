@@ -1,3 +1,4 @@
 - enable-jwt-authentication
 - configure-single-sign-on-sso
 - configure-okta-saml-single-sign-on-sso
+- enable-okta-scim
