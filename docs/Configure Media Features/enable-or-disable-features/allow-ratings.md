@@ -16,7 +16,7 @@ This feature is enabled by default. To globally enable ratings, select the **All
 
 Keep in mind:
 
-- If disabled, there is no ratings feature on any content (either input or display).
-- The ability to [Bulk Edit](doc:bulk-edit-video-settings#enable-ratings) the ratings feature is not available.
-- If ratings are disabled after they have already been submitted, ratings data is not deleted. If enabled again in the future, existing ratings are once again visible for the content.
-- If ratings are _enabled_ globally, the **Enable Ratings** check box appears in [video settings](doc:updating-video-settings) which allows ratings to be enabled or disabled for individual videos.
+* If disabled, there is no ratings feature on any content (either input or display).
+* The ability to [Bulk Edit](doc:bulk-edit-video-settings#enable-ratings) the ratings feature is not available.
+* If ratings are disabled after they have already been submitted, ratings data is not deleted. If enabled again in the future, existing ratings are once again visible for the content.
+* If ratings are *enabled* globally, the **Enable Ratings** check box appears in [video settings](doc:updating-video-settings) which allows ratings to be enabled or disabled for individual videos.
