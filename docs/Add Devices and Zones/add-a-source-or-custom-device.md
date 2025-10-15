@@ -17,26 +17,13 @@ Use the **Source Devices and LDAP Connectors** module to add, configure, and man
 
 You often need to have these types of devices added and configured before using them elsewhere in Rev, such as with a **Presentation Profile** that is used in a Webcast.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/61f5cab-sourceDeviceLDAP.png",
-        null,
-        "You must have the Account Admin role to add and manage Devices in Rev"
-      ],
-      "align": "center",
-      "caption": "You must have the Account Admin role to add and manage Devices in Rev"
-    }
-  ]
-}
-[/block]
-
+<Image alt="You must have the Account Admin role to add and manage Devices in Rev" align="center" src="https://files.readme.io/61f5cab-sourceDeviceLDAP.png">
+  You must have the Account Admin role to add and manage Devices in Rev
+</Image>
 
 To add a source or custom device:
 
-1. Navigate to **Devices ** in [Admin Menu Options](doc:admin-menu-options).
+1. Navigate to **Devices** in [Admin Menu Options](doc:admin-menu-options).
 
 2. Click the **Source Devices and LDAP Connectors** option.
 
