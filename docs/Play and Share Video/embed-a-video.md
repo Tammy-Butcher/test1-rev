@@ -12,10 +12,9 @@ next:
 ---
 [block:html]
 {
-  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
+  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n  <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
 }
 [/block]
-
 
 The embed feature in Rev provides the code necessary to place the video player on 3rd-party Websites or portals. This means that your viewers are not required to use the Rev portal to view your videos.
 
@@ -35,16 +34,15 @@ The embed feature in Rev provides the code necessary to place the video player o
 }
 [/block]
 
-
 When you embed a video:
 
 - It must be in [Active](doc:update-basic-video-settings#video-status) status
-- Its [Access Level](doc:update-basic-video-settings#video-access-control) must be set to **Public **(it may be viewed anonymously).  Otherwise, if Access Control is set to **Private**, viewers are required to log-in to Rev before viewing embedded videos.
+- Its [Access Level](doc:update-basic-video-settings#video-access-control) must be set to **Public** (it may be viewed anonymously). Otherwise, if Access Control is set to **Private**, viewers are required to log-in to Rev before viewing embedded videos.
 - Your Account Admin must [enable this feature](doc:allow-embeds) before it is available
 
 > 🚧 Important!
 > 
-> Both Safari and Chrome **Incognito **mode block 3rd-party cookies by default, which causes issues with some embedding features. For all functions to work as expected, it is _highly_ recommended that 3rd-party cookies be enabled.
+> Both Safari and Chrome **Incognito** mode block 3rd-party cookies by default, which causes issues with some embedding features. For all functions to work as expected, it is _highly_ recommended that 3rd-party cookies be enabled.
 > 
 > Safari also requires that **Prevent cross-site tracking** is unchecked (under **Privacy** settings) before embedding functions correctly.
 
@@ -52,9 +50,9 @@ To embed a video:
 
 1. Navigate to the video and access the [Sharing](doc:rev-video-player-features#video-sharing) flyout panel.
 
-2. Click the **Embed** tab for embedding options.  The [Link](doc:share-a-video) tab is used for sharing video URLs via copying, emailing, and Webex Teams. 
+2. Click the **Embed** tab for embedding options. The [Link](doc:share-a-video) tab is used for sharing video URLs via copying, emailing, and Webex Teams. 
 
-3. The embed code displays along with a preview of your embed.  Embedding options are displayed below the code and can be modified as needed, including any custom embed options such as styling and playback controls.
+3. The embed code displays along with a preview of your embed. Embedding options are displayed below the code and can be modified as needed, including any custom embed options such as styling and playback controls.
 
 [block:image]
 {
@@ -72,7 +70,6 @@ To embed a video:
 }
 [/block]
 
-
 4. Click the **Copy** text to copy the embed code to the clipboard. Note that not all browsers support this function. The text will not be present if your browser does not support clipboard copy.
 5. If you want the video to play from the beginning, leave the **Start at:** field _unchanged_. Otherwise, specify where on the timeline you want to start playing the video when embedded. To select a different time, select a different time on the timeline or manually enter the new time.
 
@@ -82,7 +79,7 @@ To embed a video:
 
 ## Custom Embed Options
 
-Toggling and modifying custom embed options updates the embed code URL.  Click the **Reset** link to return the options to the default values at any time.
+Toggling and modifying custom embed options updates the embed code URL. Click the **Reset** link to return the options to the default values at any time.
 
 ### Layout
 
@@ -104,7 +101,6 @@ Choose how you want to embed the video and select its sizing options.
 }
 [/block]
 
-
 **Pop-out player** - This is toggled off by default.
 
 - **Off**: Generates an iFrame containing the video that can be added to a Website page
@@ -120,13 +116,13 @@ Choose how you want to embed the video and select its sizing options.
 
 > 👍 Tip
 > 
-> If you want to embed a video on a mobile Web page or need the video player to work on responsive Web pages, select the **Responsive **option. 
+> If you want to embed a video on a mobile Web page or need the video player to work on responsive Web pages, select the **Responsive** option. 
 > 
 > Please note that the minimum supported size for a video embed is 375px x 210px and a full webcast is 375px x 375px, but larger viewports are recommended whenever possible.
 
 ```html
 <div style="position: relative; height: 0; padding-bottom: 56.25%;">
-<iframe allowfullscreen="" frameborder="0" height="100%" src="&lt;playback URL&gt;" style="position: absolute; left: 0px; top: 0px;" width="100%"></iframe>
+<iframe allowfullscreen="" frameborder="0" height="100%" src="<playback URL>" style="position: absolute; left: 0px; top: 0px;" width="100%"></iframe>
 </div>
 ```
 
@@ -149,8 +145,7 @@ Click the **Show Tabs** toggle if you want to embed the same user engagement and
 }
 [/block]
 
-
-Each tab that is enabled displays on the embedded video under the play bar functions.  Note that if a feature requires authentication (such as comments, playlists, and so forth) it will only display if logged in.
+Each tab that is enabled displays on the embedded video under the play bar functions. Note that if a feature requires authentication (such as comments, playlists, and so forth) it will only display if logged in.
 
 ### Styling
 
@@ -172,12 +167,11 @@ Use the **Styling** section to specify how the embedded player appears. All togg
 }
 [/block]
 
-
 - **Player accent color**: By default, this field is populated by the branding accent color used in the portal. Enter a new hexadecimal color or use the color picker wheel to use a custom accent color for the embedded video player.
 
 ### Controls
 
-Specify which controls you want to appear on the embedded player.  All controls are on by default.
+Specify which controls you want to appear on the embedded player. All controls are on by default.
 
 [block:image]
 {
@@ -194,7 +188,6 @@ Specify which controls you want to appear on the embedded player.  All controls 
   ]
 }
 [/block]
-
 
 - **All controls**:  Toggles all controls on or off
 - **Center buttons**: Hides main play button, skip forward, skip back
@@ -222,7 +215,6 @@ Specify playback options available on the embedded video.
   ]
 }
 [/block]
-
 
 - **Loop**:  Loops playback.  Not displayed for Live video.
 - **Autoplay**: Toggle if you want the video to autoplay when accessed. 
