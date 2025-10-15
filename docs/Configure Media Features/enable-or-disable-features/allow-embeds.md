@@ -15,35 +15,20 @@ Embedding must be enabled if you want to provide access to media embed code that
 1. Select **Allow access to embed code on all media** checkbox under **Media Settings** > **Features**. 
 
 2. This provides access to:
-   -  Video embed code on the [Sharing](doc:rev-video-player-features#video-sharing) flyout > [Embed](doc:embed-a-video) tab
-   -  [Webcast embed code tab](doc:embed-a-webcast) once the webcast is created and saved
+   * Video embed code on the [Sharing](doc:rev-video-player-features#video-sharing) flyout > [Embed](doc:embed-a-video) tab
+   * [Webcast embed code tab](doc:embed-a-webcast) once the webcast is created and saved
 
 3. For video embeds, select the **Autoplay enabled by default** checkbox if you want the embedded video’s code to have autoplay applied. This may be modified by the user.
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/96f7a11-allowEmbeds.png",
-        "allowEmbeds.png",
-        842,
-        114,
-        "#f7f7f7"
-      ],
-      "caption": "Be aware that enabling autoplay applies to both videos and webcasts and that they begin unmuted when possible"
-    }
-  ]
-}
-[/block]
 
-[block:callout]
-{
-  "type": "warning",
-  "title": "Important!",
-  "body": "If your videos and playlists are set to autoplay, be aware that they play unmuted when possible. If not possible, they play muted. This also applies to Webcasts."
-}
-[/block]
+<Image title="allowEmbeds.png" alt={842} src="https://files.readme.io/96f7a11-allowEmbeds.png">
+  Be aware that enabling autoplay applies to both videos and webcasts and that they begin unmuted when possible
+</Image>
+
+> 🚧 Important!
+>
+> If your videos and playlists are set to autoplay, be aware that they play unmuted when possible. If not possible, they play muted. This also applies to Webcasts.
+
 When allow embedding is *disabled*:
 
-* The **Embed **tab is no longer available for either videos or webcasts.
+* The **Embed** tab is no longer available for either videos or webcasts.
 * If a video or webcast is embedded and the functionality is disabled, users accessing the embedded media are displayed a message that indicates embedded playback is no longer available.
