@@ -29,21 +29,17 @@ This topic details the best practices to use when using Rev features such as [Sc
 7. Always try to use the most up-to-date browser version.
 8. Don't forget to disable any application that might popup/interrupt your presentation.
 9. The forgotten mistake -- enable your microphone -- **Always test your audio.** 
-[block:callout]
-{
-  "type": "warning",
-  "title": "Important!",
-  "body": "The computer you use should be modern. Consider the current **minimum requirements**: Sixth Generation Intel Processor with 4 Cores (or comparable AMD), 16GB RAM, Enabled Hardware Acceleration. Please shut down unnecessary applications to aid CPU and memory efficiency.\n\nReminder: Your microphone must always be enabled with permissions (for the browser and URL). If you do not want to record/stream audio, please mute it."
-}
-[/block]
 
-[block:callout]
-{
-  "type": "success",
-  "title": "Tip",
-  "body": "Producer uses multiple devices and inputs from various sources including your microphone, camera, and sometimes live screen sharing. To achieve the best stream possible, it is highly recommended you close all other applications during a Producer event so that all system resources are dedicated to the webcast."
-}
-[/block]
+> 🚧 Important!
+>
+> The computer you use should be modern. Consider the current **minimum requirements**: Sixth Generation Intel Processor with 4 Cores (or comparable AMD), 16GB RAM, Enabled Hardware Acceleration. Please shut down unnecessary applications to aid CPU and memory efficiency.
+>
+> Reminder: Your microphone must always be enabled with permissions (for the browser and URL). If you do not want to record/stream audio, please mute it.
+
+> 👍 Tip
+>
+> Producer uses multiple devices and inputs from various sources including your microphone, camera, and sometimes live screen sharing. To achieve the best stream possible, it is highly recommended you close all other applications during a Producer event so that all system resources are dedicated to the webcast.
+
 ## Environment Best Practices
 
 1. Eliminate background noise.
