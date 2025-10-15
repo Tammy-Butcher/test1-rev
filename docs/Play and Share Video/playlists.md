@@ -10,38 +10,44 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
-}
-[/block]
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+</div>
 
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
+}
+  
+</style>
+`}</HTMLBlock>
 
 There are two types of **Playlists** that you can create in Rev through the **Menu > My Playlist** option; **Static** and **Dynamic**. 
 
 Videos can also be added to a **Static** [Playlist](doc:rev-video-player-features#video-playlists) by clicking the **Playlist** icon.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9e7b6b1-playlistIcon.png",
-        null,
-        "Click the Playlist icon to access the flyout panel"
-      ],
-      "align": "center",
-      "caption": "Click the Playlist icon to add a video to a Static playlist"
-    }
-  ]
-}
-[/block]
+<Image alt="Click the Playlist icon to access the flyout panel" align="center" src="https://files.readme.io/9e7b6b1-playlistIcon.png">
+  Click the Playlist icon to add a video to a Static playlist
+</Image>
 
-
-- Playlists are _not _ unique in the system
-- Playlist names _can _ contain numbers, letters, and special characters
-- Playlists are _only _ visible to the user that creates them unless they are shared
-- Playlists are _not _ visible to Admins
+* Playlists are *not* unique in the system
+* Playlist names *can* contain numbers, letters, and special characters
+* Playlists are *only* visible to the user that creates them unless they are shared
+* Playlists are *not* visible to Admins
 
 Each playlist type has its benefits.  Here are some reasons why you might use one over the other.
 
