@@ -20,28 +20,16 @@ For methods that accept request parameters the platform accepts either <code>app
 
 All Rev APIs are accessed via HTTPS. The complete URL is based on your Rev portal URL and varies depending on the endpoint of the resource being accessed. 
 
-For instance, you can access a user based on Rev User ID via a GET request to this URL: **https\://<span>YOUR_REV_PORTAL_URL/api/v2/users/:userId</span>**  
+For instance, you can access a user based on Rev User ID via a GET request to this URL: **https\://<span>YOUR\_REV\_PORTAL\_URL/api/v2/users/:userId</span>**  
 
-Make sure to replace <code>YOUR_REV_PORTAL_URL</code> with the URL to your own Rev portal.
+Make sure to replace <code>YOUR\_REV\_PORTAL\_URL</code> with the URL to your own Rev portal.
 
-Please make sure that you are familiar with the **authentication **and **authorization **approaches for Rev APIs.
+Please make sure that you are familiar with the **authentication** and **authorization** approaches for Rev APIs.
 
 ## Expanding Objects
 
-Some endpoints have objects that use an **Add **control for readability.  To view those parameters in this documentation, simply click the **Add **button to expand the object.
+Some endpoints have objects that use an **Add** control for readability.  To view those parameters in this documentation, simply click the **Add** button to expand the object.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d65327d-addControl.png",
-        "addControl.png",
-        802
-      ],
-      "align": "center",
-      "caption": "The Add button is used to expand and collapse some objects for easier visibility"
-    }
-  ]
-}
-[/block]
+<Image title="addControl.png" alt={802} align="center" src="https://files.readme.io/d65327d-addControl.png">
+  The Add button is used to expand and collapse some objects for easier visibility
+</Image>
