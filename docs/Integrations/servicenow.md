@@ -10,29 +10,48 @@ metadata:
 next:
   description: ''
 ---
-[block:html]
-{
-  "html": "\n<div class=\"feature\">\n  <h3>Who can use this feature?</h3>\n <li>&#9193; <a href=\"/docs/rev-license-types-and-add-ons\">Vbrick Rev</a></li>\n</div>\n\n<style>\n  \n .feature {\nlist-style-type: none;\n   text-indent:10px;\n   width: 60%;\n   margin: 10px 10px;\n   padding-top: 5px;\n   padding-bottom: 15px;\n   padding-left:10px;\ndisplay: block;\n   background-color:#F6F3F3;\n   border-radius: 10px;\n   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;\n   \n}\n  \n</style>"
+<HTMLBlock>{`
+<div class="feature">
+  <h3>Who can use this feature?</h3>
+ <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
+</div>
+
+<style>
+  
+ .feature {
+list-style-type: none;
+   text-indent:10px;
+   width: 60%;
+   margin: 10px 10px;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   padding-left:10px;
+display: block;
+   background-color:#F6F3F3;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
+   
 }
-[/block]
+  
+</style>
+`}</HTMLBlock>
 
+Vbrick integrates with **ServiceNow** via our **Vbrick Video** app that is available in the [ServiceNow App Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/2a3d530f87b4e1100af91f873cbb35a0/2.0.14). Once installed, you can:
 
-Vbrick integrates with **ServiceNow ** via our **Vbrick Video** app that is available in the [ServiceNow App Store](https://store.servicenow.com/sn_appstore_store.do#!/store/application/2a3d530f87b4e1100af91f873cbb35a0/2.0.14). Once installed, you can:
-
-- Publish a Vbrick-hosted video using both the **Content Publishing** workflow in ServiceNow as well as by using the **Vbrick Video** custom widget to embed Vbrick-hosted videos on those Service Portal Pages that support the use of custom widgets. 
-- Embed a Vbrick-hosted playlist with the **Vbrick Playlist** custom widget using either the Playlist ID or URL while applying seamless access controls for your end users.
-- Use the **Vbrick Event** custom widget to view Vbrick Rev Public events directly in your ServiceNow portal, including attendee engagements you have enabled.
-- Publish Vbrick content with automatic authentication to the **Employee Center** for video components in **Rich Content** and **News Articles**.  Note: Private videos will still require a log-in if not already authenticated.
+* Publish a Vbrick-hosted video using both the **Content Publishing** workflow in ServiceNow as well as by using the **Vbrick Video** custom widget to embed Vbrick-hosted videos on those Service Portal Pages that support the use of custom widgets. 
+* Embed a Vbrick-hosted playlist with the **Vbrick Playlist** custom widget using either the Playlist ID or URL while applying seamless access controls for your end users.
+* Use the **Vbrick Event** custom widget to view Vbrick Rev Public events directly in your ServiceNow portal, including attendee engagements you have enabled.
+* Publish Vbrick content with automatic authentication to the **Employee Center** for video components in **Rich Content** and **News Articles**.  Note: Private videos will still require a log-in if not already authenticated.
 
 > 🚧 Important!
-> 
+>
 > If you previously installed the **Vbrick Video** (or **Vbrick Video Connector**) app **v1.4** or earlier, it is important that you **uninstall** it first before installing the latest version.
 
 ## Requirements
 
-- Vbrick Rev Cloud
-- A Vbrick Rev user account that has an email that matches the email being used in the ServiceNow account. This integration also supports usernames or custom fields in ServiceNow to match Vbrick usernames as of Rev v7.56. View the developer documentation that is packaged with the Vbrick app for details.
-- The Vbrick Rev account performing the installation/configuration steps must be an Account Admin account on _both_ the **Vbrick** and **ServiceNow** instances.
+* Vbrick Rev Cloud
+* A Vbrick Rev user account that has an email that matches the email being used in the ServiceNow account. This integration also supports usernames or custom fields in ServiceNow to match Vbrick usernames as of Rev v7.56. View the developer documentation that is packaged with the Vbrick app for details.
+* The Vbrick Rev account performing the installation/configuration steps must be an Account Admin account on *both* the **Vbrick** and **ServiceNow** instances.
 
 ## Installation
 
@@ -42,102 +61,33 @@ To enable and install the **Vbrick Video** app on the **ServiceNow Platform UI**
 
 2. Download and install the **Vbrick Video** app. Complete installation instructions are included in the zip file downloaded with the app.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b09e78b-serviceNowStore.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/b09e78b-serviceNowStore.png" />
 
 <br />
 
 > 🚧 Important!
-> 
+>
 > An Account Admin must perform the installation steps.
 
 3. Once the app is installed, you can search on **Vbrick** in your **ServiceNow** platform UI filter box in the left navigation menu. This displays the Vbrick options available to you where you can favorite them for easy access in the future.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/10f5ab3-vbrickNavOptions.png",
-        null,
-        "Vbrick navigation options become available in ServiceNow once the Vbrick Video app is installed"
-      ],
-      "align": "center",
-      "caption": "Vbrick navigation options become available in ServiceNow once the Vbrick Video app is installed"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Vbrick navigation options become available in ServiceNow once the Vbrick Video app is installed" align="center" src="https://files.readme.io/10f5ab3-vbrickNavOptions.png">
+  Vbrick navigation options become available in ServiceNow once the Vbrick Video app is installed
+</Image>
 
 4. You are now ready to use the app features which are described below and in the topic sections below this one.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/59019d7-contentLinks.png",
-        null,
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/59019d7-contentLinks.png" />
 
 ## Vbrick Rev AI-Powered Videos in ServiceNow Workflows
 
 Vbrick brings enhanced and [generative AI capabilities](doc:generative-ai-tools) into your ServiceNow workflows. Vbrick's [Smart Search](doc:search-and-filter-functions#ai-powered-smart-search), [Summarization](doc:video-title-and-description#use-vbrick-generative-ai-to-add-a-video-description), and [Video Assistant](doc:vbrick-assistant) capabilities are embedded into your contextual search screens and videos to streamline knowledge sharing, improve self-service options, and speed up your issue resolutions.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/82a35ea-incidentForm.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/82a35ea-incidentForm.png" />
 
 You can use custom fields in ServiceNow forms that will use Vbrick's **Smart Search** to generate results.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/cd7fa7b-vidAssistantforSN.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" src="https://files.readme.io/cd7fa7b-vidAssistantforSN.png" />
 
 Vbrick videos will use our Generative AI features such as the **Video Assistant** to summarize what the video is about if it meets the requirements needed.
 
