@@ -49,10 +49,10 @@ If you are a Vbrick Rev / EVP customer, the [Vbrick Rev Zone Settings](doc:vbric
 
 All customers can configure the [distribution modalities](doc:vbrick-distribution-modalities) that will be available for this Zone. Also, keep in mind, if you utilize **Zone Hierarchy**, these modalities may also be available to other IP address spaces. Please review the following articles:
 
-- [Vbrick Multicast](doc:vbrick-multicast)
-- [Vbrick Peer-to-Peer Zones](doc:rev-connect-zones)
-- [Source Unicast](doc:source-unicast)
-- [Vbrick Caching and Devices](doc:vbrick-caching-and-devices)
+* [Vbrick Multicast](doc:vbrick-multicast)
+* [Vbrick Peer-to-Peer Zones](doc:rev-connect-zones)
+* [Source Unicast](doc:source-unicast)
+* [Vbrick Caching and Devices](doc:vbrick-caching-and-devices)
 
 ***
 
