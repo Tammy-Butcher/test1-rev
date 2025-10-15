@@ -16,10 +16,6 @@ metadata:
 next:
   description: ''
 ---
-[block:callout]
-{
-  "type": "danger",
-  "title": "Caution",
-  "body": "This is a deprecated version.  Use [OAuth2 Authorization](ref:authorize) instead."
-}
-[/block]
+> ❗️ Caution
+>
+> This is a deprecated version.  Use [OAuth2 Authorization](ref:authorize) instead.
