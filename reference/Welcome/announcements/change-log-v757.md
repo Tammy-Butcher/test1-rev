@@ -20,14 +20,14 @@ The new [Get Playlist with Video Details](ref:getplaylistdetails) returns a spec
 
 Account Admins can now manage and reduce storage needs by deleting dual stream version videos and forcing switched streams to be the default version through the [Convert Dual Stream to Switched Stream](ref:convertdualstreamtoswitchedstream) endpoint. Note that this API only works for dual stream videos.  When you run this API:
 
-- The **MP4 switched stream** version is marked as the original
-- The **HLS switched stream** version remains
-- The **HLS dual stream** version is deleted
-- Two new parameters are updated:
-  - The **hasDualStreams** parameter is updated to False
-  - The **isConvertedToSwitched** parameter is updated to True
-  - These flags are updated accordingly in the [Get Video Details/Metadata](ref:getvideosdetails) and [Search Videos](ref:searchvideo) endpoints.
-  - They have also been added to the [Video Inventory](doc:view-video-reports#download-video-inventory-report) report download.
+* The **MP4 switched stream** version is marked as the original
+* The **HLS switched stream** version remains
+* The **HLS dual stream** version is deleted
+* Two new parameters are updated:
+  * The **hasDualStreams** parameter is updated to False
+  * The **isConvertedToSwitched** parameter is updated to True
+  * These flags are updated accordingly in the [Get Video Details/Metadata](ref:getvideosdetails) and [Search Videos](ref:searchvideo) endpoints.
+  * They have also been added to the [Video Inventory](doc:view-video-reports#download-video-inventory-report) report download.
 
 ### Get Video Unique Sessions Report
 
@@ -43,6 +43,6 @@ The [Search Assignable Users, Groups, and Channels](ref:searchaccessentityassign
 
 [Dynamic Playlists](doc:playlists#dynamic-playlists) are available as of v7.57 with current playlist functionality remaining the same and renamed to **Static Playlists**. API support for Dynamic Playlists includes the following updates:
 
-- A new parameter **type** that can = **static** or **dynamic**. The default is static and all existing playlists are static.
-- When type = **dynamic**, a new field is used to define the dynamic playlist criteria called: **playlistDetails**. 
-- The [Add Playlist](ref:createplaylist), [Update Playlist](ref:editplaylist), and [Get Playlists](ref:getplaylists) endpoints have been updated to reflect these updates.
+* A new parameter **type** that can = **static** or **dynamic**. The default is static and all existing playlists are static.
+* When type = **dynamic**, a new field is used to define the dynamic playlist criteria called: **playlistDetails**. 
+* The [Add Playlist](ref:createplaylist), [Update Playlist](ref:editplaylist), and [Get Playlists](ref:getplaylists) endpoints have been updated to reflect these updates.
