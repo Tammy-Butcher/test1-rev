@@ -24,12 +24,12 @@ There is a new **isFeatured** Boolean parameter that allows Event Admins to mark
 
 The following endpoints support this feature:
 
-- [Create Webcast](ref:createevent)
-- [Update Webcast](ref:editevent)
-- [Patch Webcast](ref:patchwebcast)
-- [Get Webcast Details](ref:getevent)
-- [Get Webcasts By Time Range](ref:geteventslist)
-- [Search Webcasts By Custom Field or Date Range](ref:searchwebcasts)
+* [Create Webcast](ref:createevent)
+* [Update Webcast](ref:editevent)
+* [Patch Webcast](ref:patchwebcast)
+* [Get Webcast Details](ref:getevent)
+* [Get Webcasts By Time Range](ref:geteventslist)
+* [Search Webcasts By Custom Field or Date Range](ref:searchwebcasts)
 
 ### Audio Track Generation Support
 
@@ -39,8 +39,8 @@ For example, setting the **status** field in this object to `adding` will genera
 
 You also have the option to specify if the track is the default audio using **isDefault** and supported languages using **languageID**.  The following endpoints are able to use these values and objects:
 
-- [Update Video Details/Metadata](ref:updatevideo)
-- [Patch Video Details/Metadata](ref:editvideopatch)
-- [Get Video Details/Metadata](ref:getvideosdetails)
+* [Update Video Details/Metadata](ref:updatevideo)
+* [Patch Video Details/Metadata](ref:editvideopatch)
+* [Get Video Details/Metadata](ref:getvideosdetails)
 
 The [Get Rev IQ Credits Usage](ref:getaccountiqcreditsusage) endpoint has been updated so that Account Admins can now track audio translation updates and the credits used for them as we do with other Rev IQ usage parameters.  A **Usage** type equal to **AudioGeneration** is returned for audio translation tracking actions.
