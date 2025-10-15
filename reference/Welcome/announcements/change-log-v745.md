@@ -24,7 +24,7 @@ This new endpoint allows you to [Reboot a DME](ref:rebootdmedevice).  It functio
 
 ### Get Video oEmbed
 
-The [Get Video oEmbed](ref:oembed) endpoint has been updated to accept the formatting of Rev's **Shared URL** as input to the **url **query parameter.
+The [Get Video oEmbed](ref:oembed) endpoint has been updated to accept the formatting of Rev's **Shared URL** as input to the **url** query parameter.
 
 ### Get Webcast Attendee Reports
 
@@ -36,13 +36,11 @@ The [Get Webcast Attendees Report](ref:getposteventsessions) and [Get Webcast At
 * Average Experienced Rebuffer Duration 
 * Experienced Errors / Attendees 
 * Multicast Errors (average, same as in UI)
-[block:callout]
-{
-  "type": "info",
-  "title": "Note",
-  "body": "These are event-level metrics and do not change based on Search criteria.  For example, a search on users with just \"Kyle\" returns stats for the event, not just \"Kyle\"."
-}
-[/block]
+
+> 📘 Note
+>
+> These are event-level metrics and do not change based on Search criteria.  For example, a search on users with just "Kyle" returns stats for the event, not just "Kyle".
+
 The [Get Webcast Attendees Report](ref:getposteventsessions) response now includes the following responses at the top of the response body:
 
 * hostCount
