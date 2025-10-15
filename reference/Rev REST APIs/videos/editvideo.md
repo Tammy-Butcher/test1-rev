@@ -20,9 +20,9 @@ next:
   description: ''
 ---
 > 📘 Note
-> 
+>
 > Once this endpoint is complete, you can then use additional APIs to update the video clips as needed. For example:
-> 
-> - [Update](ref:uploadvideochaptersupdate) or [delete](ref:deletevideochapters) video chapters
-> - [Upload](ref:uploadtranscriptionfiles-1) , [transcribe](ref:transcribevideo) , or [translate](ref:translatevideo) video
-> - Apply user tags with [tag users in a video](ref:tagusersinvideo)
+>
+> * [Update](ref:uploadvideochaptersupdate) or [delete](ref:deletevideochapters) video chapters
+> * [Upload](ref:uploadtranscriptionfiles-1) , [transcribe](ref:transcribevideo) , or [translate](ref:translatevideo) video
+> * Apply user tags with [tag users in a video](ref:tagusersinvideo)
