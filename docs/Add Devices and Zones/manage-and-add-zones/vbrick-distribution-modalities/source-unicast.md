@@ -14,39 +14,39 @@ next:
 ---
 The **Source Unicast** distribution modality provides the **Fallback to Source** feature.  This setting controls the ability for a user within a zone to either fallback to source (or origin) or to utilize the **zone hierarchy** in the event no Playback URLs are available. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/73ba3d1-sourceUnicastSection.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/73ba3d1-sourceUnicastSection.png" />
 
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Field or Setting
+      </th>
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Field or Setting",
-    "h-1": "Description",
-    "0-0": "Fallback to Source",
-    "0-1": "If **enabled**, this feature allows Rev to provision a source (or origin) URL as a **Playback URL** for a zone.  As a reminder, if the source URL is provided as **Playback URL**, then the there will be no **zone hierarchy** failover because a distribution modality (Source Unicast or origin) is available.  \n  \nThis is useful in the case of a zone not having additional available distribution modalities.  This has the side effect of NOT utilizing the zone hierarchy.  \n  \nIf **disabled**, this feature stops Rev from provisioning a source (or origin) URL as a **Playback URL** for a zone.  In this case, if there are no other distribution modalities then Rev will utilize the **zone hierarchy** to find Playback URLs.  \n  \nThis feature is **enabled** by default for new zones."
-  },
-  "cols": 2,
-  "rows": 1,
-  "align": [
-    "left",
-    "left"
-  ]
-}
-[/block]
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
 
+  <tbody>
+    <tr>
+      <td>
+        Fallback to Source
+      </td>
+
+      <td>
+        If **enabled**, this feature allows Rev to provision a source (or origin) URL as a **Playback URL** for a zone.  As a reminder, if the source URL is provided as **Playback URL**, then the there will be no **zone hierarchy** failover because a distribution modality (Source Unicast or origin) is available.  
+
+        This is useful in the case of a zone not having additional available distribution modalities.  This has the side effect of NOT utilizing the zone hierarchy.  
+
+        If **disabled**, this feature stops Rev from provisioning a source (or origin) URL as a **Playback URL** for a zone.  In this case, if there are no other distribution modalities then Rev will utilize the **zone hierarchy** to find Playback URLs.  
+
+        This feature is **enabled** by default for new zones.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 At the release of this feature, **Fallback to source** is enabled by default.
 
@@ -54,11 +54,11 @@ At the release of this feature, **Fallback to source** is enabled by default.
 
 ### Provisioning Playback URLs.
 
-As noted above, if **Fallback to Source** is **Enabled**, then Rev provisions the source URL within the set of **Playback URLs **for the player.   The player then uses that URL accordingly.
+As noted above, if **Fallback to Source** is **Enabled**, then Rev provisions the source URL within the set of **Playback URLs** for the player.   The player then uses that URL accordingly.
 
-When we say **source**, we mean the _cloud based streams_ (as provided by Vbrick EVP / Rev or video conferencing solutions) as the source, or _source urls_ (as provided by developers when using the Vbrick Universal eCDN SDK.)  For example, while we may be watching a Microsoft Teams meeting stream from the DME, but it's source would be in the (Microsoft) cloud.
+When we say **source**, we mean the *cloud based streams* (as provided by Vbrick EVP / Rev or video conferencing solutions) as the source, or *source urls* (as provided by developers when using the Vbrick Universal eCDN SDK.)  For example, while we may be watching a Microsoft Teams meeting stream from the DME, but it's source would be in the (Microsoft) cloud.
 
-It should be noted that **Presentation Profile** events that do not include **DME** CDN pushes (either through custom stream configuration or via **Rev IQ **enrichment) do not have sources.  In this case, this setting is ignored and the system utilizes the **zone hierarchy** if necessary.  If there are associated CDN pushes or enriched streams, then those are used as source URLs and will be supplied if **Fallback to Source** is **enabled**.
+It should be noted that **Presentation Profile** events that do not include **DME** CDN pushes (either through custom stream configuration or via **Rev IQ** enrichment) do not have sources.  In this case, this setting is ignored and the system utilizes the **zone hierarchy** if necessary.  If there are associated CDN pushes or enriched streams, then those are used as source URLs and will be supplied if **Fallback to Source** is **enabled**.
 
 As a reminder, there may be other distribution modalities that are provisioned based on the zone configuration.  There are many different ways to configure the zone; here are more examples to illustrate the use of **Fallback to Source**.
 
@@ -71,11 +71,11 @@ In another example, there may be no other available distribution modalities exce
 **Fallback to Source** is a safety enablement -- meaning, if there are no additional distribution modalities (or they fail during playback), the player will go to origin and playback.  There are situations, mostly around broadband usage and reduced network capacity, where you would not want a group of viewers to go to origin and consume bandwidth.  In that case, it is best to try to configure your Zones to target these viewers, and disable the **Fallback to Source**.  This can be a very effective method for controlling network bandwidth.
 
 > 🚧 Important!
-> 
+>
 > **Initial Action May Be Required**
-> 
+>
 > At the release of this feature, June 2023, the **Fallback to source** setting is **Enabled** by default for all existing customer Zones.  
-> 
+>
 > If **Enabled**,  the source URL is provided as **Playback URL**, then the there will be no **Zone Hierarchy** failover (because the distribution modality **Source Unicast** (origin ULR) is available.  
-> 
+>
 > If your Zone architecture relies on **Zone Hierarchies** to provision **Playback URLs** from parent-zones, then please review and address this setting within the appropriate Zones.
