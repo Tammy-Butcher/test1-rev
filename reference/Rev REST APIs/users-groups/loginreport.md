@@ -15,10 +15,6 @@ metadata:
 next:
   description: ''
 ---
-[block:callout]
-{
-  "type": "danger",
-  "title": "Warning!",
-  "body": "If [Hide User Level Analytics](doc:hide-user-level-analytics) under the **Content Restriction** menu is enabled, this endpoint returns a 401 error."
-}
-[/block]
+> ❗️ Warning!
+>
+> If [Hide User Level Analytics](doc:hide-user-level-analytics) under the **Content Restriction** menu is enabled, this endpoint returns a 401 error.
