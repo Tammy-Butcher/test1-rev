@@ -23,7 +23,7 @@ Vbrick products focus on delivering video (both Live and VOD) to our customers e
 
 **Zones** are an abstract grouping mechanism based on IP ranges.  Viewers are grouped and matched to zone (by IP) that will provide one or more distribution modalities.  A [distribution modality](doc:vbrick-distribution-modalities) is a technology for distributing video.  Vbrick provides the following modalities: Vbrick Multicast, Vbrick Peer-to-Peer, Vbrick Unicast Caching, and Origin playback.
 
-The first zone to consider is the [Default Zone](doc:manage-and-add-zones#the-default-zone) which is automatically created and catches all viewers with IPs that are not defined within other customer defined zones.  This zone is normally reserved for users viewing from the Internet and _not_ from within a customer’s enterprise.
+The first zone to consider is the [Default Zone](doc:manage-and-add-zones#the-default-zone) which is automatically created and catches all viewers with IPs that are not defined within other customer defined zones.  This zone is normally reserved for users viewing from the Internet and *not* from within a customer’s enterprise.
 
 In addition to the Default Zone, you can additional zones through the **Devices** > **Zones** menu by **Adding a Zone**. This simple process includes providing a name and a set of unique IP (IPv4 and/or IPv6) address ranges for the users/viewers.  Then, different distribution modalities can be selected and configured for that zone. For details, view [Add or Edit a Zone](doc:add-a-zone).
 
@@ -47,26 +47,13 @@ Vbrick recommends that customers define their zone hierarchy to provide a fail-o
 
 To illustrate this, consider following the **zone hierarchy** for Company XYZ in the image below.  Zones are defined for locations named **Florida**, **New England**, **New York City**, etc -- matching their corporate physical location and network configuration.  Each of those zones can have unique IP ranges and can utilize different modalities – for example, **Florida** could use Multicast and Unicast Caching, while **New England** uses Peer-2-Peer.  
 
-The key concept here is that each zone can use any combination of the modalities.  And, if there is a device failure in a zone, such as in **Washington, DC**, then viewers will be provisioned **playback URLs **from the parent **East Coast** zone and so forth on up the zone hierarchy.
+The key concept here is that each zone can use any combination of the modalities.  And, if there is a device failure in a zone, such as in **Washington, DC**, then viewers will be provisioned **playback URLs** from the parent **East Coast** zone and so forth on up the zone hierarchy.
 
 The **zone hierarchy** is used by the **zone logic flow** (seen below).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e1e03d0-zoneLogic.png",
-        "zoneLogic.png",
-        "Example **Zone Hierarchy** (from **Admin >> Devices >> Zone **page.)"
-      ],
-      "align": "center",
-      "caption": "Example **zone hierarchy** (from **Admin > Devices > Zone **page.)"
-    }
-  ]
-}
-[/block]
-
+<Image title="zoneLogic.png" alt="Example **Zone Hierarchy** (from **Admin >> Devices >> Zone **page.)" align="center" src="https://files.readme.io/e1e03d0-zoneLogic.png">
+  Example **zone hierarchy** (from **Admin > Devices > Zone** page.)
+</Image>
 
 ## Zone Logic Flow
 
@@ -89,25 +76,25 @@ To illustrate this, with the example above and the user’s IP within the **Wash
 **Device Availability**.  It should be noted, that zones may contain modalities that may not be currently available.  For example, Vbrick keeps real time track of the DMEs , and if the DME loses connection to Vbrick Rev for an extended time it will be marked Offline.  Once a Vbrick DME is considered Offline, it will no longer be provisioned or used for users in configured zones. (Note: Once the DME regains connectivity with Vbrick Rev, it will then be used for distribution.)
 
 > 👍 Tip
-> 
-> If multiple DMEs are assigned to a zone, _all _ DMEs are considered before the next zone in the hierarchy is attempted.
+>
+> If multiple DMEs are assigned to a zone, *all* DMEs are considered before the next zone in the hierarchy is attempted.
 
 **Vbrick Rev Video On Demand**.  For VOD files, Rev "fails up" to the Rev File Store (Vbrick Cloud for cloud customers) as a last resort if all the DMEs in your configured hierarchy are offline.
 
-**Fallback to Source**.  This additional control, specified at the zone level, will terminate any fail-over to the parent process if enabled.  This means that players will be directed to go directly to source.  This may happen in the matching zone or any parent zone that has this feature enabled.  Vbrick recommends top level zones and default zone to enable this feature to assure playback.  _This feature is enabled by default -- so, if your distribution architecture relies on zone hierarchy fail-over, please review the setting._
+**Fallback to Source**.  This additional control, specified at the zone level, will terminate any fail-over to the parent process if enabled.  This means that players will be directed to go directly to source.  This may happen in the matching zone or any parent zone that has this feature enabled.  Vbrick recommends top level zones and default zone to enable this feature to assure playback.  *This feature is enabled by default -- so, if your distribution architecture relies on zone hierarchy fail-over, please review the setting.*
 
 **IP not Found during Zone Logic search.**  As mentioned above, if the user’s IP is not found in any zone, that user will be provisioned by the Default Zone.  In this case, please consider enabling Fallback to Source in the default zone.
 
-**Zone Logic Flow Fail-over vs Player Fail-over.  **The **zone Logic flow** is strictly about providing the **Playback URLs** to the player.  The **Playback URLs **(only for the modalities within the zone) will be used/attempted by the player in the following priority order with Player Fail-over:  Multicast, Peer-to-Peer, Edge Caching, Source (or origin).  It is important not to conflate the zone logic flow fail-over with player fail-over.
+**Zone Logic Flow Fail-over vs Player Fail-over.** The **zone Logic flow** is strictly about providing the **Playback URLs** to the player.  The **Playback URLs** (only for the modalities within the zone) will be used/attempted by the player in the following priority order with Player Fail-over:  Multicast, Peer-to-Peer, Edge Caching, Source (or origin).  It is important not to conflate the zone logic flow fail-over with player fail-over.
 
 > 🚧 Caution
-> 
+>
 > Rev Cloud Users behind a corporate firewall appear as if they are coming from the same external IP address. 
-> 
+>
 > Having the internal IP helps better utilize the zone hierarchy with the zone logic flow to achieve maximum benefits.  Vbrick provides the ability, within the Vbrick DMEs, to obtain an internal IP address but it must be configured.  Please view: [The DME User Location Service](doc:user-location-service-uls)
 
 > ❗️ Warning!
-> 
+>
 > If the zone hierarchy is not setup, then Rev only returns the playback URL for the user's exact matched zone (which may or may not provide Fallback to Source.)
-> 
+>
 > After zone logic flow has searched for appropriate zones and playback URLs, if none are found, then the user is displayed the following message: “Playback of this video is not available at this time. Please try again later.”
