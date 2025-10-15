@@ -14,11 +14,11 @@ The **Enable Expiration Rules** option is used to enable the [Expiration Managem
 
 This setting is enabled by default.  Deselect the **Allow videos to expire based on rules** checkbox under **Media Settings** > **Features** to disable the setting.
 
-When _enabled_:
+When *enabled*:
 
-- This adds the **Media Settings > Expiration Management** interface so that expiration rules may be defined for video uploads.
-- Once expiration rules are defined, they are selected under [Video Settings](doc:updating-video-settings) for each video upload.
+* This adds the **Media Settings > Expiration Management** interface so that expiration rules may be defined for video uploads.
+* Once expiration rules are defined, they are selected under [Video Settings](doc:updating-video-settings) for each video upload.
 
 > 👍 Tip
-> 
+>
 > Expiration dates are always available for video uploads. This topic only refers to enabling expiration rules.
