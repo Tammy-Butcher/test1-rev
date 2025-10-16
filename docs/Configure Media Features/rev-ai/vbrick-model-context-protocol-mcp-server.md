@@ -10,36 +10,9 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128736; <a href="/docs/rev-ai">Rev IQ Module</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 <BetaTopic />
 
-**Model Context Protocol** ([MCP](https://modelcontextprotocol.io/docs/getting-started/intro)) is an open protocol that standardizes how applications like Vbrick Rev provide context to **Large Language Model (LLM)** AI systems. **Vbrick MCP Server** allows third party AI systems like Anthropic’s Claude, OpenAI’s ChatGPT, Microsoft Copilot etc., to search and access Vbrick video content seamlessly. It allows the AI systems to perform actions related to Vbrick video content. 
+**Model Context Protocol** ([MCP](https://modelcontextprotocol.io/docs/getting-started/intro)) is an open protocol that standardizes how applications like Vbrick Rev provide context to **Large Language Model (LLM)** AI systems. **Vbrick MCP Server** allows third party AI systems like Anthropic’s Claude, OpenAI’s ChatGPT, Microsoft Copilot etc., to search and access Vbrick video content seamlessly. It allows the AI systems to perform actions related to Vbrick video content.
 
 At this time, Vbrick provides a self-hosted MCP server option that you can clone and host on your local machine.
 
@@ -85,9 +58,9 @@ npm run build
 ```
 
 8. Download and install the AI app you will use with your MCP Server.  For this documentation, we will use **Claude desktop** as an example. Download Claude desktop from [Download Claude](https://claude.ai/download).
-9. Edit the **claude\_desktop\_config.json** file using Notepad from **Settings > Developer > Edit Config** button.
+9. Edit the **claude_desktop_config.json** file using Notepad from **Settings > Developer > Edit Config** button.
 
-<Image align="center" src="https://files.readme.io/c0fffb877b044a44ecbda06c8e06cab764dd8df136d496894a3f6004feb85660-editClaudeConfig.png" />
+<Image align="center" border={false} src="https://files.readme.io/c0fffb877b044a44ecbda06c8e06cab764dd8df136d496894a3f6004feb85660-editClaudeConfig.png" />
 
 > 📘 Note
 >
@@ -118,11 +91,11 @@ npm run build
 
 11. If you use Claude, you can verify that your Vbrick MCP Server has been installed correctly and is running by clicking **Settings > Developer > Advanced** options.
 
-<Image align="center" src="https://files.readme.io/1c88abe651d6196e4dccd3d509242291de15630e6f6b17414cf08127a127740e-serverInstalled.png" />
+<Image align="center" border={false} src="https://files.readme.io/1c88abe651d6196e4dccd3d509242291de15630e6f6b17414cf08127a127740e-serverInstalled.png" />
 
 12. You are now ready to use the Vbrick MCP Server tools.
 
-<Image align="center" src="https://files.readme.io/57431389ebe88b40636c9d67c58f29dc6f7c5e1ebe8e3f77651c5ecba74591a8-claudeMCPInstalled.png" />
+<Image align="center" border={false} src="https://files.readme.io/57431389ebe88b40636c9d67c58f29dc6f7c5e1ebe8e3f77651c5ecba74591a8-claudeMCPInstalled.png" />
 
 <br />
 
@@ -145,15 +118,15 @@ Each of these are discussed in detail in the sections below.
 
 The Vbrick MCP server has a tool called **Who Am I** that calls Rev API authentication and authorization endpoints to determine the logged-in user each time you use Claude. Every time you use the MCP server with Claude, you are asked to authenticate. The first time, you are also asked to allow permissions.
 
-<Image align="center" src="https://files.readme.io/94cc7845cd1ac532ca5ef40dee9c385b977f675d7fbbd2b47bd891ba74a57b0e-claudeRevAuthenticate.png" />
+<Image align="center" border={false} src="https://files.readme.io/94cc7845cd1ac532ca5ef40dee9c385b977f675d7fbbd2b47bd891ba74a57b0e-claudeRevAuthenticate.png" />
 
 Claude automatically spawns the Rev tenant window you configured during installation for you to log-in. Once you have authenticated, you can then close this window.
 
-![](https://files.readme.io/25e89a229b5285178d7671431843b000482e14d212cd019b6a93daf57334c9c1-image.png)
+<Image border={false} src="https://files.readme.io/25e89a229b5285178d7671431843b000482e14d212cd019b6a93daf57334c9c1-image.png" />
 
 Claude will call **Who Am I** again to verify that you are logged in. If not, you can ask it to continue.  The results of your request are then returned and you can continue using Claude with the configured MCP server.
 
-<Image align="center" src="https://files.readme.io/b323516dc5ad5af0b8dea4503df0d371c1cdc7149fe930c8fcfc35b0e30ba526-authenticationComplete.png" />
+<Image align="center" border={false} src="https://files.readme.io/b323516dc5ad5af0b8dea4503df0d371c1cdc7149fe930c8fcfc35b0e30ba526-authenticationComplete.png" />
 
 ### Video Search Tool
 
@@ -161,7 +134,7 @@ The Vbrick MCP server has a **Video Search Tool** that calls our Video Search AP
 
 For example, “Search for some videos on language”, might yield:
 
-<Image align="center" src="https://files.readme.io/acb1a612961a26245a2e4235fc6be2ba2c89cdde4c28432d6376b01b2bf5b090-searchResults.png" />
+<Image align="center" border={false} src="https://files.readme.io/acb1a612961a26245a2e4235fc6be2ba2c89cdde4c28432d6376b01b2bf5b090-searchResults.png" />
 
 1. A drop-down that that displays the API request and response in detail
 2. Video title and length
@@ -174,7 +147,7 @@ The Vbrick MCP server has a **Video Details Tool** that returns video metadata f
 
 For example, “Can you give me more details about the video?” might yield:
 
-<Image align="center" src="https://files.readme.io/ac86053d7cc9166a20f8c93b2e88a1c7d51036407034444537cd6a52ee908f8d-videoDetailsResult.png" />
+<Image align="center" border={false} src="https://files.readme.io/ac86053d7cc9166a20f8c93b2e88a1c7d51036407034444537cd6a52ee908f8d-videoDetailsResult.png" />
 
 Included in the result:
 
@@ -191,7 +164,7 @@ The Vbrick MCP server has a **Video Transcript Tool** that uses the Get Video Tr
 
 For example, a request to include a video’s transcript might return:
 
-<Image align="center" src="https://files.readme.io/ab4d7900e932bddbbbf3d53a0623b8f9d0a8a473b2f735e45ee2bda4779e8f31-getVideoTranscripts.png" />
+<Image align="center" border={false} src="https://files.readme.io/ab4d7900e932bddbbbf3d53a0623b8f9d0a8a473b2f735e45ee2bda4779e8f31-getVideoTranscripts.png" />
 
 Included in the result:
 
@@ -213,24 +186,22 @@ Using the Vbrick MCP Server with an AI app such as Claude desktop allows you to 
 
 You can ask the AI to create a **detailed spreadsheet** for you based on the videos you want that contains only the data you want to see. In this example, Claude is being asked only for specific category of videos based on language with the most popular video in the language series being highlighted.
 
-<Image alt="Ask to create a spreadsheet and include only the data and specific information you want to view" align="center" src="https://files.readme.io/7ee035b39bc04307b67b51dde1790af438edb996f07aff151909f28285f04c96-spreadsheet1.png">
-  Ask to create a spreadsheet and include only the data and specific information you want to view
-</Image>
+<Image align="center" alt="Ask to create a spreadsheet and include only the data and specific information you want to view" border={false} caption="Ask to create a spreadsheet and include only the data and specific information you want to view" src="https://files.readme.io/7ee035b39bc04307b67b51dde1790af438edb996f07aff151909f28285f04c96-spreadsheet1.png" />
 
 Once the videos are gathered, the AI is asked to create a spreadsheet of them that can be downloaded and/or published.
 
-<Image align="center" src="https://files.readme.io/9bf1f5cb56d594a81e60a5b31fefc77ea95cf37ffea54266075ec866c2100e34-spreadsheet2.png" />
+<Image align="center" border={false} src="https://files.readme.io/9bf1f5cb56d594a81e60a5b31fefc77ea95cf37ffea54266075ec866c2100e34-spreadsheet2.png" />
 
 What if you want to develop a **language curriculum** based on this data that links back to your videos?  You can do that too. Speaking German was the most popular video in this case, so we can ask the AI to build a beginner German language video course. It once again checks if you are authenticated with Rev before it begins pulling relevant data from specific video(s) needed.
 
-<Image align="center" src="https://files.readme.io/a4c37638d70791ad05560db18116c6fda801d191341f875fe87bec704edd5d28-germanCourse1.png" />
+<Image align="center" border={false} src="https://files.readme.io/a4c37638d70791ad05560db18116c6fda801d191341f875fe87bec704edd5d28-germanCourse1.png" />
 
 Once it has concluded, notice that Claude has built an entire German language course based on the Vbrick MCP Server’s search of the video it originally found.  It includes the entire course structure outline for you and several recommendations.
 
-<Image align="center" src="https://files.readme.io/4c674f8b27ee82e8b1eb72f4e3bfb0c6e18b5885ade5cf46ce20023d70438677-germanCourse2.png" />
+<Image align="center" border={false} src="https://files.readme.io/4c674f8b27ee82e8b1eb72f4e3bfb0c6e18b5885ade5cf46ce20023d70438677-germanCourse2.png" />
 
 What’s more, because you are using the Vbrick MCP Server, it also pulls in more context from your Rev tenant and makes further recommendations of additional Rev videos to add to your language learning.
 
-<Image align="center" src="https://files.readme.io/7c949706df4f6199ac209e5d00d287a0ad6d75311348b53736b724ab921672c7-germanCourse3.png" />
+<Image align="center" border={false} src="https://files.readme.io/7c949706df4f6199ac209e5d00d287a0ad6d75311348b53736b724ab921672c7-germanCourse3.png" />
 
 You are only limited by your imagination once you begin using the Vbrick MCP server.
