@@ -10,40 +10,12 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-  <li>&#128736; <a href="/docs/rev-ai">Rev IQ Module</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
-**Facial Recognition** extends the functionality of Rev's manual user tagging in a video so that users can automate the process.  It also extends the interactive functionality of the [Video Information](doc:rev-video-player-features#video-information) and [Video Transcript](doc:rev-video-player-features#video-transcript) flyout panel(s) on the Rev video player so that viewers can see *who* is in a video and *what* is being said (in real-time) as the video is playing.  In short, the Facial Recognition integration has the ability to turn thousands of hours of video content into easily found information for your viewers easily and quickly.
+**Facial Recognition** extends the functionality of Rev's manual user tagging in a video so that users can automate the process.  It also extends the interactive functionality of the [Video Information](doc:rev-video-player-features#video-information) and [Video Transcript](doc:rev-video-player-features#video-transcript) flyout panel(s) on the Rev video player so that viewers can see _who_ is in a video and _what_ is being said (in real-time) as the video is playing.  In short, the Facial Recognition integration has the ability to turn thousands of hours of video content into easily found information for your viewers easily and quickly.
 
 ## Requirements
 
 * You must have a **Rev AI license** and [Rev IQ credits](doc:rev-license-types-and-add-ons#rev-iq-credits) available to use Facial Recognition feature(s).
-* Facial Recognition is *disabled* by default and must be enabled. 
+* Facial Recognition is _disabled_ by default and must be enabled.
 * A valid profile picture is required. Users may decide to opt-out at any time, even if this functionality is enabled, by updating their [Profile Settings](doc:your-rev-profile).
 
 ## Configuration
@@ -65,33 +37,27 @@ To enable Facial Recognition:
 
 ### Automated User Tagging
 
-A [Tag Users in this Video](doc:tag-users-in-a-video) button is now visible on the **In this Video** form in **Video Settings**. When clicked, Rev automatically tags users found in the video in place of using the **Find Items** control to manually tag users. If **Facial Recognition** is disabled, individuals must be *manually* tagged once more using **Find Items**.
+A [Tag Users in this Video](doc:tag-users-in-a-video) button is now visible on the **In this Video** form in **Video Settings**. When clicked, Rev automatically tags users found in the video in place of using the **Find Items** control to manually tag users. If **Facial Recognition** is disabled, individuals must be _manually_ tagged once more using **Find Items**.
 
-<Image title="inThisVideoButton.png" alt={447} align="center" src="https://files.readme.io/aaf3af9-tagUsers.png">
-  The Tag Users In This Video button automates the tagging process by finding the users in the video for you. But only when Facial Recognition is enabled.
-</Image>
+<Image align="center" alt={447} border={false} caption="The Tag Users In This Video button automates the tagging process by finding the users in the video for you. But only when Facial Recognition is enabled." title="inThisVideoButton.png" src="https://files.readme.io/aaf3af9-tagUsers.png" />
 
 > ❗️ Warning!
 >
-> In This Video tagging does *not* function with **Live** videos (although it will function with video conferenced sourced recordings afterwards). Transcoding *must* be completed on VOD videos before you may tag them. Larger videos may not be automatically tagged at this time due to technical limitations (2+ hours long / 8GB +).
+> In This Video tagging does _not_ function with **Live** videos (although it will function with video conferenced sourced recordings afterwards). Transcoding _must_ be completed on VOD videos before you may tag them. Larger videos may not be automatically tagged at this time due to technical limitations (2+ hours long / 8GB +).
 
 ### Interactive Rev Player Flyout Panel Functions
 
-The [Video Information](doc:rev-video-player-features#video-information) flyout panel features timeline tagging notated by an **arrow >** next to each profile picture. 
+The [Video Information](doc:rev-video-player-features#video-information) flyout panel features timeline tagging notated by an **arrow >** next to each profile picture.
 
 Clicking the profile image highlights where the speaker appears in the video on the video player playback bar. **Note**: Profile images are still displayed here even if Facial Recognition is not activated though they are not active and/or clickable.
 
-<Image title="videoBasicInfoFlyout.png" alt={322} align="center" src="https://files.readme.io/d09cf4f52beb893aec80f91e02a8b248b9abef90f39b985005fb0176f769fafa-inThisVideoTag.png">
-  Profile pictures with an arrow next to them may be clicked to display where this person appears in the video when Facial Recognition is enabled
-</Image>
+<Image align="center" alt={322} border={false} caption="Profile pictures with an arrow next to them may be clicked to display where this person appears in the video when Facial Recognition is enabled" title="videoBasicInfoFlyout.png" src="https://files.readme.io/d09cf4f52beb893aec80f91e02a8b248b9abef90f39b985005fb0176f769fafa-inThisVideoTag.png" />
 
-The [Transcript](doc:rev-video-player-features#video-transcript) flyout panel on the video player now displays and highlights each user's profile image as they appear (notated by an **arrow >** next to each profile picture) along with audio transcript highlighting (if SRT file is uploaded) *in real-time*.
+The [Transcript](doc:rev-video-player-features#video-transcript) flyout panel on the video player now displays and highlights each user's profile image as they appear (notated by an **arrow >** next to each profile picture) along with audio transcript highlighting (if SRT file is uploaded) _in real-time_.
 
-Clicking the profile image highlights *where* on the playback timeline the speaker appears.  **Note**: Profile images are still displayed on the panel even if Facial Recognition is not activated though they are not interactive and they do not highlight in real-time along with the audio.
+Clicking the profile image highlights _where_ on the playback timeline the speaker appears.  **Note**: Profile images are still displayed on the panel even if Facial Recognition is not activated though they are not interactive and they do not highlight in real-time along with the audio.
 
-<Image title="interactivePulse.png" alt={392} align="center" src="https://files.readme.io/8243a1ff3930419f84f02053257b69c5b2191d5b22eb10672e3ff34597a0ce9c-transcriptSpeakerHighlight.png">
-  Each profile picture highlights in real-time along with the audio transcript on the Transcript flyout when Facial Recognition is enabled
-</Image>
+<Image align="center" alt={392} border={false} caption="Each profile picture highlights in real-time along with the audio transcript on the Transcript flyout when Facial Recognition is enabled" title="interactivePulse.png" src="https://files.readme.io/8243a1ff3930419f84f02053257b69c5b2191d5b22eb10672e3ff34597a0ce9c-transcriptSpeakerHighlight.png" />
 
 > 🚧 Important!
 >
