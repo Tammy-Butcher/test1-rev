@@ -10,33 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 Vbrick Rev has many accessibility features implemented and continues to add improvements for people using assistive technology so that using Rev is an overall positive experience.  Vbrick is committed to aligning Rev’s interface with the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.levelaccess.com/understanding-wcag/?utm_campaign=G_S_WCAG_NA\&utm_content=NB_WCAG_2.2_BM\&adset_id=154008223103\&utm_ad=751846716943\&ad_id=751846716943\&utm_id=20745927246\&campaign_id=20745927246\&keyword_id=kwd-1687131591764\&matchtype=e\&device=c\&GeoLoc=9009682\&IntLoc=\&placement=\&network=g\&utm_source=google\&utm_medium=cpc\&utm_term=web%20content%20accessibility%20guidelines%20wcag%202.2\&utm_campaign=G_S_WCAG_NA\&hsa_cam=20745927246\&hsa_grp=154008223103\&hsa_ad=751846716943\&hsa_src=g\&hsa_tgt=kwd-1687131591764\&hsa_kw=web%20content%20accessibility%20guidelines%20wcag%202.2\&hsa_mt=e\&hsa_net=adwords\&hsa_ver=3\&hsa_acc=4319570901\&gad_source=1\&gad_campaignid=20745927246\&gbraid=0AAAAADQ__bxkKUY1YhnY-_2jgcMphBcE9\&gclid=Cj0KCQjwndHEBhDVARIsAGh0g3CyNR8-aFmA_Kb8kpUmDxjxQwf65nva27GKMxsUI9uZW3g46SypGVUaAlSGEALw_wcB). This means ongoing improvements and updates to support accessibility for all users. For example:
 
 * Ensuring all interactive components are accessible via keyboard
@@ -51,7 +24,7 @@ Keyboard navigation and automatic tabbing is implemented in both navigation head
 * Navigate forward with `Tab`, using `Enter` to make a selection and arrow keys to navigate through content
 * Pressing `Shift+Tab` highlights the previously highlighted content (goes back)
 * You can use automatic keyboard tabbing to navigate through the following content/areas in Rev:
-  * **Home** page carousel and all video pages such as **My Videos**, **All Videos** and **Search** result pages. 
+  * **Home** page carousel and all video pages such as **My Videos**, **All Videos** and **Search** result pages.
   * Rev's [video player](doc:rev-video-player-features#tab-navigation-support) features
 
 ## Audio / Video Controls
