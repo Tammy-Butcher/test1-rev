@@ -10,33 +10,7 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
-**Attendee Engagement** features add interactivity to Rev webcasts that keep attendees active and alert when attending an event instead of just passively watching a video or presentation.  This includes items that solicit feedback such as polls and question and answer features along with functions that convey information such as presentation files and background images.  
+**Attendee Engagement** features add interactivity to Rev webcasts that keep attendees active and alert when attending an event instead of just passively watching a video or presentation.  This includes items that solicit feedback such as polls and question and answer features along with functions that convey information such as presentation files and background images.
 
 These features must be [enabled during event set up](doc:attendee-engagement) before they are available when hosting a webcast.
 
@@ -62,15 +36,15 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        **Event Details**  
+        **Event Details**
 
-        Provides information about the event to attendees including the following:\
-        a. Event Title\
-        b. Start and End Date/Time\
-        c. Event Description\
-        d. Event URL\
-        e. Password (if applicable)\
-        f. Presentation Download (if applicable)\
+        Provides information about the event to attendees including the following:
+        a. Event Title
+        b. Start and End Date/Time
+        c. Event Description
+        d. Event URL
+        e. Password (if applicable)
+        f. Presentation Download (if applicable)
         g. You may also use the **Edit Settings** button to modify those settings that are available to edit inline.
       </td>
     </tr>
@@ -81,7 +55,7 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        [Real Time Dashboard](doc:real-time-webcast-analytics)  
+        [Real Time Dashboard](doc:real-time-webcast-analytics)
 
         Displays ongoing Webcast event analytics in real-time such as attendee statistics, devices in use, streams by zone, and DME status.
       </td>
@@ -93,7 +67,7 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        **Attendees**  
+        **Attendees**
 
         Provides information and access to how many people are currently in the event.
       </td>
@@ -105,7 +79,7 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        [Chat](doc:chat-module-management)  
+        [Chat](doc:chat-module-management)
 
         Access to the **Chat** interface. New comments will be noted with a number. You must [Add Chat to a Webcast](docs/add-chat-to-a-webcast) during event set up before this tab is present.
       </td>
@@ -117,7 +91,7 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        [Polls](doc:managing-webcast-polls)  
+        [Polls](doc:managing-webcast-polls)
 
         View and manage **Polls** for the event. You must [Add a Poll to a Webcast](doc:add-a-poll-to-a-webcast) during event set up before this tab is present.
       </td>
@@ -129,11 +103,11 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        [Questions & Answers](doc:qa-module-management)  
+        [Questions & Answers](doc:qa-module-management)
 
-        Rev webcasts do not have to be passive viewing! The robust **Question and Answer** module provides you with complete Host and Moderator queues to conduct extensive Q\&A forums either during your event or afterwards.  Download a complete set of reports once you conclude your session.  Keep your attendees engaged and active.  
+        Rev webcasts do not have to be passive viewing! The robust **Question and Answer** module provides you with complete Host and Moderator queues to conduct extensive Q&A forums either during your event or afterwards.  Download a complete set of reports once you conclude your session.  Keep your attendees engaged and active.
 
-        You must [Add Q\&A to a Webcast](doc:add-qa-to-a-webcast) during event set up before this tab is present.
+        You must [Add Q&A to a Webcast](doc:add-qa-to-a-webcast) during event set up before this tab is present.
       </td>
     </tr>
 
@@ -143,7 +117,7 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        [Manage Webcast Banners](doc:manage-webcast-links)  
+        [Manage Webcast Banners](doc:manage-webcast-links)
 
         Clicking this icon displays the **Banners** flyout which allows you to activate the banner messages and URL links that were set up using the toggles next to them.  These must be added during the event setup before this tab is available.
       </td>
@@ -155,9 +129,9 @@ If activated, the following webcast menu icons provide access to the following w
       </td>
 
       <td>
-        [Manage Embedded Content](doc:manage-embedded-engagements)  
+        [Manage Embedded Content](doc:manage-embedded-engagements)
 
-        If you have **third-party content** that you would like to embed so attendees can see this third-party content or engagements without leaving their webcast view, activate them on this tab to present them to attendees.  You may also add new content URLs and edit and delete existing ones.  
+        If you have **third-party content** that you would like to embed so attendees can see this third-party content or engagements without leaving their webcast view, activate them on this tab to present them to attendees.  You may also add new content URLs and edit and delete existing ones.
 
         You must [Embed a Webcast Attendee Engagement](doc:embed-a-webcast-attendee-engagement) during the event setup before this tab is available.
       </td>
