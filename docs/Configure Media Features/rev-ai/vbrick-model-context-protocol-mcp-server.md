@@ -132,7 +132,7 @@ Claude will call **Who Am I** again to verify that you are logged in. If not, yo
 
 The Vbrick MCP server has a **Video Search Tool** that calls our Video Search API and returns the top 10 results. Results are based on relevance and upload date.
 
-For example, “Search for some videos on language”, might yield:
+For example, “Search for some videos on language” might yield:
 
 <Image align="center" border={false} src="https://files.readme.io/acb1a612961a26245a2e4235fc6be2ba2c89cdde4c28432d6376b01b2bf5b090-searchResults.png" />
 
