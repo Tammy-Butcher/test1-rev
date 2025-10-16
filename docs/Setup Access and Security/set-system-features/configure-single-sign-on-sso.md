@@ -25,9 +25,7 @@ To configure single sign on, navigate to the **Admin >  System Settings > User S
 1. Scroll to the **Single Sign On** section.
 2. Select the **Enable Single Sign On** checkbox and complete the fields that appear.
 
-<Image title="singleSignOn.png" alt={1173} align="center" src="https://files.readme.io/555eb84857aa071aec1971172b8e68d1004d9170f98fd2a1ddb1f01ea8dc02f6-saml-ss0.jpg">
-  SAML Single Sign On Configuration
-</Image>
+<Image align="center" alt={1173} border={false} caption="SAML Single Sign On Configuration" title="singleSignOn.png" src="https://files.readme.io/555eb84857aa071aec1971172b8e68d1004d9170f98fd2a1ddb1f01ea8dc02f6-saml-ss0.jpg" />
 
 <Table align={["left","left"]}>
   <thead>
@@ -69,7 +67,7 @@ To configure single sign on, navigate to the **Admin >  System Settings > User S
       </td>
 
       <td>
-        Choose either the **NameIdentifier Element** or **Attribute Element**depending upon which element in the SAML Authentication Response will have the username.  
+        Choose either the **NameIdentifier Element** or **Attribute Element**depending upon which element in the SAML Authentication Response will have the username.
 
         Note that if you select **Attribute Element** (default), you must provide the **Identify Attribute Element Name** or Rev will not authenticate.
       </td>
@@ -81,18 +79,18 @@ To configure single sign on, navigate to the **Admin >  System Settings > User S
       </td>
 
       <td>
-        If **Attribute Element** is selected as the **SAML Identity Location**, this field must be completed or SSO will not work.  
+        If **Attribute Element** is selected as the **SAML Identity Location**, this field must be completed or SSO will not work.
 
-        The **Identity Attribute Element Name** is the field in the **SAML Authentication Response (XML)**&#x74;hat contains the username.  
+        The **Identity Attribute Element Name** is the field in the **SAML Authentication Response (XML)**that contains the username.
 
-        For example, in the code below, name is specified as **SFDC\_USERNAME**. This is what would be pasted in **Identify Attribute Element Name** field in Rev, as seen in the image above.  
+        For example, in the code below, name is specified as **SFDC_USERNAME**. This is what would be pasted in **Identify Attribute Element Name** field in Rev, as seen in the image above.
 
-        \<saml:AttributeStatement>\
-        \<saml:Attribute FriendlyName="fooAttrib" Name="**SFDC\_USERNAME**" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">\
-        \<saml:AttributeValue xmlns:xs="[http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema)" xmlns:xsi="[http://www.w3.org/2001/XMLSchema-instance](http://www.w3.org/2001/XMLSchema-instance)" xsi:type="xs:string">\
-        [user101@salesforce.com](mailto:user101@salesforce.com)\
-        \</saml:AttributeValue>\
-        \</saml:Attribute>\
+        \<saml:AttributeStatement>
+        \<saml:Attribute FriendlyName="fooAttrib" Name="**SFDC_USERNAME**" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:unspecified">
+        \<saml:AttributeValue xmlns:xs="[http://www.w3.org/2001/XMLSchema](http://www.w3.org/2001/XMLSchema)" xmlns:xsi="[http://www.w3.org/2001/XMLSchema-instance](http://www.w3.org/2001/XMLSchema-instance)" xsi:type="xs:string">
+        [user101@salesforce.com](mailto:user101@salesforce.com)
+        \</saml:AttributeValue>
+        \</saml:Attribute>
         \</saml:AttributeStatement>
       </td>
     </tr>
@@ -161,19 +159,17 @@ To configure single sign on, navigate to the **Admin >  System Settings > User S
 
 The diagram below represents the technical implementation of SAML SSO in Rev.
 
-<Image title="ssoTechDiagram.png" alt={626} align="center" src="https://files.readme.io/3daddfe-ssoTechDiagram.png">
-  Technical implementation of SSO in Rev
-</Image>
+<Image align="center" alt={626} border={false} caption="Technical implementation of SSO in Rev" title="ssoTechDiagram.png" src="https://files.readme.io/3daddfe-ssoTechDiagram.png" />
 
 * If SSO is enabled without user provisioning, user accounts must be created in Rev manually or through the LDAP connector.
 * If an Account Admin creates a user account manually with SSO enabled, the user created is set to **Unlicensed** status until log in and then set to **Active** status. No user or email confirmation is required. If no licenses are available for the Rev account, the user is displayed a message to contact the Account Admin and will not be logged in.
 * When SSO is enabled, an SSO login page is created for authentication that is different from the native Rev login page. For example:
-  * Rev Native Login Page:http\:/```RevURL```/#/login
-  * SSO Login Page: http\:/```RevURL```/SSO/login
+  * Rev Native Login Page:http://`RevURL`/#/login
+  * SSO Login Page: http://`RevURL`/SSO/login
 
 ### SSO with User Provisioning
 
-Rev provides **Single Sign On (SSO) with user provisioning** so that user accounts may be created upon log-in *without* the need for an LDAP connector deployment.
+Rev provides **Single Sign On (SSO) with user provisioning** so that user accounts may be created upon log-in _without_ the need for an LDAP connector deployment.
 
 To do so, SSO is configured exactly as described above along with additional **Identity Server Provider** fields to map to Rev fields for user account creation.
 
@@ -225,7 +221,7 @@ Once the **User Provisioning** checkbox is enabled and selected, the following a
       </td>
 
       <td>
-        If User Provisioning is enabled, then provide the SAML attribute name in the response that will contain first name of the user.  
+        If User Provisioning is enabled, then provide the SAML attribute name in the response that will contain first name of the user.
 
         Correct email format must also be used and the email must be unique.
       </td>
