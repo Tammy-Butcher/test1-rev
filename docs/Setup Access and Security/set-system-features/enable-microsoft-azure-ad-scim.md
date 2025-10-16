@@ -68,7 +68,10 @@ Before enabling **Microsoft Azure AD SCIM** in Rev and begin configuration, revi
       </td>
 
       <td>
-        1. Disable **LDAP Connector**  2. Install **Vbrick Rev Cloud App** in Azure AD.  3. Configure **User and Group provisioning** in the App.4. Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
+        1. Disable **LDAP Connector**  
+        2. Install **Vbrick Rev Cloud App** in Azure AD.  
+        3. Configure **User and Group provisioning** in the App.
+        4. Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
       </td>
     </tr>
 
@@ -90,7 +93,10 @@ Before enabling **Microsoft Azure AD SCIM** in Rev and begin configuration, revi
       </td>
 
       <td>
-        1. Disable **LDAP Connector**. This also disables the LDAP login.  2. Install the **Vbrick Rev Cloud App** in Azure AD.  3. Configure **User and Group provisioning** in the App.4. Configure **SAML SSO** in the App.
+        1. Disable **LDAP Connector**. This also disables the LDAP login.  
+        2. Install the **Vbrick Rev Cloud App** in Azure AD.  
+        3. Configure **User and Group provisioning** in the App.
+        4. Configure **SAML SSO** in the App.
       </td>
     </tr>
 
@@ -112,7 +118,9 @@ Before enabling **Microsoft Azure AD SCIM** in Rev and begin configuration, revi
       </td>
 
       <td>
-        1. Install **Vbrick Rev Cloud App** in Azure AD.  2. Configure **User and Group provisioning** in the App if you want automated user and group sync from Azure AD.3. Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
+        1. Install **Vbrick Rev Cloud App** in Azure AD. 
+        2. Configure **User and Group provisioning** in the App if you want automated user and group sync from Azure AD.
+        3. Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
       </td>
     </tr>
 
@@ -134,7 +142,9 @@ Before enabling **Microsoft Azure AD SCIM** in Rev and begin configuration, revi
       </td>
 
       <td>
-        1. Install **Vbrick Rev Cloud App** in Azure AD.  2. Configure **User and Group Provisioning** in the App.3. Configure **SAML SSO** in the same App.
+        1. Install **Vbrick Rev Cloud App** in Azure AD.  
+        2. Configure **User and Group Provisioning** in the App.
+        3. Configure **SAML SSO** in the same App.
       </td>
     </tr>
   </tbody>
