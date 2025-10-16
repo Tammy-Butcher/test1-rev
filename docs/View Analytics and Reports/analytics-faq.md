@@ -14,9 +14,7 @@ next:
 ---
 ## Webcast Analytics FAQs
 
-<hr>
-
-<h4>AVERAGE ZONE BIT RATE</h4>
+### AVERAGE ZONE BIT RATE
 
 **Can you please explain the “average zone” portion of this metric and what is meant?**
 
@@ -28,16 +26,13 @@ next:
 
 **What is the “Normal” or acceptable (Min/AVG/Max) threshold that is expected for this metric?**
 
-<blockquote>An administrator that is familiar with underlying network capabilities should be able to compare the average bit rate to the expected bit rate. If the average is significantly different than what is expected it may indicate a misconfiguration of the source, network, DMEs, or zones. For example, an average bit rate of 500Kbps would be great news in the case of an MBR stream source of 500Kbps and 256Kbps because it means most viewers are getting the best stream. 
-<br><br>However, the same average bit rate of 500Kbps would be bad news in the case of an MBR stream source of 1.5Mbit and 500K bit as it would mean that most users received the lower quality stream.</blockquote>
+<blockquote>An administrator that is familiar with underlying network capabilities should be able to compare the average bit rate to the expected bit rate. If the average is significantly different than what is expected it may indicate a misconfiguration of the source, network, DMEs, or zones. For example, an average bit rate of 500Kbps would be great news in the case of an MBR stream source of 500Kbps and 256Kbps because it means most viewers are getting the best stream. However, the same average bit rate of 500Kbps would be bad news in the case of an MBR stream source of 1.5Mbit and 500K bit as it would mean that most users received the lower quality stream.</blockquote>
 
 **How does this metric provide information about the “Quality of Experience”?**
 
 <blockquote>To the extent that the actual bit rate is significantly different (less) than expected it may indicate that viewers had a lower quality viewing experience.</blockquote>
 
-<hr>
-
-<h4>AVERAGE ZONE BANDWIDTH</h4>
+### AVERAGE ZONE BANDWIDTH
 
 **Can you please explain the “average zone” portion of this metric and what is meant?**
 
@@ -51,9 +46,7 @@ next:
 
 <blockquote>To the extent that the actual bandwidth is significantly different (less) than expected it may indicate that viewers had a lower quality viewing experience.</blockquote>
 
-<hr>
-
-<h4>AVERAGE ZONE EXPERIENCED REBUFFERING</h4>
+### AVERAGE ZONE EXPERIENCED REBUFFERING
 
 **Can you please explain the “average zone” portion of this metric and what is meant?**
 
@@ -67,9 +60,7 @@ next:
 
 <blockquote>High rebuffering event counts may be an indication that a number of attendees experienced pauses and spinners while watching the Webcast.</blockquote>
 
-<hr>
-
-<h4>NUMBER OF EXPERIENCED REBUFFERING EVENTS THAT OCCURRED</h4>
+### NUMBER OF EXPERIENCED REBUFFERING EVENTS THAT OCCURRED
 
 **Can you please explain “rebuffering” versus “buffering” when used on analytic reports and dashboards?**
 
@@ -79,9 +70,7 @@ next:
 
 <blockquote>Under normal circumstances, a small number per user of rebuffering events is to be expected and typical. A large number (disproportionate to the number of users) may indicate some issues in the playback experience for users.</blockquote>
 
-<hr>
-
-<h4>MULTICAST ERRORS</h4>
+### MULTICAST ERRORS
 
 **Can you please define what is meant by a Multicast Error and how they occur?**
 
