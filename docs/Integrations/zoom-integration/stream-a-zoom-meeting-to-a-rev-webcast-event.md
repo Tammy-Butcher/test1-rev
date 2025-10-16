@@ -10,33 +10,7 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
-You can use a Zoom meeting as a **video source** for your Webcast event once you have installed and enabled the Zoom meeting Integration. When you select Zoom as a Video Source, starting your Rev Webcast event also starts your scheduled Zoom meeting. 
+You can use a Zoom meeting as a **video source** for your Webcast event once you have installed and enabled the Zoom meeting Integration. When you select Zoom as a Video Source, starting your Rev Webcast event also starts your scheduled Zoom meeting.
 
 This means you can take advantage of Rev’s Webcast functionality and pair it with the Zoom meeting. Afterward, you can then save the recording and use Rev’s video settings and metadata features.
 
@@ -62,9 +36,7 @@ To stream a Zoom meeting to a Rev webcast event:
 
 5. If a password has been set for the Zoom meeting, you must enter the **H323/SIP numeric Password** for the meeting.
 
-<Image title="zoomWebcast.png" alt={1157} align="center" src="https://files.readme.io/9cfac73-zoomWebcast.png">
-  Once you have configured your Zoom Meeting in your Rev Webcast, starting the Rev Event also starts the Zoom Meeting
-</Image>
+<Image align="center" alt={1157} border={false} caption="Once you have configured your Zoom Meeting in your Rev Webcast, starting the Rev Event also starts the Zoom Meeting" title="zoomWebcast.png" src="https://files.readme.io/9cfac73-zoomWebcast.png" />
 
 6. Start the **Rev event** and the **Zoom meeting** when ready.  Starting the Rev event also starts the Zoom meeting although ideally the endpoint (Zoom meeting) should be started first before beginning your Rev meeting.
 
