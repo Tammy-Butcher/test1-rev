@@ -83,7 +83,7 @@ The **Vbrick Okta SCIM** integration supports the following features:
       </td>
 
       <td>
-        * Disable **LDAP Connector**. * Install **Vbrick Rev Cloud App** in Okta. * Configure **User and Group provisioning** in the App. * Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
+        * Disable **LDAP Connector**. &nbsp* Install **Vbrick Rev Cloud App** in Okta. * Configure **User and Group provisioning** in the App. * Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
       </td>
     </tr>
 
