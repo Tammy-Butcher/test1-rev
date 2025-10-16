@@ -43,8 +43,6 @@ An event administrator can gauge if the number of attendees in the Zone matches 
 
 A larger number of attendees on a Zone than expected may indicate a need to add additional DMEs or increase the size of the DME in the Zone.
 
-<hr>
-
 ## View Average Bit Rate By Zone
 
 The **Avg. Bit Rate (Kbps)** column displays the average bit rate across Webcast viewers per Zone. The average bit rate can give administrators a quick validation that on average users are experiencing the intended stream quality.
@@ -54,8 +52,6 @@ The expected bit rate is highly dependent on the underlying network and Zone con
 
 **How can this information be used?**\
 An administrator that is familiar with the underlying network capabilities of the Zone should be able to compare the average bit rate to the expected bit rate. If the average is significantly different than what would be expected it may indicate a misconfiguration of the network, DME or zone and may be an indication that users on that Zone may be experiencing a lower quality stream.
-
-<hr>
 
 ## View Number of Experienced Rebuffering Events By Zone
 
@@ -68,8 +64,6 @@ Under normal circumstances a number of rebuffering events is to be expected, typ
 An event administrator can leverage this information to get an idea of the overall experience a set of users have had in watching the Webcast in that Zone.
 
 View: [Configure a Rebuffering Threshold for Webcasts](https://rev.readme.io/docs/enable-or-disable-features#configure-rebuffering-threshold-for-webcast-events)
-
-<hr>
 
 ## View Number of Unicast and Multicast Streams
 
@@ -85,8 +79,6 @@ Under normal circumstances, if a Zone and its underlying network has been config
 **How can this information be used?**\
 An event administrator can gauge if the number of attendees in the Zone consuming a unicast stream matches the expectations they had for that Zone. A significantly larger number of unicast streams than expected (when expectations were for larger number of multicast streams) may be an indication of misconfigured Zone or network.
 
-<hr>
-
 **MULTICAST**
 
 Displays the total count of Webcast viewers leveraging a multicast stream to consume the Webcast.
@@ -99,8 +91,6 @@ An event administrator can gauge if the number of attendees in the Zone consumin
 
 An event administrator may also look to the multicast failover statistic in conjunction with this metric.
 
-<hr>
-
 ## View Number of Multicast Error Events
 
 The **Multicast Error Events** column displays the number of multicast error events that have occurred in each zone since the start of the Webcast. A multicast error is an indication that a viewer switched from a multicast stream to a unicast stream for viewing the Webcast.
@@ -110,8 +100,6 @@ Under normal circumstances, if a Zone and its underlying network has been config
 
 **How can this information be used?**\
 A high number may be an indication that the multicast setup for the network may not be configured correctly.
-
-<hr>
 
 ## View Number of Users By Vbrick Peer-to-Peer Zone
 
