@@ -10,39 +10,13 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
-Vbrick Rev® is a web-based media management platform used for accessing live and stored video that you have either uploaded, streamed, linked to, or recorded. 
+Vbrick Rev® is a web-based media management platform used for accessing live and stored video that you have either uploaded, streamed, linked to, or recorded.
 
 * Transform video from any source so anyone, anywhere can innovate.
 * Unify all video assets to easily organize, secure, and share them at scale.
 * Broaden the reach of video and empower users where they live.
 
-Categorize, tag, and manage viewing controls on all video you add to your platform, brand your platform, and create Channel-based Landing Pages for videos managed on your Rev platform. 
+Categorize, tag, and manage viewing controls on all video you add to your platform, brand your platform, and create Channel-based Landing Pages for videos managed on your Rev platform.
 
 Rev is accessible from any Windows-based PC, Apple Mac, or mobile device.
 
@@ -50,7 +24,7 @@ You now have the power!
 
 ## The Home Page Default Settings
 
-Rev's **Home Page** launches as soon as you log in with a valid **Username** and **Password**. 
+Rev's **Home Page** launches as soon as you log in with a valid **Username** and **Password**.
 
 > 👍 Tip
 >
@@ -60,9 +34,9 @@ Rev's **Home Page** launches as soon as you log in with a valid **Username** and
 
 The Home Page provides quick access to all features and functions of Rev such as the [Events](doc:user-menu-options#the-event-menu) or [Media](doc:/user-menu-options#the-media-menu) menu functions.
 
-<Image align="center" src="https://files.readme.io/6568535fa5092e176b35eb84e70d3072b54601f07bd22ab9a7aac0f64cb245dd-homePage.png" />
+<Image align="center" border={false} src="https://files.readme.io/6568535fa5092e176b35eb84e70d3072b54601f07bd22ab9a7aac0f64cb245dd-homePage.png" />
 
-Some functionality and features are restricted or customized for certain users depending on roles and permissions assigned. For example, if you are *not* authorized to upload videos or create scheduled events, those menu items or icons are not displayed or functional. 
+Some functionality and features are restricted or customized for certain users depending on roles and permissions assigned. For example, if you are _not_ authorized to upload videos or create scheduled events, those menu items or icons are not displayed or functional.
 
 Contact your Account Admin if some functionality is not available or does not work as you would expect.
 
@@ -79,9 +53,7 @@ The Home Page default carousels are:
 
 ## Header Navigation Options
 
-<Image title="headerNav.png" alt="Header navigation menu" align="center" src="https://files.readme.io/f676ed8e726167e6b297ee92df8985d344f7626b7016a838e2c8d9bcf71a4d4a-headerNav.png">
-  Header navigation menu
-</Image>
+<Image align="center" alt="Header navigation menu" border={false} caption="Header navigation menu" title="headerNav.png" src="https://files.readme.io/f676ed8e726167e6b297ee92df8985d344f7626b7016a838e2c8d9bcf71a4d4a-headerNav.png" />
 
 Rev's **Header** navigation options include the following:
 
@@ -115,7 +87,7 @@ Rev's **Header** navigation options include the following:
       </td>
 
       <td>
-        Features content specific to you and your organization; contains the following sub-menu options:  
+        Features content specific to you and your organization; contains the following sub-menu options:
 
         * All Videos
         * Browse Categories
@@ -133,7 +105,7 @@ Rev's **Header** navigation options include the following:
       </td>
 
       <td>
-        Opens the Events calendar where you may view scheduled Webcasts or set up your own if you have permissions to do so.  
+        Opens the Events calendar where you may view scheduled Webcasts or set up your own if you have permissions to do so.
 
         Functions here are also permission driven.
       </td>
@@ -161,7 +133,7 @@ Rev's **Header** navigation options include the following:
 
     <tr>
       <td>
-        [Live Event](doc:) 
+        [Live Event](doc:)
       </td>
 
       <td>
@@ -175,7 +147,7 @@ Rev's **Header** navigation options include the following:
       </td>
 
       <td>
-        Upload video from your hard drive, through linking, streaming, importing, or recording.  
+        Upload video from your hard drive, through linking, streaming, importing, or recording.
 
         This option is only visible if you have the associated permissions and roles.
       </td>
@@ -213,7 +185,7 @@ Rev's **Header** navigation options include the following:
 
     <tr>
       <td>
-        [Rev Help](doc:add-custom-help-links) 
+        [Rev Help](doc:add-custom-help-links)
       </td>
 
       <td>
