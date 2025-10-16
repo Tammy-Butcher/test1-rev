@@ -10,33 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 Rev allows creation of **Public** events that do not require attendees to log in or to authenticate with Rev first. To create a Public webcast, set the **Listing Type** to **Public** in the [Attendees](doc:attendees) section when you create the event.
 
 When a webcast is Public:
@@ -49,9 +22,7 @@ When a webcast is Public:
 * The Password field may be used to set a unique password for the event for both types of join methods
 * Public Webcasts are a [licensed feature](doc:rev-license-types-and-add-ons) and have viewing hours configured. Admins may check how many hours remain on the **Account Admin Dashboard** under the [Usage](doc:usage-system-analytics) tab.
 
-<Image title="publicEventType.png" alt={1125} align="center" src="https://files.readme.io/3bd9cc6-publicEventType.png">
-  You can specify that a Password and custom Webcast Registration Fields be used when you set up a Public Event; or attendees can join anonymously.
-</Image>
+<Image align="center" alt={1125} border={false} caption="You can specify that a Password and custom Webcast Registration Fields be used when you set up a Public Event; or attendees can join anonymously." title="publicEventType.png" src="https://files.readme.io/3bd9cc6-publicEventType.png" />
 
 ## Public Event Passwords
 
@@ -67,43 +38,37 @@ The password that is created is included in the event invitation text that is cr
 
 If **Anonymous** is selected as the **Attendee Join Method** when you create the **Public** event, no registration information is requested from the attendee in order for them to join.  You are able to toggle between Anonymous and Registration join methods at any point up until the webcast starts.  You should also note that no registration email or event details are sent to anonymous attendees as they are joined directly to the event.
 
-<Image title="anonymousEvent.png" alt={1123} align="center" src="https://files.readme.io/3c6b8e3-anonymousEvent.png">
-  When Anonymous is selected as the join method, registration fields are removed and a Guest name is randomly generated
-</Image>
+<Image align="center" alt={1123} border={false} caption="When Anonymous is selected as the join method, registration fields are removed and a Guest name is randomly generated" title="anonymousEvent.png" src="https://files.readme.io/3c6b8e3-anonymousEvent.png" />
 
 When an attendee clicks the Join URL of a Public event set to Anonymous:
 
-* The attendee is joined using a unique display name of **Guest-xxxxxx**. This is a randomly generated 6-character alpha/hex string for display purposes in attendee engagement functions such as Chat, Polls, Q\&A
+* The attendee is joined using a unique display name of **Guest-xxxxxx**. This is a randomly generated 6-character alpha/hex string for display purposes in attendee engagement functions such as Chat, Polls, Q&A
 * Attendees appear on the [Webcast Attendee Report](doc:webcast-reports#download-attendee-data) with the generated guest name and all other user-specific columns are left blank
-* Logged in Rev User Accounts may also join anonymous events.  These accounts do *not* use Public Viewing Hours.
+* Logged in Rev User Accounts may also join anonymous events.  These accounts do _not_ use Public Viewing Hours.
 
 ## Webcast Registration Fields for Public Events
 
-If custom [Webcast Registration Fields](doc:add-custom-fields#public-webcast-registration-fields) are created and enabled for Public events, Account and Event Admins can specify which of those are displayed on the Login form.  
+If custom [Webcast Registration Fields](doc:add-custom-fields#public-webcast-registration-fields) are created and enabled for Public events, Account and Event Admins can specify which of those are displayed on the Login form.
 
 The Login form can be previewed during event setup using the **Preview the Login Screen** link.
 
-<Image title="publicWebcastPreview.png" alt={402} align="center" src="https://files.readme.io/2dc9914-publicWebcastPreview.png">
-  Click Preview the Login Screen to preview how the webcast registration and login screen will appear to Public event attendees
-</Image>
+<Image align="center" alt={402} border={false} caption="Click Preview the Login Screen to preview how the webcast registration and login screen will appear to Public event attendees" title="publicWebcastPreview.png" src="https://files.readme.io/2dc9914-publicWebcastPreview.png" />
 
-Use the [Event Branding](doc:event-branding) section to modify text and background colors of the Login form if desired.  
+Use the [Event Branding](doc:event-branding) section to modify text and background colors of the Login form if desired.
 
 You may also click and drag the handle to the right of a registration fields to rearrange the order they appear on the event registration form.
 
-<Image title="arrangeWebcastFields.png" alt={702} align="center" src="https://files.readme.io/3ceaaad-arrangeWebcastFields.png">
-  You can select the fields you want to include and arrange them in the order you want them displayed.
-</Image>
+<Image align="center" alt={702} border={false} caption="You can select the fields you want to include and arrange them in the order you want them displayed." title="arrangeWebcastFields.png" src="https://files.readme.io/3ceaaad-arrangeWebcastFields.png" />
 
 > 📘 Note
 >
-> Selecting the checkbox next to a custom field includes it on the **Login Screen**. However, you may *not* deselect a custom registration field that has been designated as **required** by an Admin when it is initially configured. 
+> Selecting the checkbox next to a custom field includes it on the **Login Screen**. However, you may _not_ deselect a custom registration field that has been designated as **required** by an Admin when it is initially configured.
 >
 > **View**:  [Add Custom Fields](doc:add-custom-fields) for details on how to create custom webcast fields.
 
 ## Early Registration for Public Events
 
-When you create a **Public** event, early registration is enabled by default.  If you want early registrants to receive an email with the live event details and their personalized join link you need to select the **Automatically E-mail Event Details** checkbox.  If this option is *not* selected, and your attendees are registering more than 15 minutes *prior* to start time, you will need to manually send event invitations/emails from the [Webcast Settings Dashboard](doc:webcast-settings-dashboard).  Registrants/attendees who are registering/joining *within* 15 minutes of start time will be brought directly into the webcast.
+When you create a **Public** event, early registration is enabled by default.  If you want early registrants to receive an email with the live event details and their personalized join link you need to select the **Automatically E-mail Event Details** checkbox.  If this option is _not_ selected, and your attendees are registering more than 15 minutes _prior_ to start time, you will need to manually send event invitations/emails from the [Webcast Settings Dashboard](doc:webcast-settings-dashboard).  Registrants/attendees who are registering/joining _within_ 15 minutes of start time will be brought directly into the webcast.
 
 The combination of settings you use here depends on how you are advertising the webcast and prefer attendees to register and join.
 
@@ -112,35 +77,29 @@ For example:
 * 'At start time, click here to register and join'  OR
 * 'Click here to register (and rsvp in advance so we know you plan on attending).  Once registered, check your email for a calendar invite and click your link to join'
 
-<Image title="allowEarlyRegistration.png" alt={1124} align="center" src="https://files.readme.io/6c8e665-allowEarlyRegistration.png">
-  Select the Allow Early Registration checkbox to allow attendees to register before the Webcast date
-</Image>
+<Image align="center" alt={1124} border={false} caption="Select the Allow Early Registration checkbox to allow attendees to register before the Webcast date" title="allowEarlyRegistration.png" src="https://files.readme.io/6c8e665-allowEarlyRegistration.png" />
 
 When a registrant is provided event details (either automatically or manually):
 
 * Attendees can register for the event before the scheduled date and time of the webcast (as soon as the event invite link is provided).
-* As noted, registrants automatically receive an e-mail with the event details (and a link to the webcast) if the **Automatically E-mail Event Details** checkbox is checked.  If you disable this checkbox, you *must* manually send an Invitation Email to each registrant via the Actions menu on the **Registrations** tab or by copying the event info into an e-mail.
+* As noted, registrants automatically receive an e-mail with the event details (and a link to the webcast) if the **Automatically E-mail Event Details** checkbox is checked.  If you disable this checkbox, you _must_ manually send an Invitation Email to each registrant via the Actions menu on the **Registrations** tab or by copying the event info into an e-mail.
 * Registrants are able to view [webcast recordings](doc:webcast-recordings#automatically-record-a-webcast) (if enabled) at the conclusion of the event using the same event link provided to them to register regardless of whether or not they attend the Live webcast.
-* Early registration settings for an event are copied over to [Webcast Templates](doc:create-a-webcast-template) but any subsequent registrants for the event are *not* copied or duplicated.
+* Early registration settings for an event are copied over to [Webcast Templates](doc:create-a-webcast-template) but any subsequent registrants for the event are _not_ copied or duplicated.
 * Event Hosts can review and [manage early registrations](doc:webcast-settings-dashboard#review-early-registrations-for-public-events) on the **Registrations** tab on the [Webcast Settings Dashboard](doc:webcast-settings-dashboard) before the webcast begins.
 
 ## Customizable Consent Text
 
-When you create a **Public** Event with a **Join Method** of **Registration** (as opposed to **Anonymous**) all attendees are required to provide their consent to the recording of their registration details before they may enter a webcast.  Attendee consent is requested in the form of a checkbox beneath the **Webcast Registration** fields.  
+When you create a **Public** Event with a **Join Method** of **Registration** (as opposed to **Anonymous**) all attendees are required to provide their consent to the recording of their registration details before they may enter a webcast.  Attendee consent is requested in the form of a checkbox beneath the **Webcast Registration** fields.
 
-![](https://files.readme.io/f95cdd8-publicRegistrationText.png)
+<Image border={false} src="https://files.readme.io/f95cdd8-publicRegistrationText.png" />
 
 Default Consent text is provided for all scheduled events.  If you want to customize this text, begin by contacting [Vbrick Support](https://vbrick.com/support/) to request the ability to customize the Public Registration page 'Consent Verbiage'.   Once approved, a new toggle becomes available under the Webcast Registration Fields called **Customize Consent Verbiage**.
 
-<Image alt="Contact Vbrick Support if you want to create your own custom consent text for Public event registration consent" align="center" src="https://files.readme.io/298579b-customizeConsentText.png">
-  Contact Vbrick Support if you want to create your own custom consent text for Public event registration events
-</Image>
+<Image align="center" alt="Contact Vbrick Support if you want to create your own custom consent text for Public event registration consent" border={false} caption="Contact Vbrick Support if you want to create your own custom consent text for Public event registration events" src="https://files.readme.io/298579b-customizeConsentText.png" />
 
 Click the **Enabled** tab and modify the default text to the new consent text you want to display to and have all attendees consent to prior to registering for an event.  You will need to acknowledge that by customizing this verbiage you are assuming the role of data controller for all user-entered data.
 
-<Image alt="When you change the consent text, you effectively become the Data Controller for your organization!" align="center" src="https://files.readme.io/669af52-dataControllerPublicEvents.png">
-  When you change the consent text, you effectively become the Data Controller for your organization!
-</Image>
+<Image align="center" alt="When you change the consent text, you effectively become the Data Controller for your organization!" border={false} caption="When you change the consent text, you effectively become the Data Controller for your organization!" src="https://files.readme.io/669af52-dataControllerPublicEvents.png" />
 
 > ❗️ Warning!
 >
