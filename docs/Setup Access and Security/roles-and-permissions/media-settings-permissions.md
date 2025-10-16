@@ -33,32 +33,45 @@ Adding, editing, and deleting **Media Settings** varies by role depending on wha
 
 ## Licensing and Add-On Granular Roles and Permissions
 
-<div>
-  <table>
-    <thead>
-      <tr>
-        <th>Role</th>
-        <th>Permissions</th>
-        <th>Description</th>
-      </tr>
-    </thead>
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Role
+      </th>
 
-    <tbody>
-      <tr>
-        <td>Rev IQ User</td>
-        <td>Access to use <a href="doc:rev-ai">Rev IQ</a> features and functions (if enabled)</td>
+      <th>
+        Permissions
+      </th>
 
-        <td>
-          If Rev IQ is enabled on the portal, only Admin users and those assigned the <strong>Rev IQ</strong> role have access to its features and functions; all other roles are restricted. This includes:
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
 
-          <ul>
-            <li>Generating and translating <a href="doc:rev-iq-transcription-and-translation#usage">Rev IQ subtitles</a> for a video</li>
-            <li><a href="doc:update-basic-video-settings#tag-users-in-a-video">Tagging Users</a> in a video</li>
-            <li>Ability to enable/edit <a href="doc:video-sources#live-event-subtitles">Live Subtitles</a> for an event (if enabled for the portal)</li>
-            <li>Use of <a href="doc:generative-ai-tools">Generative AI</a> features such as auto generating metadata and transcriptions.</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+  <tbody>
+    <tr>
+      <td>
+        Rev IQ User
+      </td>
+
+      <td>
+        Access to use [Rev IQ](doc:rev-ai) features and functions (if enabled)
+
+        **Note**: Rev IQ features and functions are included in Admin roles.
+      </td>
+
+      <td>
+        If Rev IQ is enabled on the portal, only Admin users and those assigned the Rev IQ role have access to its features and functions; all other roles are restricted. This includes:
+
+
+        * Generating and translating [Rev IQ subtitles](doc:doc:rev-iq-transcription-and-translation#usage) for a video
+        * [Tagging Users](doc:update-basic-video-settings#tag-users-in-a-video) in a video
+        * Ability to enable/edit [Live Subtitles](doc:video-sources#live-event-subtitles) for an event (if enabled for the portal)
+        * Use of [Generative AI](doc:generative-ai-tools) features, such as auto-generating metadata and transcriptions.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
