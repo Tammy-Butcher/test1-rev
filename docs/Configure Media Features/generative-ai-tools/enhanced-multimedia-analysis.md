@@ -18,7 +18,7 @@ When this option is enabled, the [Video Metadata Generation](doc:video-metadata-
 
 ## Enhanced Vbrick Assistant
 
-When you use the Vbrick Assistant with **Enhanced Multimedia Analysis** enabled, chapter images, the video thumbnail, and some supplemental files attached to the video are analyzed and included in the context when the assistant answers your questions in addition to the evaluating the video's transcript.
+When you use the Vbrick Assistant with **Enhanced Multimedia Analysis** enabled, chapter images, the video thumbnail, and some supplemental files attached to the video are analyzed and included in the context when the assistant answers your questions, in addition to evaluating the video's transcript.
 
 For example, the video below has a Supplemental File (PDF) attached.
 
