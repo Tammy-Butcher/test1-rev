@@ -10,38 +10,9 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 You are able to add a background image to your webcast so that you can use branded imagery from your organization if desired.
 
-<Image title="backgroundImage.png" alt={700} align="center" src="https://files.readme.io/172b2dd-backgroundImage.png">
-  Select an image to display in the background of your event
-</Image>
+<Image align="center" alt={700} border={false} caption="Select an image to display in the background of your event" title="backgroundImage.png" src="https://files.readme.io/172b2dd-backgroundImage.png" />
 
 To add a background image to your event:
 
@@ -65,9 +36,7 @@ To add a background image to your event:
    3. Full screen slide mode
 5. Use the **Delete Image** button to delete a background image.
 
-<Image title="guestLogin.png" alt={700} align="center" src="https://files.readme.io/349eb43-guestLogin.png">
-  Guest Login with a background image uploaded
-</Image>
+<Image align="center" alt={700} border={false} caption="Guest Login with a background image uploaded" title="guestLogin.png" src="https://files.readme.io/349eb43-guestLogin.png" />
 
 > 👍 Tip
 >
