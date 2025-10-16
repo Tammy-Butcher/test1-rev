@@ -10,34 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-  <li>&#128736; <a href="/docs/rev-ai">Rev IQ Module</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 The **Rev IQ Transcription and Translation** services have several features present for you to use with your VOD uploads and Live Event recordings.  Using these features, you can:
 
 * Choose the transcription actions that you want to occur when you record or upload video to Rev
@@ -60,7 +32,7 @@ To enable Rev IQ Transcription and Translation:
 
 2. Select the **Rev IQ Transcription and Translation** checkbox in the **AI & Machine Learning** section. If this checkbox is not visible, **Rev AI Hours licensing** must be purchased and applied first.
 
-<Image align="center" src="https://files.readme.io/4cd1f8fbd152260ca0ba875372b81932dfe564de8c551ee9595fb8e3fe030cd4-enableTranscripTranslation.png" />
+<Image align="center" border={false} src="https://files.readme.io/4cd1f8fbd152260ca0ba875372b81932dfe564de8c551ee9595fb8e3fe030cd4-enableTranscripTranslation.png" />
 
 3. Note that **Automatic Transcription** and **Automatic Translation** options become visible for configuration along with the ability to configure a **Rev IQ custom dictionary**.  Each of these configuration options is described in the sections below.
 4. Click **Save Changes**.
@@ -73,32 +45,30 @@ To enable Rev IQ Transcription and Translation:
 
 If you enable **Audio Track Generation**, Rev will generate the voice for you in the [VOD Voice Generation Supported Language](doc:vod-voice-generation-language-support) you choose on the [Languages](doc:manage-audio-tracks-for-a-video) tab of the video.  You must have this enabled by selecting the **Audio Track Generation** checkbox indicated below and have Rev IQ credits.
 
-<Image align="center" src="https://files.readme.io/f0186f560ead73b8f828f97de44816f05503f16caf52520dc2e645b17871002e-enableAudioTrackGeneration.png" />
+<Image align="center" border={false} src="https://files.readme.io/f0186f560ead73b8f828f97de44816f05503f16caf52520dc2e645b17871002e-enableAudioTrackGeneration.png" />
 
 ### Automatic Transcription Settings
 
-**Transcription** is the process of converting *spoken* language into written *text*. This can be done manually, by a human transcriber, or automatically using speech recognition software.
+**Transcription** is the process of converting _spoken_ language into written _text_. This can be done manually, by a human transcriber, or automatically using speech recognition software.
 
-When you enable transcription services, your first step is to decide what *type* of transcription actions occur *automatically* for *new* video uploads as well as the *automatic* transcription language you want to use for those actions.  
+When you enable transcription services, your first step is to decide what _type_ of transcription actions occur _automatically_ for _new_ video uploads as well as the _automatic_ transcription language you want to use for those actions.
 
-For example, you should choose if you want new Live event recordings to be transcribed into text *automatically* (versus all other uploads or both) and what text language they should be transcribed into *automatically* when that occurs, such as English language text.
+For example, you should choose if you want new Live event recordings to be transcribed into text _automatically_ (versus all other uploads or both) and what text language they should be transcribed into _automatically_ when that occurs, such as English language text.
 
 > 👍 Tip
 >
-> It is important to note that most of Rev's generative AI features *require* an English transcript before they can be used. For this reason, we *highly* recommend that you select **English** as the automatic transcription language if you plan to use these features.
+> It is important to note that most of Rev's generative AI features _require_ an English transcript before they can be used. For this reason, we _highly_ recommend that you select **English** as the automatic transcription language if you plan to use these features.
 
 To enable Automatic Transcription settings:
 
 1. Begin by making sure the **Rev IQ Transcription and Translation** checkbox is enabled.
-2. **Automatic Transcription** checkboxes are visible once the service is enabled. This means that *new* video uploads are *automatically* transcribed in the *automatic transcription language* you choose if the following options are subsequently enabled:
+2. **Automatic Transcription** checkboxes are visible once the service is enabled. This means that _new_ video uploads are _automatically_ transcribed in the _automatic transcription language_ you choose if the following options are subsequently enabled:
    * **New Live Event Recordings** (including video conference based events)
    * **All Other Uploads** (including video conference based imports and uploads)
 
-<Image title="automaticAndDefaultTranscription.png" alt={949} align="center" src="https://files.readme.io/f48a963c5299e998931116c708154ef9075c3445c35432bfbde74a2bfc3938f6-automaticTranscriptionOptions.png">
-  When enabled, the selected Automatic Transcription options are transcribed into the Automatic Transcription Language
-</Image>
+<Image align="center" alt={949} border={false} caption="When enabled, the selected Automatic Transcription options are transcribed into the Automatic Transcription Language" title="automaticAndDefaultTranscription.png" src="https://files.readme.io/f48a963c5299e998931116c708154ef9075c3445c35432bfbde74a2bfc3938f6-automaticTranscriptionOptions.png" />
 
-3. Choose your **Automatic Transcription Language**. When *any* **Automatic Transcription** option is enabled, this field is required.
+3. Choose your **Automatic Transcription Language**. When _any_ **Automatic Transcription** option is enabled, this field is required.
 
 ### Automatic Translation Settings
 
@@ -112,13 +82,11 @@ To enable Automatic Translation Language(s):
 
 > 🚧 Caution
 >
-> If you do *not* enable **Automatic Transcription** settings, you are still able to translate individual videos as needed but *new* video uploads are *not* translated automatically.
+> If you do _not_ enable **Automatic Transcription** settings, you are still able to translate individual videos as needed but _new_ video uploads are _not_ translated automatically.
 
-<Image title="defaultTranslationLanguages.png" alt={986} align="center" src="https://files.readme.io/2c1337b84016804746561f15ba1d2ee5cd0dd6647001ce0da0ad1748fbc55f84-automaticTranslationOptions.png">
-  Automatically translate your videos into the languages you set in the Automatic Translation Languages box from language set in the Automatic Transcription Language
-</Image>
+<Image align="center" alt={986} border={false} caption="Automatically translate your videos into the languages you set in the Automatic Translation Languages box from language set in the Automatic Transcription Language" title="defaultTranslationLanguages.png" src="https://files.readme.io/2c1337b84016804746561f15ba1d2ee5cd0dd6647001ce0da0ad1748fbc55f84-automaticTranslationOptions.png" />
 
-3. Select the **Automatic Translation Language(s)** from the supported languages. These are the additional languages the transcription file is translated and generated into automatically for new uploads *if* **Automatic Transcription** checkboxes are enabled.
+3. Select the **Automatic Translation Language(s)** from the supported languages. These are the additional languages the transcription file is translated and generated into automatically for new uploads _if_ **Automatic Transcription** checkboxes are enabled.
 
 ### Create a Custom Dictionary
 
@@ -130,9 +98,9 @@ To create a custom dictionary:
 
 2. Choose a **Custom Dictionary Language**.
 
-3. Click the **Add New** button to begin defining your new dictionary entries. 
+3. Click the **Add New** button to begin defining your new dictionary entries.
 
-![](https://files.readme.io/ea2f21f-addCustomDictionary.png "addCustomDictionary.png")
+<Image border={false} src="https://files.readme.io/ea2f21f-addCustomDictionary.png" title="addCustomDictionary.png" />
 
 4. For each Dictionary Entry, enter the attributes described in the table below.
 
@@ -160,45 +128,45 @@ To create a custom dictionary:
   <tbody>
     <tr>
       <td>
-        This field is **required** and may not contain any spaces.  
+        This field is **required** and may not contain any spaces.
 
-        If multiple words are used, you may use hyphens.  
+        If multiple words are used, you may use hyphens.
 
-        Use periods for acronyms.  For example: <code>F.Y.I.</code>  
+        Use periods for acronyms.  For example: <code>F.Y.I.</code>
 
-        If both a word and an acronym are used, separate them by a hyphen.  
+        If both a word and an acronym are used, separate them by a hyphen.
 
         Avoid using any other special characters or punctuation
       </td>
 
       <td>
-        This is an optional field.  
+        This is an optional field.
 
-        Do not use spaces.  
+        Do not use spaces.
 
-        Use hyphen-separated syllables that mimic how the word sounds.  It is preferable to use common words over phonetic syllables.  
+        Use hyphen-separated syllables that mimic how the word sounds.  It is preferable to use common words over phonetic syllables.
 
-        For example:  For example, for 'Los Angeles', 'loss-ann-gel-es' is preferable to 'lahs-ahn-jul-ees'.  
-
-        You may not use both Sounds Like and IPA.
-      </td>
-
-      <td>
-        This is an optional field.  
-
-        This field is used for phonetic spellings using only characters in the [International Phonetic Alphabet (IPA)](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).  
-
-        There must be a single space between between every IPA character (single-byte) or valid IPA character pair (double-byte).  
+        For example:  For example, for 'Los Angeles', 'loss-ann-gel-es' is preferable to 'lahs-ahn-jul-ees'.
 
         You may not use both Sounds Like and IPA.
       </td>
 
       <td>
-        This field describes how you want your Dictionary Entry to appear when transcribed.  
+        This is an optional field.
 
-        This field is optional.  
+        This field is used for phonetic spellings using only characters in the [International Phonetic Alphabet (IPA)](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
-        Spaces may be used in this field.  
+        There must be a single space between between every IPA character (single-byte) or valid IPA character pair (double-byte).
+
+        You may not use both Sounds Like and IPA.
+      </td>
+
+      <td>
+        This field describes how you want your Dictionary Entry to appear when transcribed.
+
+        This field is optional.
+
+        Spaces may be used in this field.
 
         If this field is left empty, the Phrase field is used to determine how it is displayed.
       </td>
@@ -206,27 +174,21 @@ To create a custom dictionary:
   </tbody>
 </Table>
 
-<Image title="addDictionaryEntry.png" alt={594} align="center" src="https://files.readme.io/6ab7e51-addDictionaryEntry.png">
-  A custom dictionary facilitates transcriptions that are often difficult to understand normally
-</Image>
+<Image align="center" alt={594} border={false} caption="A custom dictionary facilitates transcriptions that are often difficult to understand normally" title="addDictionaryEntry.png" src="https://files.readme.io/6ab7e51-addDictionaryEntry.png" />
 
-5. Click the **Add** button to add your dictionary term to your custom dictionary.  Each term or phrase you add is displayed in a table below the **Add New** button.  
+5. Click the **Add** button to add your dictionary term to your custom dictionary.  Each term or phrase you add is displayed in a table below the **Add New** button.
 
 > 👍 Tip
 >
 > Currently, only one custom dictionary per portal is supported. There is currently a 50kb limit on entries.
 
-<Image title="dictionaryTable.png" alt={1364} align="center" src="https://files.readme.io/5d8107e-dictionaryTable.png">
-  Dictionary updates are Unsaved Changes until you click the Save Changes button on the Integration form.  At that point, status changes to Pending.
-</Image>
+<Image align="center" alt={1364} border={false} caption="Dictionary updates are Unsaved Changes until you click the Save Changes button on the Integration form.  At that point, status changes to Pending." title="dictionaryTable.png" src="https://files.readme.io/5d8107e-dictionaryTable.png" />
 
 6. Notice that your dictionary entries display a status of **Unsaved Changes** after you add them.  You must click the **Save Changes** button at the bottom of the Rev IQ integration form to complete your dictionary and save your entries.
 
 7. Once you click the **Save Changes** button, the table status switches to **Pending**.  If you have made any errors when you define your entries, it is then displayed above the table.
 
-<Image title="dictionaryError.png" alt={323} align="center" src="https://files.readme.io/11e68be-dictionaryError.png">
-  If you receive an error when you try to save your dictionary, click the Action menu to the right of the entry to edit it
-</Image>
+<Image align="center" alt={323} border={false} caption="If you receive an error when you try to save your dictionary, click the Action menu to the right of the entry to edit it" title="dictionaryError.png" src="https://files.readme.io/11e68be-dictionaryError.png" />
 
 8. Click the **Actions** dropdown menu to the right of the entry to edit and correct it before saving the dictionary again.  It will display a status of **Ready**when table entries are correct.
 
@@ -236,11 +198,9 @@ When a video is uploaded, you can view languages, audio tracks, and transcriptio
 
 1. Navigate to [Video Settings](doc:update-basic-video-settings) and click the **Details** > [Languages](doc:video-languages) tab option.
 
-2. Use this tab to view the **Automatic Transcription Language** on the top row and to view the translation languages you selected. 
+2. Use this tab to view the **Automatic Transcription Language** on the top row and to view the translation languages you selected.
 
-<Image title="revIQTranscription.png" alt={370} align="center" src="https://files.readme.io/e0b75bd-languagesTab.png">
-  The Languages tab displays default transcription and translation languages
-</Image>
+<Image align="center" alt={370} border={false} caption="The Languages tab displays default transcription and translation languages" title="revIQTranscription.png" src="https://files.readme.io/e0b75bd-languagesTab.png" />
 
 3. Use this tab to [edit, delete, and download video subtitles](doc:video-languages) as needed.
 4. You can also choose to generate additional [audio tracks](doc:supported-languages#vod-audio-and-voice-language-support-for-rev-iq) for supported languages (up to ten).
