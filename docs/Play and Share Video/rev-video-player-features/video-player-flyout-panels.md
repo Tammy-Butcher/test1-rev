@@ -21,8 +21,6 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
 
       <th style={{ textAlign: "left" }}>
         Flyout Panel Descriptions
-
-        \[
       </th>
     </tr>
   </thead>
@@ -34,7 +32,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Video Information Panel](doc:rev-video-player-features#video-information)  
+        [Video Information Panel](doc:rev-video-player-features#video-information)
 
         When this icon is clicked, the flyout panel reveals various metadata about the video you are viewing and also includes video settings that may have been enabled for the video.
       </td>
@@ -46,7 +44,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Comments Panel](doc:rev-video-player-features#video-comments)  
+        [Comments Panel](doc:rev-video-player-features#video-comments)
 
         Provides a means for you to leave and view comments on the video.
       </td>
@@ -58,7 +56,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Sharing Panel](doc:rev-video-player-features#video-sharing)  
+        [Sharing Panel](doc:rev-video-player-features#video-sharing)
 
         Link or embed the video you are viewing.
       </td>
@@ -70,7 +68,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Transcript Panel](doc:rev-video-player-features#video-transcript)  
+        [Transcript Panel](doc:rev-video-player-features#video-transcript)
 
         Displays tagged users in the video (if enabled) and the video transcript (if available).
       </td>
@@ -82,7 +80,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Video Assistant Panel](doc:rev-video-player-features#generative-ai-video-assistant)  
+        [Video Assistant Panel](doc:rev-video-player-features#generative-ai-video-assistant)
 
         Provide access to the Rev Generative AI Assistant (if enabled).
       </td>
@@ -94,7 +92,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Add to Playlist Panel](doc:rev-video-player-features#video-playlists)  
+        [Add to Playlist Panel](doc:rev-video-player-features#video-playlists)
 
         Opens playlist options for the video; including the ability to add to an existing playlist and the ability to create a new playlist.
       </td>
@@ -106,7 +104,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Chapters Panel](doc:rev-video-player-features#video-chapters)  
+        [Chapters Panel](doc:rev-video-player-features#video-chapters)
 
         Opens the Chapters panel if the video contains chapters which then allows you to jump to different chapters that have been defined in the video.
       </td>
@@ -118,7 +116,7 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
       </td>
 
       <td style={{ textAlign: "left" }}>
-        [Reports Dashboard](doc:rev-video-player-features#video-reports)  
+        [Reports Dashboard](doc:rev-video-player-features#video-reports)
 
         Opens the Reports Dashboard for the video.
       </td>
@@ -135,16 +133,16 @@ To the right of the Rev video player window are Rev’s video panel icons.  Clic
 The **Video Information** panel contains various metadata about the video along with various video settings that may have been enabled.
 
 <Image
-  title="videoBasicInfoPanel.png"
+  align="center"
   alt="The various video settings and metadata that have been configured appear on this panel
 
 "
-  align="center"
-  width="smart"
+  border={false}
+  caption="The Information Panel (partial view) contains the various metadata and video settings that have been enabled for the video"
+  title="videoBasicInfoPanel.png"
   src="https://files.readme.io/389b5419de52f5409f0d46abf94e61b0a75ab767b3a317f63fe895d04d987806-infoPanel.png"
->
-  The Information Panel (partial view) contains the various metadata and video settings that have been enabled for the video
-</Image>
+  width="smart"
+/>
 
 <Table align={["left","left"]}>
   <thead>
@@ -172,7 +170,7 @@ The **Video Information** panel contains various metadata about the video along 
 
     <tr>
       <td>
-        ![](https://files.readme.io/96f859003a928ecc198b1724bfe115eb0c86d887f0575245a31c236e38751ffd-downloadVideo.png) 
+        ![](https://files.readme.io/96f859003a928ecc198b1724bfe115eb0c86d887f0575245a31c236e38751ffd-downloadVideo.png)
       </td>
 
       <td>
@@ -236,9 +234,9 @@ The **Video Information** panel contains various metadata about the video along 
       </td>
 
       <td>
-        Users that are [tagged](doc:update-basic-video-settings#tag-users-in-a-video) in a video.  
+        Users that are [tagged](doc:update-basic-video-settings#tag-users-in-a-video) in a video.
 
-        Timeline tagging that highlights on the timeline where in the video speakers are present is available *only* if [Facial Recognition](doc:facial-recognition) is enabled (disabled by default).  
+        Timeline tagging that highlights on the timeline where in the video speakers are present is available _only_ if [Facial Recognition](doc:facial-recognition) is enabled (disabled by default).
 
         * Profile pictures that have tagging enabled are indicated by an arrow > next to their image. If enabled, click the profile picture to highlight the range the speaker appears on the timeline.
 
@@ -282,7 +280,7 @@ The **Video Information** panel contains various metadata about the video along 
       </td>
 
       <td>
-        [Rate](doc:update-basic-video-settings#enable-comments-ratings-and-downloading) the video from 1 to 5 stars and view ratings that have already been applied.  
+        [Rate](doc:update-basic-video-settings#enable-comments-ratings-and-downloading) the video from 1 to 5 stars and view ratings that have already been applied.
 
         The **Rating**indicates the "average rating received" while the the **Total Ratings** is the "total number of ratings" received on the video to date.
       </td>
@@ -304,7 +302,7 @@ The **Video Information** panel contains various metadata about the video along 
       </td>
 
       <td>
-        Flag or report video for inappropriate content.  
+        Flag or report video for inappropriate content.
 
         Click the **Report**icon to flag the video for inappropriate content.  Account and Media Admins will receive a notification in Rev and an email so that the video may be reviewed.
       </td>
@@ -344,29 +342,23 @@ The **Video Information** panel contains various metadata about the video along 
 
 ## Video Comments
 
-Use the **Video Comments** flyout panel to enter a comment on a video and view/sort all previously entered comments.  If a comment is replied to, the commenter is notified in the [Notifications](doc:notifications) tray. 
+Use the **Video Comments** flyout panel to enter a comment on a video and view/sort all previously entered comments.  If a comment is replied to, the commenter is notified in the [Notifications](doc:notifications) tray.
 
 Only Account and Media Admin account(s) can delete all user comments in addition to their own comments.
 
-<Image title="commentsFlyout.png" alt={401} align="center" src="https://files.readme.io/de1842e5402fbaf17fffb9fb3c9738fc45f5c2ac6bcfcb70a8c0c0018d5bde95-videoCommentsFlyout.png">
-  Use the Comments flyout to enter rich text comments (including emojis) on VODs
-</Image>
+<Image align="center" alt={401} border={false} caption="Use the Comments flyout to enter rich text comments (including emojis) on VODs" title="commentsFlyout.png" src="https://files.readme.io/de1842e5402fbaf17fffb9fb3c9738fc45f5c2ac6bcfcb70a8c0c0018d5bde95-videoCommentsFlyout.png" />
 
 ## Video Sharing
 
 Use the **Video Sharing** flyout panel to access [sharing](doc:share-a-video) and [embedding](doc:embed-a-video) options that may be enabled for a video.
 
-<Image title="sharingFlyout.png" alt={372} align="center" src="https://files.readme.io/644c8997c747a21dcc800eba45ed97145225ffa13f9b7194137dcb7519e0fdc5-videoSharingFlyout.png">
-  The Sharing flyout panel is used to both share and obtain embed code for Rev videos
-</Image>
+<Image align="center" alt={372} border={false} caption="The Sharing flyout panel is used to both share and obtain embed code for Rev videos" title="sharingFlyout.png" src="https://files.readme.io/644c8997c747a21dcc800eba45ed97145225ffa13f9b7194137dcb7519e0fdc5-videoSharingFlyout.png" />
 
 ## Video Transcript
 
 The **Video Transcript** flyout displays speakers that are tagged [In This Video](doc:tag-users-in-a-video). When combined with the Rev IQ module’s [Facial Recognition](doc:facial-recognition) capabilities, it also highlights each speaker interactively (during playback) as they appear in real-time along with audio transcript highlighting and on the timeline if their profile image is clicked. Profile pictures that have tagging enabled are indicated by an arrow > next to their image.
 
-<Image title="videoPulseFlyoutPanel.png" alt={537} align="center" src="https://files.readme.io/5f0885672ab70d99d12eb99bd5fbb173435268c67164124e2d73a84a48a45579-videoTranscriptFlyout.png">
-  The Video Transcript flyout highlights each tagged speaker as they appear in the video along with their audio when used with Rev's Facial Recognition license
-</Image>
+<Image align="center" alt={537} border={false} caption="The Video Transcript flyout highlights each tagged speaker as they appear in the video along with their audio when used with Rev's Facial Recognition license" title="videoPulseFlyoutPanel.png" src="https://files.readme.io/5f0885672ab70d99d12eb99bd5fbb173435268c67164124e2d73a84a48a45579-videoTranscriptFlyout.png" />
 
 This interactivity requires an [SRT transcript file uploaded](doc:update-advanced-video-settings#subtitles-translations-and-closed-captions) (for audio transcripts) and a Rev IQ license purchased (for timeline tagging).
 
@@ -376,9 +368,7 @@ The **Video Transcript** flyout also features the ability to **Search** videos f
 
 User accounts that have video edit rights are able to quickly correct transcripts directly in the **Video Transcript** flyout by clicking the **Edit** icon that appears next to a transcript line.  When clicked, the text of the subtitle may be edited or deleted as needed.
 
-<Image title="videoPulseEdits.png" alt={502} align="center" src="https://files.readme.io/27ffc4f190fe905c9236d1fd58d5176eadb01c910976b901f69386ca72c0574c-videoTranscriptEdit.png">
-  Click the Edit (pencil) icon next to a subtitle that you want to edit.  Be sure you click the Save icon to save any changes you make.
-</Image>
+<Image align="center" alt={502} border={false} caption="Click the Edit (pencil) icon next to a subtitle that you want to edit.  Be sure you click the Save icon to save any changes you make." title="videoPulseEdits.png" src="https://files.readme.io/27ffc4f190fe905c9236d1fd58d5176eadb01c910976b901f69386ca72c0574c-videoTranscriptEdit.png" />
 
 To edit or delete a transcript in the Video Transcript flyout:
 
@@ -388,7 +378,7 @@ To edit or delete a transcript in the Video Transcript flyout:
 
 3. **Edit** the subtitle text as needed.  Note that you can also edit the time field if needed.
 
-4. Click the **Delete** icon to remove the text.  This may *not* be undone so use caution.
+4. Click the **Delete** icon to remove the text.  This may _not_ be undone so use caution.
 
 > 👍 Tip
 >
@@ -402,9 +392,7 @@ The **Video Assistant** flyout panel allows you to interact with a video's trans
 
 Keep in mind that certain requirements must be met when using this feature. The video must have an [English transcript](doc:rev-iq-transcription-and-translation#automatic-and-default-transcription-settings), you must have the Rev IQ [Video Assistant](doc:vbrick-assistant) enabled, and you must have [Rev IQ credits](doc:rev-license-types-and-add-ons#rev-iq-credits) available.
 
-<Image alt="The Video Assistant flyout allows you to interact with an AI chatbot and ask questions about a video" align="center" src="https://files.readme.io/6fd62c3102fc2ff81d4e07f2c5fe2505b55409e7e041677cdcd87ec8bc6e7049-videoAssistantFlyoutRevPlayer.png">
-  The Video Assistant flyout allows you to interact with an AI chatbot and ask questions about a video.
-</Image>
+<Image align="center" alt="The Video Assistant flyout allows you to interact with an AI chatbot and ask questions about a video" border={false} caption="The Video Assistant flyout allows you to interact with an AI chatbot and ask questions about a video." src="https://files.readme.io/6fd62c3102fc2ff81d4e07f2c5fe2505b55409e7e041677cdcd87ec8bc6e7049-videoAssistantFlyoutRevPlayer.png" />
 
 > 🚧 Important!
 >
@@ -414,24 +402,20 @@ Keep in mind that certain requirements must be met when using this feature. The 
 
 The [Add to Playlist](doc:playlists) flyout panel provides the ability to create and add videos to playlists.
 
-<Image title="playlistFlyout.png" alt={537} align="center" src="https://files.readme.io/0153c121a34ed79a06560d564be468c749c80335dc2679755f841d5eb0a58d5b-playlistsFlyout.png">
-  Create and add videos to playlists in the Add to Playlist flyout panel
-</Image>
+<Image align="center" alt={537} border={false} caption="Create and add videos to playlists in the Add to Playlist flyout panel" title="playlistFlyout.png" src="https://files.readme.io/0153c121a34ed79a06560d564be468c749c80335dc2679755f841d5eb0a58d5b-playlistsFlyout.png" />
 
 ## Video Chapters
 
 The **Chapters** flyout allows you to view and navigate between a video's chapters. It is only present in those videos that have chapters defined in the [video editor](doc:edit-a-video-clip).  When you click the **Chapter** icon, the flyout appears and allows you to navigate to the chapters that have been defined.  Think of chapters as bookmarks that allow a user to quickly navigate to content that is specifically relevant or of interest to them.
 
-<Image alt="If chaptering is added, navigate to a chapter either through the Chapter flyout or through the Chapter dropdown" align="center" src="https://files.readme.io/53b58e89e2576bc6b5bef026be65640d8cd85def869405498f89350e82eca1b4-chapterFlyout.png">
-  If chaptering is added, navigate to a chapter either through the Chapter flyout or through the Chapter overlay in the video window
-</Image>
+<Image align="center" alt="If chaptering is added, navigate to a chapter either through the Chapter flyout or through the Chapter dropdown" border={false} caption="If chaptering is added, navigate to a chapter either through the Chapter flyout or through the Chapter overlay in the video window" src="https://files.readme.io/53b58e89e2576bc6b5bef026be65640d8cd85def869405498f89350e82eca1b4-chapterFlyout.png" />
 
-In addition to the Chapter flyout, you can also use the **Chapter overlay** in the player window to select a chapter to jump to or the **Chapter skip** icon in the playback bar to skip forward and back between chapters.  
+In addition to the Chapter flyout, you can also use the **Chapter overlay** in the player window to select a chapter to jump to or the **Chapter skip** icon in the playback bar to skip forward and back between chapters.
 
 If images have been added to the chapter, you can toggle them on and off using the **Show Chapter Images** icon on the video playback bar. This icon is not present if no images have been added to the chapter.
 
 ## Video Reports
 
-<Image align="center" src="https://files.readme.io/6e45d2429e3994ebffb482e81520ef076cace632f18bd88ea2d37f98ff340449-videoReportsIcon.png" />
+<Image align="center" border={false} src="https://files.readme.io/6e45d2429e3994ebffb482e81520ef076cace632f18bd88ea2d37f98ff340449-videoReportsIcon.png" />
 
 The **Reports** flyout displays the [Video Analytics Dashboard](doc:video-analytics-dashboard) that provides detailed analytics and reports for the video.  It is only visible to Account and Media Admins.
