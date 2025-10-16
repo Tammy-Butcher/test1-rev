@@ -10,32 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 Vbrick integrates with **Slack** via a provisioned server setup, Vbrick's Slack app, and Slack bot creation. Once installed, you can:
 
 * **Search** for Vbrick-hosted videos directly within a Slack channel without needing to leave the channel.
@@ -77,23 +51,17 @@ Once you have installed the Slack integration and configured your Slash command,
 1. Navigate to a Slack channel.
 2. Click the **More Actions** menu in the upper right menu and then click **Edit Settings**.
 
-<Image alt="Edit Settings allows you to add a Slack bot to an entire workspace" align="center" src="https://files.readme.io/641b0ada1004029b795a1c70cde858814cbb3ac02954b35661f4f9a323873c36-slackEditSettings.png">
-  Edit Settings allows you to add a Slack bot to an entire workspace
-</Image>
+<Image align="center" alt="Edit Settings allows you to add a Slack bot to an entire workspace" border={false} caption="Edit Settings allows you to add a Slack bot to an entire workspace" src="https://files.readme.io/641b0ada1004029b795a1c70cde858814cbb3ac02954b35661f4f9a323873c36-slackEditSettings.png" />
 
 3. Click the **Integrations** tab > **Add an App**.
 4. Search for the name or partial name of the slash command you configured in the previous section in the **Search** box.
 5. You are then able to add the slash configurations you set to appear for your tenant in the workspace of your choice. Click the **Add** button next to the app and workspace you want to add the Slack bot to.
 
-<Image alt="Click the Add button next to app and workspace to Add the selected Slack bot" align="center" src="https://files.readme.io/d9dfd1c9867b31f07dafd47702f4bc6dc50eb3703aafe8ef358d786c46f0f31c-addSlackApps.png">
-  Click the Add button next to app and workspace to Add the selected Slack bot
-</Image>
+<Image align="center" alt="Click the Add button next to app and workspace to Add the selected Slack bot" border={false} caption="Click the Add button next to app and workspace to Add the selected Slack bot" src="https://files.readme.io/d9dfd1c9867b31f07dafd47702f4bc6dc50eb3703aafe8ef358d786c46f0f31c-addSlackApps.png" />
 
 6. If you would rather add the bot directly to a specific **Channel** instead, navigate directly to the channel and type `@your-bot-slash-name` to "invite" the Slack bot to the channel directly.
 
-<Image alt="Invite the slack bot with the @symbol. Use the slash name you gave it during installation." align="center" src="https://files.readme.io/723ffac2c5d768ef64d56dcb6ca8bc7a509214e87507c54d4880d39064962603-inviteBot2Channel.png">
-  Invite the slack bot with the @symbol. Use the slash name you gave it during installation.
-</Image>
+<Image align="center" alt="Invite the slack bot with the @symbol. Use the slash name you gave it during installation." border={false} caption="Invite the slack bot with the @symbol. Use the slash name you gave it during installation." src="https://files.readme.io/723ffac2c5d768ef64d56dcb6ca8bc7a509214e87507c54d4880d39064962603-inviteBot2Channel.png" />
 
 ## Usage
 
@@ -106,11 +74,11 @@ To search for a Vbrick-hosted video:
 1. Type the command `/video-search` (or whatever you named your app) followed by a search term such as the name of the video.
 2. If there are no results, a "No results found" message is returned.
 3. Otherwise, the top 20 results are returned in a video pop-up sorted by Title.
-4. You are able to view the video of your choice in the pop-up or click the **Share in Channel** button to share the video with the rest of the Slack channel.  
+4. You are able to view the video of your choice in the pop-up or click the **Share in Channel** button to share the video with the rest of the Slack channel.
 5. For example, `/video-search ecdn` might yield the result below using our test case.  Notice that `ecdn` is in the title name.  Other match cases are listed below the top result.
 6. You can play and view the video directly in the window or you can click the **Share in Channel** button to share it with the rest of the channel.
 
-<Image align="center" src="https://files.readme.io/34d6f3591aa40f8fa8f60b92bd58af12a2d1441ee37c6e7062c4d2608e06953b-searchResults.png" />
+<Image align="center" border={false} src="https://files.readme.io/34d6f3591aa40f8fa8f60b92bd58af12a2d1441ee37c6e7062c4d2608e06953b-searchResults.png" />
 
 ### View Vbrick Videos in Slack
 
@@ -119,22 +87,18 @@ There are two methods to view videos in a Slack channel:
 1. Search for and then view the video as described in the [Search usage](doc:slack#search-for-vbrick-hosted-videos-in-slack) section above.
 2. Copy the video URL from Rev and then paste it in the Slack channel. You can also use the video **Share** flyout panel and the **Copy** button to obtain its URL.  Either method yields the same result that can be pasted into the Slack channel for viewing.
 
-<Image alt="Obtain the video's URL in Rev to paste in the Slack channel" align="center" src="https://files.readme.io/0288853d0e81d289605626cfcb824fcf5c35c77f5f97e6d9d4197c7d7a8ca1cc-shareFlyoutCopy.png">
-  Obtain the video's URL in Rev to paste in the Slack channel
-</Image>
+<Image align="center" alt="Obtain the video's URL in Rev to paste in the Slack channel" border={false} caption="Obtain the video's URL in Rev to paste in the Slack channel" src="https://files.readme.io/0288853d0e81d289605626cfcb824fcf5c35c77f5f97e6d9d4197c7d7a8ca1cc-shareFlyoutCopy.png" />
 
 3. Once you have found the video you want to view by either method above, it appears in a pop-up modal with two viewing options:
    1. Click the **Play** button. This plays the video directly in the pop-up modal for you to view.
    2. Click the **View on Web** button.  This opens the video in the Rev player.
 4. If the video that is shared is **Private** (assuming the tenant allows private metadata sharing), an **Authenticate** button displays before the video may be viewed.
 
-<Image alt="If Private videos are shared, viewers must Sign In to Rev first before viewing" align="center" src="https://files.readme.io/9a28e1493b1b76a02e3c87461249e11ba71562701222110688bc4329c4b0e231-privateVideoShared.png">
-  If Private videos are shared, viewers must Sign In to Rev first before viewing
-</Image>
+<Image align="center" alt="If Private videos are shared, viewers must Sign In to Rev first before viewing" border={false} caption="If Private videos are shared, viewers must Sign In to Rev first before viewing" src="https://files.readme.io/9a28e1493b1b76a02e3c87461249e11ba71562701222110688bc4329c4b0e231-privateVideoShared.png" />
 
 5. As noted above, if the video requires a password, viewers will also be redirected to Rev to enter the password before they may view it.
 
-<Image align="center" src="https://files.readme.io/74ff46f957624da367c57ff0e0462c6eac8d8749a734b43a06c5945ee4b1048d-passwordVideoShared.png" />
+<Image align="center" border={false} src="https://files.readme.io/74ff46f957624da367c57ff0e0462c6eac8d8749a734b43a06c5945ee4b1048d-passwordVideoShared.png" />
 
 > 🚧 Important!
 >
@@ -144,9 +108,9 @@ There are two methods to view videos in a Slack channel:
 
 Similar to videos, you can share a webcast in a Slack channel using the same two methods of copying and pasting the **URL** or by using the **Event Details** flyout panel during the webcast to share the webcast link. The Slack integration supports both **Public** and **Private** events (anonymous, password, and registration required).
 
-1. Navigate to the event you want to share by copying its **URL** to the Slack channel or by using the share link on the **Event Details** flyout panel once it is being broadcast. 
+1. Navigate to the event you want to share by copying its **URL** to the Slack channel or by using the share link on the **Event Details** flyout panel once it is being broadcast.
 
-<Image align="center" src="https://files.readme.io/de2718f73f03bda2a357b45bbc657a973ff84a79e5998774a8a83e773d53da23-eventDetailsFlyout.png" />
+<Image align="center" border={false} src="https://files.readme.io/de2718f73f03bda2a357b45bbc657a973ff84a79e5998774a8a83e773d53da23-eventDetailsFlyout.png" />
 
 #### View a Public Event Anonymously in a Slack Channel
 
@@ -154,7 +118,7 @@ Similar to videos, you can share a webcast in a Slack channel using the same two
 2. At the bottom of the window, a **Join on Web** button is displayed.
 3. Clicking this button opens it in the default Web browser, allowing you to join and participate.
 
-<Image align="center" src="https://files.readme.io/14b9f4c31ef1433ab07dd6f2eb4f85bd4f1bf20643472c4d0f3fa344c7ec4b88-joinPublicAnon.png" />
+<Image align="center" border={false} src="https://files.readme.io/14b9f4c31ef1433ab07dd6f2eb4f85bd4f1bf20643472c4d0f3fa344c7ec4b88-joinPublicAnon.png" />
 
 #### View a Public Event that Requires Registration in a Slack Channel
 
@@ -162,13 +126,13 @@ Similar to videos, you can share a webcast in a Slack channel using the same two
    1. If **Sign In** is clicked and the user has access, the event opens with a **Join on Web** button.  Assuming the user is authenticated, the user joins the webcast on the default browser when this button is clicked.
    2. If **Register** is clicked, a link to **Register Now** opens in the default browser allowing the user the register before they may join the event.
 
-<Image align="center" src="https://files.readme.io/128bb7997283ef087d8b09d89e330be5fa788bde58c3c314f22acac6174ec317-joinPublicRegister.png" />
+<Image align="center" border={false} src="https://files.readme.io/128bb7997283ef087d8b09d89e330be5fa788bde58c3c314f22acac6174ec317-joinPublicRegister.png" />
 
 #### View a Private Event in a Slack Channel
 
 1. If a **Private** event is shared in a Slack channel a message is displayed stating: "Sign in to join this private event." along with a **Sign In** button.
 
-<Image align="center" src="https://files.readme.io/db1eacc2a4899d3f4b36998e961dd04e00cb05615ef9b61d3aa8bb29032dcc34-joinPrivate.png" />
+<Image align="center" border={false} src="https://files.readme.io/db1eacc2a4899d3f4b36998e961dd04e00cb05615ef9b61d3aa8bb29032dcc34-joinPrivate.png" />
 
 2. If the user has access to view the event, the webcast title and player is displayed along with a **Join on Web** button when the Sign In button is clicked.
 3. They are then are able to join the event once authenticated.
