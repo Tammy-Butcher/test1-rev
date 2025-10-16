@@ -33,6 +33,20 @@ Adding, editing, and deleting **Media Settings** varies by role depending on wha
 
 ## Licensing and Add-On Granular Roles and Permissions
 
+<Tabs>
+  <Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
+
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
+
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
+
 <div>
   <table>
     <thead>
@@ -42,12 +56,15 @@ Adding, editing, and deleting **Media Settings** varies by role depending on wha
         <th>Description</th>
       </tr>
     </thead>
+
     <tbody>
       <tr>
         <td>Rev IQ User</td>
         <td>Access to use <a href="doc:rev-ai">Rev IQ</a> features and functions (if enabled)</td>
+
         <td>
           If Rev IQ is enabled on the portal, only Admin users and those assigned the <strong>Rev IQ</strong> role have access to its features and functions; all other roles are restricted. This includes:
+
           <ul>
             <li>Generating and translating <a href="doc:rev-iq-transcription-and-translation#usage">Rev IQ subtitles</a> for a video</li>
             <li><a href="doc:update-basic-video-settings#tag-users-in-a-video">Tagging Users</a> in a video</li>
