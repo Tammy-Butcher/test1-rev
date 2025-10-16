@@ -10,33 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 There are several methods of joining a webcast depending on the type of event it is and how it has been set up.
 
 > 👍 Tip
@@ -53,17 +26,13 @@ If an event has been designated as a Public event or available to Rev Users, you
 
 If you have this option on your Home Page, you are able to click and access the webcast on the **Start Date** and **Time** of the event to access it.  If you attempt to access the event before the Start Date and Time, you will be placed in a Lobby (if enabled) or on the Webcast Settings page until the Event Host begins broadcasting.
 
-<Image title="upcomingEventCarousel.png" alt={957} src="https://files.readme.io/92dcc2a-upcomingEventCarousel.png">
-  Access the webcast from the Upcoming Events carousel from the Home Page
-</Image>
+<Image alt={957} border={false} caption="Access the webcast from the Upcoming Events carousel from the Home Page" title="upcomingEventCarousel.png" src="https://files.readme.io/92dcc2a-upcomingEventCarousel.png" />
 
 ## Join From the Event Calendar
 
 Navigate to [The Event Calendar](doc:the-event-calendar) on the **Start Date** and **Time** and access the event.  Keep in mind that not all webcasts are accessible to everyone. If you attempt to access the event before the Start Date and Time, you will be placed in a Lobby (if enabled) or on the Webcast Settings page until the Event Host begins broadcasting.
 
-<Image title="eventCalendar.png" alt={962} src="https://files.readme.io/ae14bcc-eventCalendar.png">
-  The event calendar displays the various scheduled events in Rev.  You are able to see those visible to you based on your role and permissions.
-</Image>
+<Image alt={962} border={false} caption="The event calendar displays the various scheduled events in Rev.  You are able to see those visible to you based on your role and permissions." title="eventCalendar.png" src="https://files.readme.io/ae14bcc-eventCalendar.png" />
 
 ## Join From a URL Invite as a Licensed User
 
