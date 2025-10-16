@@ -36,8 +36,8 @@ What you can do with events in Rev is defined by the role you are assigned. The 
     <tbody>
       <tr>
         <td>Internal Event Host</td>
-        <td>Add internal [All Users Events](doc:all-users-events)<br>Add [Private Events](doc:private-events)</td>
-        <td>This is a granular form of the <strong>Event Host</strong> role and is used to create hosts that can create/edit <em>internal</em> <strong>All Users</strong> or <strong>Private</strong> events <em>only</em>.<br><br>Further, this role <em>restricts</em> the ability to make [Public](doc:public-events) events.<br><br>The role may edit an existing event <em>only</em> if they are the <strong>Internal Event's Host/Event Host</strong> (or an Event Admin).</td>
+        <td>Add internal [All Users Events](doc:all-users-events)Add [Private Events](doc:private-events)</td>
+        <td>This is a granular form of the <strong>Event Host</strong> role and is used to create hosts that can create/edit <em>internal</em> <strong>All Users</strong> or <strong>Private</strong> events <em>only</em>.Further, this role <em>restricts</em> the ability to make [Public](doc:public-events) events.The role may edit an existing event <em>only</em> if they are the <strong>Internal Event's Host/Event Host</strong> (or an Event Admin).</td>
       </tr>
       <tr>
         <td>Event Analyst</td>
