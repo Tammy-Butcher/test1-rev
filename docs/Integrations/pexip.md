@@ -10,32 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 Rev integrates with **Pexip** so that you are able to use a **Pexip Meeting** conference call as the **video source** for a Rev Webcast Event. You can also record a Pexip Meeting as a new Rev VOD which means you can then apply all of Rev's associated metadata settings once it has concluded.
 
 ## Requirements
@@ -72,9 +46,7 @@ To stream a Pexip Meeting to a Rev Webcast event:
 
 3. Enter a **Pexip** email address that is associated with the Pexip meeting room you want to join.  Pexip also allows you to [join the Pexip Meeting as a Guest](https://help.pexip.com/service/join-as-guest.htm#guest_android_join).
 
-<Image title="pexipVidSource.png" alt={1141} align="center" src="https://files.readme.io/009d793-pexipVidSource.png">
-  Select Pexip as the video source to stream a Pexip meeting
-</Image>
+<Image align="center" alt={1141} border={false} caption="Select Pexip as the video source to stream a Pexip meeting" title="pexipVidSource.png" src="https://files.readme.io/009d793-pexipVidSource.png" />
 
 4. Enter the Pin / Password for the meeting if one was set up.
 
@@ -96,11 +68,9 @@ To record a Pexip meeting:
 
 1. Click the **Recording** tab > **Pexip** option.
 
-<Image alt="Click the Recording tab and then select the Pexip option" align="center" src="https://files.readme.io/1e25d1e-pexipRecording.png">
-  Click the Recording tab and then select the Pexip option
-</Image>
+<Image align="center" alt="Click the Recording tab and then select the Pexip option" border={false} caption="Click the Recording tab and then select the Pexip option" src="https://files.readme.io/1e25d1e-pexipRecording.png" />
 
-2. Enter a **Pexip** email address that is associated with the Pexip meeting room you want to join. 
+2. Enter a **Pexip** email address that is associated with the Pexip meeting room you want to join.
 
 3. Enter the Pin / Password required for the meeting (if set up).
 
