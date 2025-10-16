@@ -10,32 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 ## Allow Guest Presenters for Producer Webcasts
 
 Guest presenters can be invited to a Producer webcast but this must be enabled first.
@@ -45,9 +19,7 @@ To allow Guest presenters in a Producer Webcast:
 1. Navigate to **Admin > System Settings > Content Restriction**.
 2. Scroll to the **Producer Settings** section and select the **Enable External Presenters for Producer** checkbox.  This setting is enabled by default.
 
-<Image title="producerSettings.png" alt={856} align="center" src="https://files.readme.io/89b8e30-producerSettings.png">
-  When this setting is enabled, you can invite external presenters that do not have a Rev account to a Producer event
-</Image>
+<Image align="center" alt={856} border={false} caption="When this setting is enabled, you can invite external presenters that do not have a Rev account to a Producer event" title="producerSettings.png" src="https://files.readme.io/89b8e30-producerSettings.png" />
 
 When this setting is enabled:
 
