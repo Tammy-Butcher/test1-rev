@@ -10,40 +10,11 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 The duplication feature copies an event so that you can quickly set up features and technical settings needed without having to create them again.  If you need to use the same event several times, you can also [Create a Webcast Template](doc:create-a-webcast-template) instead. Either choice means you do not have to create a webcast from scratch every time.
 
 Admins and Hosts can edit the event settings and use the **Duplicate Webcast** button to use this feature.
 
-<Image title="duplicateWebcastButton.png" alt={1202} src="https://files.readme.io/492a6d3-duplicateWebcastButton.png">
-  The Duplicate Webcast button on the Webcast Landing page copies an event
-</Image>
+<Image alt={1202} border={false} caption="The Duplicate Webcast button on the Webcast Landing page copies an event" title="duplicateWebcastButton.png" src="https://files.readme.io/492a6d3-duplicateWebcastButton.png" />
 
 When you copy an event:
 
@@ -73,11 +44,11 @@ The following features from each section are copied:
       </td>
 
       <td>
-        a. Title\
-        b. Description\
-        c. Lobby Time\
-        d. Timezone\
-        e. Categories\
+        a. Title
+        b. Description
+        c. Lobby Time
+        d. Timezone
+        e. Categories
         f. Tags
       </td>
     </tr>
@@ -88,8 +59,8 @@ The following features from each section are copied:
       </td>
 
       <td>
-        a. Video Source\
-        b. Closed Captions\
+        a. Video Source
+        b. Closed Captions
         c. Automated Webcast
       </td>
     </tr>
@@ -100,7 +71,7 @@ The following features from each section are copied:
       </td>
 
       <td>
-        a. Event Hosts\
+        a. Event Hosts
         b. Event Moderators
       </td>
     </tr>
@@ -111,7 +82,7 @@ The following features from each section are copied:
       </td>
 
       <td>
-        a. Listing Type\
+        a. Listing Type
         b. Unlist this Webcast
       </td>
     </tr>
@@ -122,10 +93,10 @@ The following features from each section are copied:
       </td>
 
       <td>
-        a. Polls\
-        b. Chat\
-        c. Q\&A\
-        d. Presentation File/Download Setting\
+        a. Polls
+        b. Chat
+        c. Q&A
+        d. Presentation File/Download Setting
         e. Background Image
       </td>
     </tr>
@@ -134,4 +105,4 @@ The following features from each section are copied:
 
 > 🚧 Important!
 >
-> Event templates and duplicated events do *not* carry over the **Estimated Attendees** field (users should enter the new estimate so a more accurate number is obtained).
+> Event templates and duplicated events do _not_ carry over the **Estimated Attendees** field (users should enter the new estimate so a more accurate number is obtained).
