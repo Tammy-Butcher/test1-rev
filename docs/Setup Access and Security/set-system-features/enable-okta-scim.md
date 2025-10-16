@@ -10,33 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 Vbrick Rev supports the integration of the **System for Cross-Domain Identify Management** (SCIM) user management API to enable automatic provisioning of users and groups between **Vbrick Rev** and **Okta**. Once configured, Okta automatically provisions and deprovisions users and groups to Rev.
 
 ## Prerequisites
@@ -110,7 +83,7 @@ The **Vbrick Okta SCIM** integration supports the following features:
       </td>
 
       <td>
-        1. Disable **LDAP Connector**. 2. Install **Vbrick Rev Cloud App** in Okta. 3. Configure **User and Group provisioning** in the App. 4. Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
+        * Disable **LDAP Connector**. * Install **Vbrick Rev Cloud App** in Okta. * Configure **User and Group provisioning** in the App. * Existing **SAML SSO** should work but you can also configure SAML SSO in the same App.
       </td>
     </tr>
 
