@@ -10,33 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 The **Event Calendar** displays all upcoming webcasts that you have access to view. This is also where Admins and Hosts create and schedule new events. By default, the calendar is displayed in monthly view but you may toggle between a monthly, weekly, and daily based view.
 
 > 🚧 Important!
@@ -47,7 +20,7 @@ The **Event Calendar** displays all upcoming webcasts that you have access to vi
 > * You have been invited to the event.
 > * A group you belong is invited to the event. If you are subsequently removed from the group, you are no longer able to view or attend the event.
 
-![962](https://files.readme.io/2b01e59-eventCalendar.png "eventCalendar.png")
+<Image alt="962" border={false} src="https://files.readme.io/2b01e59-eventCalendar.png" title="eventCalendar.png" />
 
 > 👍 Tip
 >
@@ -66,7 +39,7 @@ To view the Event Calendar:
 5. Click **Add Event** to begin [creating an event](doc:create-event).
 
 6. Click on a specific day or event on the calendar to (based on your role/event permissions):
-   * [Create an Event](doc:create-event) 
+   * [Create an Event](doc:create-event)
    * [Edit Event Settings](doc:configure-event-settings)
-   * [Host a Webcast](doc:host-a-webcast) 
+   * [Host a Webcast](doc:host-a-webcast)
    * [Attend a Webcast](doc:attend-a-webcast)
