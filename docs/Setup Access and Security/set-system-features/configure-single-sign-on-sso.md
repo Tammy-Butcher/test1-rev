@@ -168,8 +168,8 @@ The diagram below represents the technical implementation of SAML SSO in Rev.
 * If SSO is enabled without user provisioning, user accounts must be created in Rev manually or through the LDAP connector.
 * If an Account Admin creates a user account manually with SSO enabled, the user created is set to **Unlicensed** status until log in and then set to **Active** status. No user or email confirmation is required. If no licenses are available for the Rev account, the user is displayed a message to contact the Account Admin and will not be logged in.
 * When SSO is enabled, an SSO login page is created for authentication that is different from the native Rev login page. For example:
-  * Rev Native Login Page:http\:/<RevURL>/#/login
-  * SSO Login Page: http\:/<RevURL>/SSO/login
+  * Rev Native Login Page:http\:/```RevURL```/#/login
+  * SSO Login Page: http\:/```RevURL```/SSO/login
 
 ### SSO with User Provisioning
 
