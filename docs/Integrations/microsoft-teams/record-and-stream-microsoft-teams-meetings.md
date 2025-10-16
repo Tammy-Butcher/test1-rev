@@ -10,37 +10,9 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 To use Microsoft Teams video conferencing as a video source in Rev Webcasts you need to enable and configure Microsoft Teams Video Conferencing integration option in **Media Settings > Integrations**.
 
-<Image alt="Enable the Microsoft Teams Video Conferencing integration to record and stream your Teams meetings" align="center" src="https://files.readme.io/ecec8d1-msTeamsVC.png">
-  Enable the Microsoft Teams Video Conferencing integration to record and stream your Teams meetings
-</Image>
+<Image align="center" alt="Enable the Microsoft Teams Video Conferencing integration to record and stream your Teams meetings" border={false} caption="Enable the Microsoft Teams Video Conferencing integration to record and stream your Teams meetings" src="https://files.readme.io/ecec8d1-msTeamsVC.png" />
 
 When this option is enabled, you are able to:
 
@@ -66,9 +38,7 @@ To enable Microsoft Teams Video Conferencing:
 
 4. Your Microsoft Teams Admin must click and login to the **registration URL** that appears to authorize Rev to connect with Microsoft Teams. This automatically registers Rev with your Microsoft Teams account and allows it to be used as a streaming source.
 
-<Image title="enableVideoConference.png" alt={1111} align="center" src="https://files.readme.io/cbf00f8-enableVideoConference.png">
-  Once you enable the checkbox for video conferencing, login to your Microsoft Teams admin account to complete your registration.  You are now able to record and stream MS Team meetings.
-</Image>
+<Image align="center" alt={1111} border={false} caption="Once you enable the checkbox for video conferencing, login to your Microsoft Teams admin account to complete your registration.  You are now able to record and stream MS Team meetings." title="enableVideoConference.png" src="https://files.readme.io/cbf00f8-enableVideoConference.png" />
 
 You can now use Microsoft Teams to source a Rev Webcast event. Microsoft Teams provides two different event types: a Microsoft Teams **Meeting** and a Microsoft Teams **Live Event**. These two approaches to using Microsoft Teams for collaboration are different in their presentation and reach.
 
@@ -81,8 +51,8 @@ You can use a Microsoft Teams Meeting as a **video source** for your Webcast eve
 
 To use this functionality:
 
-* The **Microsoft Teams Integration** and **Microsoft Teams Video Conferencing** integrations must *both* be enabled.
-* You *must* have the correct **Microsoft Teams Meeting URL** entered in the **Video Source** during Webcast Event set up.
+* The **Microsoft Teams Integration** and **Microsoft Teams Video Conferencing** integrations must _both_ be enabled.
+* You _must_ have the correct **Microsoft Teams Meeting URL** entered in the **Video Source** during Webcast Event set up.
 
 To start and broadcast a Microsoft Teams Meeting in a Webcast Event:
 
@@ -90,17 +60,15 @@ To start and broadcast a Microsoft Teams Meeting in a Webcast Event:
 
 2. Select **Microsoft Teams** as the video source in the **Video Source** section. If you do not see this tab, you do not have the Microsoft Teams Integration(s) enabled or configured correctly.
 
-3. Click the **Microsoft Teams Meeting URL** field and paste the meeting URL for your meeting. This is a *required* field and can be quite long.
+3. Click the **Microsoft Teams Meeting URL** field and paste the meeting URL for your meeting. This is a _required_ field and can be quite long.
 
 **Sample URL:**
 
 `[https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTI4NWFiN2MtMmI5Mi00OTc2LWE4ODQtZjgzZTY2M2UxNTFh%40thread.v2/0?context=%7b%22Tid%22%3a%2224ed0676-67e2-4293-a8d4-28937fd33247%22%2c%32Oid%23%3a%22a3fbdcb9-04e8-4c17-9303-859cc56c0d5g%22%7d]`
 
-<Image title="msTeamsMeetingUrl.png" alt={1157} align="center" src="https://files.readme.io/782a6d3-msTeamsMeetingUrl.png">
-  Make sure you enter the full Microsoft Teams Meeting URL
-</Image>
+<Image align="center" alt={1157} border={false} caption="Make sure you enter the full Microsoft Teams Meeting URL" title="msTeamsMeetingUrl.png" src="https://files.readme.io/782a6d3-msTeamsMeetingUrl.png" />
 
-4. Finish setting up the event and, when you are ready to begin, start *both* the **Rev event** and the **MS Teams meeting**.
+4. Finish setting up the event and, when you are ready to begin, start _both_ the **Rev event** and the **MS Teams meeting**.
 
 5. Rev utilizes the Microsoft Teams meeting URL to stream through Rev via the Webcast settings you selected.
 
@@ -123,7 +91,7 @@ To schedule and run a Microsoft Teams Live Event Webcast:
 
 ### Time of Event Tasks
 
-**Configure MS Teams Live Event and Rev Event as you normally would.** 
+**Configure MS Teams Live Event and Rev Event as you normally would.**
 
 <Table align={["left","left"]}>
   <thead>
@@ -141,13 +109,13 @@ To schedule and run a Microsoft Teams Live Event Webcast:
   <tbody>
     <tr>
       <td>
-        **Producer** 
+        **Producer**
       </td>
 
       <td>
-        * \*1. Joins (but does not start) the MS Teams Live Event\*\*.  
+        * *1. Joins (but does not start) the MS Teams Live Event**.
 
-        **2. Configures the event.**  
+        **2. Configures the event.**
 
         Producer has complete control to specify and/or test the stream, move display items, pre-queue view to Live Event queue view, and ultimately, to the Live Event view (via **Send Live** button).
       </td>
@@ -155,33 +123,33 @@ To schedule and run a Microsoft Teams Live Event Webcast:
 
     <tr>
       <td>
-        **Presenters** 
+        **Presenters**
       </td>
 
       <td>
-        **3. Join the MS Teams Live Event.**  
+        **3. Join the MS Teams Live Event.**
 
-        Presenters may *only* join by invitation.
+        Presenters may _only_ join by invitation.
       </td>
     </tr>
 
     <tr>
       <td>
-        **Rev Event Host** 
+        **Rev Event Host**
       </td>
 
       <td>
-        * \*4. Starts (but does not Broadcast) the associated Rev Webcast.\*\* This can happen while the Producer is configuring the Live Event.  
+        * *4. Starts (but does not Broadcast) the associated Rev Webcast.** This can happen while the Producer is configuring the Live Event.
 
-        Once Rev connects, it is listed as a Presenter in the MS Teams Live Event (Note that Rev *cannot* be added to the MS Teams Live Event view.)
+        Once Rev connects, it is listed as a Presenter in the MS Teams Live Event (Note that Rev _cannot_ be added to the MS Teams Live Event view.)
       </td>
     </tr>
   </tbody>
 </Table>
 
-At this point, the MS Teams Live Event production environment is enabled and displayed to the MS Teams Live Event Producer and Presenters. The MS Teams Live Event stream is also available to the Rev Event Host (on the Event Page). 
+At this point, the MS Teams Live Event production environment is enabled and displayed to the MS Teams Live Event Producer and Presenters. The MS Teams Live Event stream is also available to the Rev Event Host (on the Event Page).
 
-MS Teams Live Event Attendees and Rev Attendees do *not* see the stream yet. This is an ideal opportunity to verify the stream and settings on both the MS Teams Live Event production page, as well as, within the Rev Event Host.
+MS Teams Live Event Attendees and Rev Attendees do _not_ see the stream yet. This is an ideal opportunity to verify the stream and settings on both the MS Teams Live Event production page, as well as, within the Rev Event Host.
 
 ### Event Start Time Tasks
 
@@ -203,13 +171,13 @@ MS Teams Live Event Attendees and Rev Attendees do *not* see the stream yet. Thi
   <tbody>
     <tr>
       <td>
-        **Producer** 
+        **Producer**
       </td>
 
       <td>
-        * \*5. Initiates the MS Teams Live Event using the Start button.\*\* This begins the stream for all MS Teams Live Event attendees.  
+        * *5. Initiates the MS Teams Live Event using the Start button.** This begins the stream for all MS Teams Live Event attendees.
 
-        MS Teams Live Events *cannot* be stopped and restarted (like Rev Webcasts), so please make sure you are ready to begin.  
+        MS Teams Live Events _cannot_ be stopped and restarted (like Rev Webcasts), so please make sure you are ready to begin.
 
         When using any external virtual Production system like MS Teams Live Events, please be aware that Rev webcasts and recordings have a **10-hour maximum**.
       </td>
@@ -221,15 +189,15 @@ MS Teams Live Event Attendees and Rev Attendees do *not* see the stream yet. Thi
       </td>
 
       <td>
-        * \*6. Broadcasts the Rev Webcast\*\*.  
+        * *6. Broadcasts the Rev Webcast**.
 
-        The MS Teams Live Event stream is now available to Rev attendees.  
+        The MS Teams Live Event stream is now available to Rev attendees.
 
-        * Note: Once Broadcast from Rev after it’s Live from MS Teams, the same URL for MS Teams cannot be used again if it is stopped\_.  
+        * Note: Once Broadcast from Rev after it’s Live from MS Teams, the same URL for MS Teams cannot be used again if it is stopped_.
 
-        The stream is a single stream controlled by the MS Teams Live Event Producer and not a dual (speaker and content) stream.  
+        The stream is a single stream controlled by the MS Teams Live Event Producer and not a dual (speaker and content) stream.
 
-        It is recommended that you *not* start/stop the Rev Webcast, but control the experience through the **MS Teams Live Event** interface.
+        It is recommended that you _not_ start/stop the Rev Webcast, but control the experience through the **MS Teams Live Event** interface.
       </td>
     </tr>
   </tbody>
@@ -237,5 +205,5 @@ MS Teams Live Event Attendees and Rev Attendees do *not* see the stream yet. Thi
 
 ### Event Completion Tasks
 
-* The Event Host ends the **Rev Webcast** first. 
+* The Event Host ends the **Rev Webcast** first.
 * The Producer can then use the **Leave** button in the **MS Live Event** to end the Live Event.
