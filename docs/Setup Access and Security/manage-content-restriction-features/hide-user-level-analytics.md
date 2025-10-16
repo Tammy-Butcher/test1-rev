@@ -10,43 +10,16 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-  <li>&#128187; <a href="/docs/vbrick-distribution">Vbrick Distribution</a></li>
-</div>
+Some customers have strict personal data policies in place and do not want to display any user-level analytics at all, including to admin accounts. The ability to hide user-level analytics is available for those customers.
 
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
-Some customers have strict personal data policies in place and do not want to display any user-level analytics at all, including to admin accounts. The ability to hide user-level analytics is available for those customers. 
-
-To hide user level analytics:
+To hide user-level analytics:
 
 1. Navigate to **Admin > System Settings > Content Restriction**.
 2. Scroll to the **User Level Analytics** section and select the **Hide User-Level Analytics** checkbox. This checkbox hides all individual user-level analytics by disabling them.
 
-![](https://files.readme.io/9963624-hideUserLevelAnalytics.png "hideUserLevelAnalytics.png")
+<Image border={false} src="https://files.readme.io/9963624-hideUserLevelAnalytics.png" title="hideUserLevelAnalytics.png" />
 
-This means that all user tables and CSV downloads across real-time analytics, post-event analytics, and video-on-demand analytics are no longer displayed, *including to Admin accounts*.
+This means that all user tables and CSV downloads across real-time analytics, post-event analytics, and video-on-demand analytics are no longer displayed, _including to Admin accounts_.
 
 When enabled:
 
