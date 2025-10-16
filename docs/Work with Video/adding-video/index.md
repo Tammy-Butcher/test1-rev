@@ -10,37 +10,9 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 There are several methods you may use to add video content to your Rev portal. Use the **Upload Video** icon in the [Header navigation options](doc:the-rev-home-page#header-navigation-options) to upload, stream, and record videos, and add them to your Rev portal.  Adding video to the Rev portal requires you to be an [admin or contributor type role](doc:roles-and-permissions).
 
-<Image alt="Rev's Add Content Icon" align="center" src="https://files.readme.io/4dee9688557ace95970125d63c429af7cdf42da084032817c0872407dd0d2036-addVideo.png">
-  Rev's Upload Icon
-</Image>
+<Image align="center" alt="Rev's Add Content Icon" border={false} caption="Rev's Upload Icon" src="https://files.readme.io/4dee9688557ace95970125d63c429af7cdf42da084032817c0872407dd0d2036-addVideo.png" />
 
 > 👍 Tip
 >
