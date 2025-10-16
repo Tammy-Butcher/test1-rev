@@ -12,7 +12,7 @@ next:
 ---
 <BetaTopic />
 
-**Model Context Protocol** ([MCP](https://modelcontextprotocol.io/docs/getting-started/intro)) is an open protocol that standardizes how applications like Vbrick Rev provide context to **Large Language Model (LLM)** AI systems. **Vbrick MCP Server** allows third party AI systems like Anthropic’s Claude, OpenAI’s ChatGPT, Microsoft Copilot etc., to search and access Vbrick video content seamlessly. It allows the AI systems to perform actions related to Vbrick video content.
+**Model Context Protocol** ([MCP](https://modelcontextprotocol.io/docs/getting-started/intro)) is an open protocol that standardizes how applications like Vbrick Rev provide context to **Large Language Model (LLM)** AI systems. **Vbrick MCP Server** allows third-party AI systems like Anthropic’s Claude, OpenAI’s ChatGPT, Microsoft Copilot, etc., to search and access Vbrick video content seamlessly. It allows the AI systems to perform actions related to Vbrick video content.
 
 At this time, Vbrick provides a self-hosted MCP server option that you can clone and host on your local machine.
 
@@ -25,23 +25,23 @@ This topic will cover the following:
 
 ## Requirements
 
-To use the Vbrick MCP server you will need:
+To use the Vbrick MCP server, you will need:
 
 * API key from Vbrick Rev for use with an LLM system
-* Linux server or your computer (Linux or Windows). Linux server is recommend for production use.
+* Linux server or your computer (Linux or Windows). A Linux server is recommended for production use.
 * Node.js v22.22.0 or above
-* Code from Vbrick MCP Server repository
+* Code from the Vbrick MCP Server repository
 
 ## Installation
 
 To create a local self-hosted Vbrick MCP Server, complete the following installation steps:
 
 1. On your Vbrick Rev tenant, [create an API key](doc:create-an-api-key) with the following settings:
-   1. The key should be named **vbrick-mcp-server** with a random unique key. Make note of the unique key.
-   2. The **authorized redirect URI** should be: `http://localhost:8008/oauth/callback`.  Some LLM servers like Claude make multiple connections. We recommend adding a second redirect URI `http://localhost:8009/oauth/callback` as a result.
+   1. The key should be named **vbrick-mcp-server** with a random, unique key. Make note of the unique key.
+   2. The **authorized redirect URI** should be: `http://localhost:8008/oauth/callback`.  Some LLM servers like Claude make multiple connections. We recommend adding a second redirect URI,  `http://localhost:8009/oauth/callback`, as a result.
 2. On your server/computer, install **NodeJS** from [Node.js - Download Node.js](https://nodejs.org/en/download).
 3. Download the [Vbrick MC Server repository](https://github.com/vbrick/vbrick-mcp-server) from GitHub.
-4. Extract the **vbrick-mcp-server** content to a folder (let's say vbrick-mcp-server) to your server or computer.
+4. Extract the **vbrick-mcp-server** content to a folder (e.g., vbrick-mcp-server) on your server or computer.
 5. In the vbrick-mcp-server folder, edit the **.env** file and configure the **Vbrick Rev tenant URL** and the **API key** you created in Rev as seen in the code block below.
 
 ```node .env
@@ -58,7 +58,7 @@ npm run build
 ```
 
 8. Download and install the AI app you will use with your MCP Server.  For this documentation, we will use **Claude desktop** as an example. Download Claude desktop from [Download Claude](https://claude.ai/download).
-9. Edit the **claude_desktop_config.json** file using Notepad from **Settings > Developer > Edit Config** button.
+9. Edit the **claude_desktop_config.json** file using Notepad from the **Settings > Developer > Edit Config** button.
 
 <Image align="center" border={false} src="https://files.readme.io/c0fffb877b044a44ecbda06c8e06cab764dd8df136d496894a3f6004feb85660-editClaudeConfig.png" />
 
@@ -66,7 +66,7 @@ npm run build
 >
 > If you do not see a Developer option, make sure you are using Claude desktop and not Claude on the web.
 
-10. Edit the config file of Claude (or the AI app you choose to use) similar to the code below:
+10. Edit the config file of Claude (or the AI app you choose to use), similar to the code below:
 
 ```json claude_desktop_config.json
 {
@@ -105,14 +105,14 @@ npm run build
 
 ## Vbrick MCP Server Tools Usage
 
-Once you have successfully installed the Vbrick MCP Server to work with Claude or AI app of choice, you are ready to begin using the tools we have developed to work with the MCP.  They are:
+Once you have successfully installed the Vbrick MCP Server to work with Claude or your AI app of choice, you are ready to begin using the tools we have developed to work with the MCP.  They are:
 
 * Who Am I Tool
 * Video Search Tool
 * Video Details Tool
 * Video Transcript Tool
 
-Each of these are discussed in detail in the sections below.
+Each of these is discussed in detail in the sections below.
 
 ### Who Am I Tool
 
@@ -124,7 +124,7 @@ Claude automatically spawns the Rev tenant window you configured during installa
 
 <Image border={false} src="https://files.readme.io/25e89a229b5285178d7671431843b000482e14d212cd019b6a93daf57334c9c1-image.png" />
 
-Claude will call **Who Am I** again to verify that you are logged in. If not, you can ask it to continue.  The results of your request are then returned and you can continue using Claude with the configured MCP server.
+Claude will call **Who Am I** again to verify that you are logged in. If not, you can ask it to continue.  The results of your request are then returned, and you can continue using Claude with the configured MCP server.
 
 <Image align="center" border={false} src="https://files.readme.io/b323516dc5ad5af0b8dea4503df0d371c1cdc7149fe930c8fcfc35b0e30ba526-authenticationComplete.png" />
 
@@ -136,7 +136,7 @@ For example, “Search for some videos on language”, might yield:
 
 <Image align="center" border={false} src="https://files.readme.io/acb1a612961a26245a2e4235fc6be2ba2c89cdde4c28432d6376b01b2bf5b090-searchResults.png" />
 
-1. A drop-down that that displays the API request and response in detail
+1. A drop-down that displays the API request and response in detail
 2. Video title and length
 3. Video description
 4. A link to the video to view in Rev
@@ -151,11 +151,11 @@ For example, “Can you give me more details about the video?” might yield:
 
 Included in the result:
 
-* Video details including title, duration, owner, status, and views.
+* Video details, including title, duration, owner, status, and views.
 * Detailed descriptions
 * Assigned categories
 * Assigned tags
-* Access controls and items that have been enabled such as comments, ratings and downloads
+* Access controls and items that have been enabled, such as comments, ratings, and downloads
 * Link to the video
 
 ### Video Transcript Tool
@@ -184,7 +184,7 @@ Included in the result:
 
 Using the Vbrick MCP Server with an AI app such as Claude desktop allows you to gather powerful analytics and contextual data from your Rev videos in one place. You can also use that combination to create new datasets and combinations to work for you to create anything you need.
 
-You can ask the AI to create a **detailed spreadsheet** for you based on the videos you want that contains only the data you want to see. In this example, Claude is being asked only for specific category of videos based on language with the most popular video in the language series being highlighted.
+You can ask the AI to create a **detailed spreadsheet** for you based on the videos you want that contains only the data you want to see. In this example, Claude is being asked only for a specific category of videos based on language, with the most popular video in the language series being highlighted.
 
 <Image align="center" alt="Ask to create a spreadsheet and include only the data and specific information you want to view" border={false} caption="Ask to create a spreadsheet and include only the data and specific information you want to view" src="https://files.readme.io/7ee035b39bc04307b67b51dde1790af438edb996f07aff151909f28285f04c96-spreadsheet1.png" />
 
