@@ -84,7 +84,7 @@ npm install
 npm run build
 ```
 
-8. Download and install the AI app you will use with your MCP Server.  For the purposes of this documentation, we will use **Claude desktop** as an example. Download Claude desktop from [Download Claude](https://claude.ai/download).
+8. Download and install the AI app you will use with your MCP Server.  For this documentation, we will use **Claude desktop** as an example. Download Claude desktop from [Download Claude](https://claude.ai/download).
 9. Edit the **claude\_desktop\_config.json** file using Notepad from **Settings > Developer > Edit Config** button.
 
 <Image align="center" src="https://files.readme.io/c0fffb877b044a44ecbda06c8e06cab764dd8df136d496894a3f6004feb85660-editClaudeConfig.png" />
@@ -172,7 +172,7 @@ For example, “Search for some videos on language”, might yield:
 
 The Vbrick MCP server has a **Video Details Tool** that returns video metadata for a video using the Get Video Metadata/Details API. Also included are the video’s chapters (if applicable) through the Get Video Chapters endpoint.
 
-For example, “Can you give me more details about the <video name> video?”, might yield:
+For example, “Can you give me more details about the video?” might yield:
 
 <Image align="center" src="https://files.readme.io/ac86053d7cc9166a20f8c93b2e88a1c7d51036407034444537cd6a52ee908f8d-videoDetailsResult.png" />
 
