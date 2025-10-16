@@ -74,7 +74,7 @@ next:
 
 > Rebuffering excludes buffering event counts caused by the initial buffering at the beginning of an event. Experienced rebuffering events are cumulative from the start of the Webcast and are defined as those buffering events that affect a user, typically with a visible “spinner” occurring for a user.
 
-**Can you please explain what is considered a Great||Good||Bad||Poor value for the metric? What is the “Normal” or acceptable (Min/AVG/Max) threshold that expected for this metric? How does this metric provide information about the “Quality of Experience”?**
+**Can you please explain what is considered a Great||Good||Bad||Poor value for the metric? What is the “Normal” or acceptable (Min/AVG/Max) threshold that is expected for this metric? How does this metric provide information about the “Quality of Experience”?**
 
 > Under normal circumstances, a small number per user of rebuffering events is to be expected and typical. A large number (disproportionate to the number of users) may indicate some issues in the playback experience for users.
 
