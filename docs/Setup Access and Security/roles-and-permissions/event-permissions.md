@@ -24,26 +24,54 @@ What you can do with events in Rev is defined by the role you are assigned. The 
 
 ## Event Granular Roles and Permissions
 
-<div>
-  <table>
-    <thead>
-      <tr>
-        <th>Role</th>
-        <th>Permissions</th>
-        <th>Granular Restrictions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Internal Event Host</td>
-        <td>Add internal [All Users Events](doc:all-users-events)Add [Private Events](doc:private-events)</td>
-        <td>This is a granular form of the <strong>Event Host</strong> role and is used to create hosts that can create/edit <em>internal</em> <strong>All Users</strong> or <strong>Private</strong> events <em>only</em>.Further, this role <em>restricts</em> the ability to make [Public](doc:public-events) events.The role may edit an existing event <em>only</em> if they are the <strong>Internal Event's Host/Event Host</strong> (or an Event Admin).</td>
-      </tr>
-      <tr>
-        <td>Event Analyst</td>
-        <td>Access to the <strong>Events</strong> tab and [Events System Analytics](doc:events-system-analytics) on the <strong>Account Admin Dashboard</strong></td>
-        <td>Only access to the <strong>Events</strong> tab is provided with this role; all other Admin/analytics areas are restricted.</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+<Table align={["left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Role
+      </th>
+
+      <th>
+        Permissions
+      </th>
+
+      <th>
+        Granular Restrictions
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Internal Event Host
+      </td>
+
+      <td>
+        Add Internal [All Users Events](doc:all-users-events)
+        Add [Private Events](doc:private-events)
+      </td>
+
+      <td>
+        * This is a granular form of the **Event Host** role and is used to create hosts that can create/edit _internal_ **All Users** or **Private** events only.
+        * Further, this role _restricts_ the ability to make [Public Events](doc:public-events).
+        * The role may edit an existing event only if they are the internal event's **Host/Event Host** (or an **Event Admin**) role.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Event Analyst
+      </td>
+
+      <td>
+        Access to the Events tab and [Events System Analytics](doc:events-system-analytics)
+      </td>
+
+      <td>
+        Only access to the **Events** tab is provided with this role; all other Admin/analytics areas are restricted.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
