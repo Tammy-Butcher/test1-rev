@@ -10,41 +10,13 @@ metadata:
 next:
   description: ''
 ---
-<HTMLBlock>{`
-<div class="feature">
-  <h3>Who can use this feature?</h3>
- <li>&#9193; <a href="/docs/rev-license-types-and-add-ons">Vbrick Rev</a></li>
-</div>
-
-<style>
-  
- .feature {
-list-style-type: none;
-   text-indent:10px;
-   width: 60%;
-   margin: 10px 10px;
-   padding-top: 5px;
-   padding-bottom: 15px;
-   padding-left:10px;
-display: block;
-   background-color:#F6F3F3;
-   border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 5px 0px;
-   
-}
-  
-</style>
-`}</HTMLBlock>
-
 Similar to **Video Conference** recording, Rev Cloud also supports recording Zoom meetings and ingesting them into your standard media workflow with the Zoom integration enabled. The recordings capture both active speakers and any content streams (if available). Vbrick’s player displays both streams and allows the user control of the layout.
 
 To record a Zoom meeting:
 
 1. Click the **Live Recording** tab > **Zoom Meeting** option.
 
-<Image alt="Click the Recording tab and then select the Zoom Meeting option" align="center" src="https://files.readme.io/d879f63-recordZoomMeeting.png">
-  Click the Recording tab and then select the Zoom Meeting option
-</Image>
+<Image align="center" alt="Click the Recording tab and then select the Zoom Meeting option" border={false} caption="Click the Recording tab and then select the Zoom Meeting option" src="https://files.readme.io/d879f63-recordZoomMeeting.png" />
 
 2. Type in the **Zoom Meeting ID** or **Zoom Meeting URL**.
 
