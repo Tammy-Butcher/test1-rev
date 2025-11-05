@@ -10,25 +10,25 @@ metadata:
 next:
   description: ''
 ---
+<Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
+
 To update **Video Settings** in Rev:
 
 1. Navigate to a video and hover over the **Video Settings** button in the top right corner.
 
-2. Click **Details** from the options that appear.  Several tabs appear that allow you to create and modify the video's metadata. Select a tab depending on which setting you want to update. 
+2. Click **Details** from the options that appear.  Several tabs appear that allow you to create and modify the video's metadata. Select a tab depending on which setting you want to update.
 
 3. This feature is a **Basic Setting**.
 
 Set the video status to **Active** or **Inactive** as needed.  Inactive is the default. When a video is Inactive, only users with Edit rights to the video will be able to view it.
 
-<Image title="videoStatus.png" alt={459} align="center" src="https://files.readme.io/7c75318-videoStatus.png">
-  A video's Status determines when, or if, it is available to be viewed
-</Image>
+<Image align="center" alt={459} border={false} caption="A video's Status determines when, or if, it is available to be viewed" title="videoStatus.png" src="https://files.readme.io/7c75318-videoStatus.png" />
 
 1. When a video is set to **Active** status, the **Publish Date** is automatically set to the **Current Date** by default. No **Expiration Date** or **Rule** is set.
 
 2. Toggling the video back to **Inactive** status will not reset the Publish Date unless you manually specify a different date. However, certain attributes are modified when you [Delete, Replace, or Deactivate a Video](doc:delete-replace-or-deactivate-videos).
 
-3. You may only specify a Publish Date in the future by using an [Expiration Date or Rule](doc:video-publish-and-expiration-dates) on an **Inactive** video. 
+3. You may only specify a Publish Date in the future by using an [Expiration Date or Rule](doc:video-publish-and-expiration-dates) on an **Inactive** video.
 
 > 👍 Tip
 >
