@@ -10,8 +10,6 @@ metadata:
 next:
   description: ''
 ---
-<Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
-
 To update **Video Settings** in Rev:
 
 1. Navigate to a video and hover over the **Video Settings** button in the top right corner.
