@@ -12,7 +12,7 @@ next:
 ---
 Welcome to the **Vbrick Rev Documentation Hub**!
 
-Here we have developed comprehensive technical reference material and Help guides to assist in configuring, administering, and using Rev. These guides are meant to assist you in getting your portal up and running right away from configuring the back-end of your system to uploading video and broadcasting Webcasts.  Whatever you need, our guides have you covered. **This is the refactored version that should sync.**
+Here we have developed comprehensive technical reference material and Help guides to assist in configuring, administering, and using Rev. These guides are meant to assist you in getting your portal up and running right away from configuring the back-end of your system to uploading video and broadcasting Webcasts.  Whatever you need, our guides have you covered. 
 
 > Use the navigation menus and search function to find answers to all your Rev questions.  And be sure to check out the latest [Release Notes](https://revdocs.vbrick.com/changelog) and [Rev API](ref:developer-hub) updates!
 
