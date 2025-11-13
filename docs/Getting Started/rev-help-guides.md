@@ -35,8 +35,9 @@ If you are new to Rev, start here. This set of guides provides tips on the Rev u
 ***
 
 <br />
-<Cards columns={4}>
-  <Card title="First Card" href="doc:the-rev-home-page" icon="fa-home" target="_blank">
+
+<Cards columns={5}>
+  <Card title="First Card" href="https://refactored-rev.readme.io/docs/the-rev-home-page#/" icon="fa-home" target="_blank">
     Navigating the Rev User Interface
   </Card>
 
@@ -56,6 +57,7 @@ If you are new to Rev, start here. This set of guides provides tips on the Rev u
     Your Content Subscriptions
   </Card>
 </Cards>
+
 <br />
 
 <Image align="left" border={false} width="32em" src="https://files.readme.io/b8a09342c2492f96652e18fca17c39ea88364eac7a57fc3019974815a81123d0-readMeCreator.png" />
