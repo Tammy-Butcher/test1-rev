@@ -35,7 +35,6 @@ If you are new to Rev, start here. This set of guides provides tips on the Rev u
 ***
 
 <br />
-
 <Cards columns={4}>
   <Card title="First Card" href="doc:the-rev-home-page" icon="fa-home" target="_blank">
     Navigating the Rev User Interface
@@ -52,14 +51,11 @@ If you are new to Rev, start here. This set of guides provides tips on the Rev u
   <Card title="Fourth Card" href="doc:your-rev-profile" icon="fa-question">
     Your Rev Profile
   </Card>
+
+  <Card title="Fifth Card" href="doc:my-subscriptions" icon="fa-question">
+    Your Content Subscriptions
+  </Card>
 </Cards>
-
-* [Navigating the Rev User Interface](doc:the-rev-home-page)
-* [Rev Video Player Features](doc:rev-video-player-features)
-* [Your Rev Account](doc:your-rev-account)
-* [Your Rev Profile](doc:your-rev-profile)
-* [Your Content Subscriptions](doc:my-subscriptions)
-
 <br />
 
 <Image align="left" border={false} width="32em" src="https://files.readme.io/b8a09342c2492f96652e18fca17c39ea88364eac7a57fc3019974815a81123d0-readMeCreator.png" />
