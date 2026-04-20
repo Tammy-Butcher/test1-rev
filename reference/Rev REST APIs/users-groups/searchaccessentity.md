@@ -1,7 +1,7 @@
 ---
 title: Search Users,Groups and Channels
 excerpt: >-
-  Searches the specified access entity (user/group/channel) in Rev for a
+  Searches the specified access entity (user/group/channel) in Vbrick for a
   specified query string. If no entity is specified, then both are searched.
 api:
   file: rev-rest-apis.json

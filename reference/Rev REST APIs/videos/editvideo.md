@@ -11,7 +11,7 @@ excerpt: >-
   acessible is ignored in the concatenation process.<br><br>Note that if you
   edit a video that has transcripts, those trascripts may be out of sync with
   the video and will need to be regenerated.<br><br>This endpoint replaces the
-  <a href=/reference/trimvideo>trim video</a> API which is now deprecated as a
+  [Trim Video](/reference/trimvideo) API which is now deprecated as a
   result.</br>
 api:
   file: rev-rest-apis.json

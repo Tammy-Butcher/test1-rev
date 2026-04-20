@@ -1,8 +1,8 @@
 ---
 title: Get Webcast Attendees Report (Deprecated)
 excerpt: >-
-  This is a deprecated endpoint.  Use <a
-  href=/reference/getposteventsessions>Get Webcast Attendees Report</a> instead.
+  This is a deprecated endpoint.  Use [Get Webcast Attendees
+  Report](/reference/getposteventsessions) instead.
 api:
   file: rev-rest-apis.json
   operationId: getEventReport

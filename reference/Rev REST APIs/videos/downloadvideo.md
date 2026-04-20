@@ -1,7 +1,7 @@
 ---
 title: Download Video
 excerpt: >-
-  This endpoint downloads a video asset from Rev. The original file upload is
+  This endpoint downloads a video asset from Vbrick. The original file upload is
   downloaded.
 api:
   file: rev-rest-apis.json

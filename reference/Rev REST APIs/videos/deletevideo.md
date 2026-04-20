@@ -1,8 +1,8 @@
 ---
 title: Delete Video
 excerpt: >-
-  This endpoint deletes a video asset from Rev. This includes videos stored on a
-  DME.
+  This endpoint deletes a video asset from Vbrick. This includes videos stored
+  on a DME.
 api:
   file: rev-rest-apis.json
   operationId: deleteVideo

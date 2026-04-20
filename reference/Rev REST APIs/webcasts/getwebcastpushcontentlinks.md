@@ -1,8 +1,8 @@
 ---
 title: Get Push Links for a Webcast (Deprecated)
 excerpt: >-
-  This is a deprecated endpoint. Use <a href=/reference/getwebcastbanners>Get
-  Banners for a Webcast</a> instead.
+  This is a deprecated endpoint. Use [Get Banners for a
+  Webcast](/reference/getwebcastbanners) instead.
 api:
   file: rev-rest-apis.json
   operationId: getWebcastPushContentLinks

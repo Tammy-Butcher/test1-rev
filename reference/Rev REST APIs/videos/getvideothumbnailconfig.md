@@ -1,9 +1,9 @@
 ---
 title: Get Video Thumbnail Configuration
 excerpt: >-
-  The <a href=/reference/downloadthumbnailsheet>Get Video Thumbnail Sheet</a> is
-  returned as a grid view when using this endpoint. Each thumbnail is indexed
-  from left to right, then top to bottom.
+  The [Get Video Thumbnail Sheet](/reference/downloadthumbnailsheet) is returned
+  as a grid view when using this endpoint. Each thumbnail is indexed from left
+  to right, then top to bottom.
 api:
   file: rev-rest-apis.json
   operationId: getVideoThumbnailConfig

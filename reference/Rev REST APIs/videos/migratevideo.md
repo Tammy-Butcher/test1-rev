@@ -1,7 +1,7 @@
 ---
 title: Migrate Video
 excerpt: >-
-  This endpoint is used during migrations to Rev from another system. During
+  This endpoint is used during migrations to Vbrick from another system. During
   video import, you may want to retain the original uploader, upload date, and
   publish date. As a result, this API allows you to set only these fields to do
   so.<p>You can also use this endpoint to edit only these fields for previously

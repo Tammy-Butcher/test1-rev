@@ -6,9 +6,9 @@ excerpt: >-
   switched-stream version is marked as the original and the HLS switched-stream
   version remains.</p><p>The HLS dual-stream version is deleted.</p><p>The
   <strong>hasDualStreams</strong> and <strong>isConvertedToSwitched</strong>
-  parameters are updated accordingly in the <a
-  href=/reference/getvideosdetails>Get Video Details/Metadata</a> and <a
-  href=/reference/searchvideo>Search Video</a> endpoints.</p>
+  parameters are updated accordingly in the [Get Video
+  Details/Metadata](/reference/getvideosdetails) and [Search
+  Video](/reference/searchvideo) endpoints.</p>
 api:
   file: rev-rest-apis.json
   operationId: convertDualStreamToSwitchedStream

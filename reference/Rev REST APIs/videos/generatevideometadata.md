@@ -5,7 +5,7 @@ excerpt: >-
   You must specify the field type you want to generate
   (description/title/tags/chapters) or specify <strong>all</strong> to generate
   all of the fields for the video. This feature requires English transcription
-  and must also be enabled for your Rev account.
+  and must also be enabled for your Vbrick account.
 api:
   file: rev-rest-apis.json
   operationId: generateVideoMetadata

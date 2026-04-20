@@ -2,7 +2,7 @@
 title: Embed Webcast Engagement
 excerpt: >-
   This API allows you to embed content or URLs from third-party sites of your
-  choice so that they function in a Rev webcast.
+  choice so that they function in a Vbrick webcast.
 api:
   file: rev-rest-apis.json
   operationId: createEmbeddedContentLink

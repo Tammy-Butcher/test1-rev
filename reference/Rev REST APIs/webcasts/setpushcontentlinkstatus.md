@@ -1,8 +1,8 @@
 ---
 title: Set Push Link Status (Deprecated)
 excerpt: >-
-  This is a deprecated endpoint. Use <a href=/reference/setbannerstatus>Set
-  Banner Status</a> instead.
+  This is a deprecated endpoint. Use [Set Banner
+  Status](/reference/setbannerstatus) instead.
 api:
   file: rev-rest-apis.json
   operationId: setPushContentLinkStatus

@@ -1,8 +1,8 @@
 ---
 title: OAuth2 Access Token
 excerpt: >-
-  Obtains the access token that identifies the Rev user that granted access to
-  the client.
+  Obtains the access token that identifies the Vbrick user that granted access
+  to the client.
 api:
   file: rev-rest-apis.json
   operationId: oauth2token

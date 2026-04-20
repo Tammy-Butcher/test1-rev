@@ -16,8 +16,8 @@ excerpt: >-
   and 'EventAdmins', provided that all of the Event Admins associated with the
   webcast have email addresses. This is also applicable for the field
   'Moderators'.</p><p>Keep in mind that Access Controls are strictly dictated by
-  <a href=/docs/roles-and-permissions>Roles and Permissions.</a></p><p>Please
-  refer to http://jsonpatch.com/ for the format of the request
+  [Roles and Permissions.](/docs/roles-and-permissions)</p><p>Please refer to
+  http://jsonpatch.com/ for the format of the request
   body.</p><strong>Examples:</strong><p>using EventAdmins: [{ 'op': 'remove',
   'path': '/EventAdmins/Email', 'value': 'x1@test.com' }]</p><p>using
   EventAdminEmails: [{ 'op': 'remove', 'path': '/EventAdminEmails', 'value':

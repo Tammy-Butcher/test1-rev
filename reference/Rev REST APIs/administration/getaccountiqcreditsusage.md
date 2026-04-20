@@ -1,9 +1,9 @@
 ---
 title: Get Rev IQ Credits Usage
 excerpt: >-
-  Returns the Rev IQ credits usage. Data for both video and live events is
-  collected. Rev IQ credits are used for transcription, translation, user
-  tagging, audio generation, and metadata generation.
+  Returns the Vbrick Video IQ credits usage. Data for both video and live events
+  is collected. Vbrick Video IQ credits are used for transcription, translation,
+  user tagging, audio generation, and metadata generation.
 api:
   file: rev-rest-apis.json
   operationId: getAccountIqCreditsUsage

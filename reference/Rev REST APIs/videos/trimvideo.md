@@ -1,8 +1,8 @@
 ---
 title: Trim a Video (Deprecated)
 excerpt: >-
-  This endpoint allows you to trim videos that are hosted in Rev. This endpoint
-  is deprecated. Use the <a href=/reference/editvideo>edit a video</a> API
+  This endpoint allows you to trim videos that are hosted in Vbrick. This
+  endpoint is deprecated. Use the [Edit a Video](/reference/editvideo) API
   instead.
 api:
   file: rev-rest-apis.json
