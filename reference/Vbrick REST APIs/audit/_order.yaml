@@ -1,0 +1,13 @@
+- getuseraccessauditdetails
+- getuseraccessauditdetailsbyuser
+- getusersauditdetails
+- getuserauditdetails
+- getgroupsauditdetails
+- getgroupauditdetails
+- getdevicesauditdetails
+- getdeviceauditdetails
+- getvideosauditdetails
+- getvideoauditdetails
+- geteventsauditdetails
+- geteventauditdetails
+- getprincipalauditdetails

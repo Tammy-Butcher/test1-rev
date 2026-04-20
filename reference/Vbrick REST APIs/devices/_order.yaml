@@ -1,0 +1,8 @@
+- getdmedevices
+- createdmedevice
+- deletedmedevice
+- rebootdmedevice
+- getdmehealthstatus
+- getdevicelogs
+- prepositionvideoinstancestodme
+- getaccountdevicelogs

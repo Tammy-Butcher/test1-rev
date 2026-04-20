@@ -1,0 +1,10 @@
+- getchannels
+- createchannel
+- editchannel
+- deletechannel
+- patchchannel
+- getuserchannels
+- downloadthumbnail
+- downloadheaderimage
+- uploadchannellogofile
+- uploadchannelheaderfile

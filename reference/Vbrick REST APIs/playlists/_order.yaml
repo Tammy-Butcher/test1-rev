@@ -1,0 +1,8 @@
+- getplaylists
+- createplaylist
+- getplaylistdetails
+- editplaylist
+- deleteplaylist
+- editplaylistowners
+- editfeaturedplaylist
+- editpublicfeaturedplaylist
