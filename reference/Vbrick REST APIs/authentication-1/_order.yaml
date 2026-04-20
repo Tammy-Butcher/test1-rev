@@ -1,0 +1,14 @@
+- authenticateuser
+- revoketoken
+- loginuser
+- logoff
+- extendusersession
+- extendapikeysessiontimeout
+- extendsessiontimeout
+- authorization
+- token
+- authorize
+- oauth2token
+- oauth-authorization-server
+- getusersession
+- jwtauthenticate
