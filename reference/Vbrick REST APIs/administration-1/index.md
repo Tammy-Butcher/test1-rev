@@ -1,4 +1,0 @@
----
-title: Administration
-hidden: false
----
